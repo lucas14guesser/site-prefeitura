@@ -8,17 +8,20 @@ import CartaServicoComponent from './CartaServicoComponent';
 import ServidorComponent from './ServidorComponent';
 import TransparenciaComponent from './TransparenciaComponent';
 
+import '../../Styles/NavBar.css'
+
 
 const NavBar = () => {
   return (
     <div>
       <div className="logo_ident">
-          <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
+          <a href="/">
+            <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
+          </a> 
       </div>
       <Navbar>
-        <Container className='d-flex justify-content-center'>
-            <Nav className='navbar'>
-              
+        <Container className='container'>
+            <Nav className='navbar'>                            
               {/*São José*/}
               <SaoJoseComponent />
 
@@ -42,14 +45,8 @@ const NavBar = () => {
           </Nav>  
         </Container>
       </Navbar>
-
-
-
   </div>
 
   )
 }
-
 export default NavBar
-
-

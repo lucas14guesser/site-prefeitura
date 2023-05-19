@@ -1,5 +1,13 @@
+@import './Root.css';
+
 .navbar {
-    background-color: #0f4e77;
+    background-color: var(--fundo_navbar);
+    padding: 0;  
+    gap: 2em;  
+}
+
+.container {
+    justify-content: center!important;
 }
 
 
@@ -9,23 +17,36 @@
 }
 
 .logo_navbar {
-    width: 200px;
-    margin: 1.5em;
+    width: 270px;
+    margin: 2em;
 }
 
 .dropdown-toggle {
-    color: #fff;
+    padding: 0.8em;
+    font-size: 20px;
+    color: var(--branco)!important;
 }
 
 .dropdown-toggle:hover {
-    color: #FFF;
+    color: var(--branco)!important;
 }
 
-.dropdown-toggle:visited {
-    color: #FFF;
+.dropdown-toggle::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: 0;
+    border: 0;
 }
 
 .link_navbar {
-    color: #FFF;
+    padding: 0.8em;
+    margin: 0 2px;
+    font-size: 22px;
+    color: var(--branco)!important;
 }
 
+.link_navbar:hover {
+    color: var(--branco)!important;
+}
