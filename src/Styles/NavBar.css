@@ -3,12 +3,29 @@
 }
 
 
+.logo_ident {
+    display: flex;
+    justify-content: center;
+}
+
 .logo_navbar {
-    width: 130px;
+    width: 200px;
+    margin: 1.5em;
 }
 
-
-.font_navbar .dropdown-toggle{
-    color: white;
-
+.dropdown-toggle {
+    color: #fff;
 }
+
+.dropdown-toggle:hover {
+    color: #FFF;
+}
+
+.dropdown-toggle:visited {
+    color: #FFF;
+}
+
+.link_navbar {
+    color: #FFF;
+}
+

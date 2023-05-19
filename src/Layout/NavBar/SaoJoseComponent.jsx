@@ -5,7 +5,7 @@ import '../../Styles/NavBar.css'
 const SaoJoseComponent = () => {
   return (
     <>
-        <NavDropdown title="São José" id="nav-dropdown-sj" className='font_navbar'>
+        <NavDropdown title="São José" className='navbar_item'>
         <NavDropdown.Item eventKey="1">A Cidade</NavDropdown.Item>
         <NavDropdown.Item eventKey="2">Feriados Municipais</NavDropdown.Item>
         <NavDropdown.Item eventKey="3">Relação de Prefeitos</NavDropdown.Item>
