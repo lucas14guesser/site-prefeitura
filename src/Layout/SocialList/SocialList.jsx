@@ -10,16 +10,16 @@ const SocialList = () => {
   return (
     <div className='social_midia'>
         <span>
-            <AiFillFacebook />
+            <a href="#"><AiFillFacebook /></a> 
         </span>
         <span>
-            <AiFillInstagram />
+        <a href="#"><AiFillInstagram /></a> 
         </span>
         <span>
-            <AiFillYoutube />
+        <a href="#"><AiFillYoutube /></a> 
         </span>
         <span>
-            <AiFillTwitterSquare />
+        <a href="#"><AiFillTwitterSquare /></a> 
         </span>
     </div>
 

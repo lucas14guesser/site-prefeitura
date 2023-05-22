@@ -7,6 +7,11 @@
     width: 100%;
 }
 
+.footer_main a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
 .footer_info {
     margin: 2px 20px;
     padding: 15px;
@@ -16,13 +21,12 @@
     color: var(--titles);
     font-size: 1.2em;
     font-weight: bold;
-    margin-left: 35px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 
 .footer_table {
     list-style: none;
-    color: var(--branco);
     font-size: 1em;
     margin-bottom: 87px;
 }
@@ -50,7 +54,6 @@
 
 .footer_about_table {
     list-style: none;
-    color: var(--branco);
     font-size: 1em;
     margin-bottom: 10px;
 }
@@ -77,7 +80,6 @@
 }
 
 .footer_services p {
-    color: var(--branco);
     font-size: 1em;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -85,7 +87,6 @@
 
 .footer_services_table {
     list-style: none;
-    color: var(--branco);
     font-size: 1em;
     margin-bottom: 10px;
 }

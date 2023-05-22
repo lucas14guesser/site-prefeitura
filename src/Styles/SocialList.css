@@ -2,8 +2,11 @@
 
 .social_midia {
     display: flex;
-    color: var(--titles);
     font-size: 40px;
     margin-left: 29px;
     gap: 10px;
+}
+
+.social_midia a:hover {
+    color: var(--titles);
 }
