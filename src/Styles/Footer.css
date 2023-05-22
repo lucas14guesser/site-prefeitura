@@ -1,0 +1,95 @@
+@import './Root.css';
+
+.footer_main {
+    background-color: var(--fundo_navbar);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer_info {
+    margin: 1px 1em;
+    padding: 1em;
+}
+
+.footer_info h4 {
+    color: var(--titles);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1.6em;
+    margin-top: 1.5em;
+}
+
+.footer_table {
+    list-style: none;
+    color: var(--branco);
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.footer_table li {
+    padding: .3em;
+}
+
+.footer_about {
+    margin: 2px 20em;
+    padding: 1em;
+}
+
+.footer_about h4 {
+    color: var(--titles);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1.6em;
+    margin-top: 1.5em;
+}
+
+.footer_about p {
+    color: var(--branco);
+    font-size: 1em;
+    margin-top: 6.4em;
+    margin-bottom: 2em;
+    margin-left: 2.1em;
+}
+
+.footer_about_table {
+    list-style: none;
+    color: var(--branco);
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.footer_services {
+    margin: 2px 1em;
+    padding: 1em;
+}
+
+.footer_services h4 {
+    color: var(--titles);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1.6em;
+    margin-top: 1.3em;
+}
+
+.footer_services h5 {
+    color: var(--titles);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1.6em;
+    margin-top: 4.2em;
+}
+
+.footer_services p {
+    color: var(--branco);
+    font-size: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+.footer_services_table {
+    list-style: none;
+    color: var(--branco);
+    font-size: 1em;
+    margin-bottom: 2em;
+}

@@ -1,5 +1,7 @@
 import {Container} from "react-bootstrap";
+
 import "../../Styles/GridService.css"
+
 const GridServices = () => {
     return (
         <div className="background_grid_service">

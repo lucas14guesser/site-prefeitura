@@ -1,3 +1,5 @@
+@import './Root.css';
+
 .main_service_grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, 130px);
@@ -6,7 +8,7 @@
 }
 
 .item_service-grid{
-    background-color: #0f4e77;
+    background-color: var(--fundo_navbar);
     width: 7rem;
     height: 7rem;
     margin: 1rem;
