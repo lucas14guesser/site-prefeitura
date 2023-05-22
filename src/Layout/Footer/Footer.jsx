@@ -1,5 +1,6 @@
+import SocialListFooter from '../SocialList/SocialListFooter'
+
 import '../../Styles/Footer.css'
-import SocialList from '../SocialList/SocialList'
 
 const Footer = () => {
   return (
@@ -43,7 +44,7 @@ const Footer = () => {
           <li><a href="#">Calendário Oficial</a></li>
         </ul>
         <h5>Siga-nos</h5>
-        <SocialList />
+        <SocialListFooter />
       </div>
     </div>
   )

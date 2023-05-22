@@ -5,7 +5,7 @@ import '../../Styles/NavBar.css'
 const EmpresaComponent = () => {
   return (
     <>
-        <NavDropdown title="Empresa" className='navbar_item'>
+        <NavDropdown title="Empresa" className='itens_nav2'>
             <NavDropdown.Item eventKey="1">Nota Fiscal Eletrônica</NavDropdown.Item>
             <NavDropdown.Item eventKey="2">Documentos para Processos</NavDropdown.Item>
             <NavDropdown.Item eventKey="3">Abertura Processos</NavDropdown.Item>

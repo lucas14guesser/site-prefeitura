@@ -4,9 +4,9 @@ import { AiFillFacebook,
     AiFillTwitterSquare }
 from 'react-icons/ai';
 
-import '../../Styles/SocialList.css'
+import '../../Styles/SocialListFooter.css'
 
-const SocialList = () => {
+const SocialListFooter = () => {
   return (
     <div className='social_midia'>
         <span>
@@ -26,4 +26,4 @@ const SocialList = () => {
   )
 }
 
-export default SocialList
+export default SocialListFooter

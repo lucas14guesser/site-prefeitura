@@ -6,7 +6,7 @@ const CidadaoComponent = () => {
   return (
     <>
         {/*Cidadão*/}
-        <NavDropdown title="Cidadão" className='navbar_item'>
+        <NavDropdown title="Cidadão" className='itens_nav2'>
             <NavDropdown.Item eventKey="1">Serviços ao Cidadão</NavDropdown.Item>
             <NavDropdown.Item eventKey="2">Serviços Oferecidos Pmsj</NavDropdown.Item>
             <NavDropdown.Item eventKey="3">Pedido de Fechamento de Vias</NavDropdown.Item>
