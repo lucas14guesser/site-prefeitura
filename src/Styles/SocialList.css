@@ -3,7 +3,7 @@
 .social_midia {
     display: flex;
     color: var(--titles);
-    font-size: 2.2em;
-    margin-left: .8em;
+    font-size: 40px;
+    margin-left: 29px;
     gap: 10px;
 }

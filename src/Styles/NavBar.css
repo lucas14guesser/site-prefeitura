@@ -3,7 +3,7 @@
 .navbar {
     background-color: var(--fundo_navbar);
     padding: 0;  
-    gap: 2em;  
+    gap: 35px;  
 }
 
 .container {
@@ -18,11 +18,10 @@
 
 .logo_navbar {
     width: 270px;
-    margin: 2em;
+    margin: 40px;
 }
 
 .dropdown-toggle {
-    padding: 0.8em;
     font-size: 20px;
     color: var(--branco)!important;
 }
@@ -41,7 +40,7 @@
 }
 
 .link_navbar {
-    padding: 0.8em;
+    padding: 15px;
     margin: 0 2px;
     font-size: 22px;
     color: var(--branco)!important;
