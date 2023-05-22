@@ -4,6 +4,7 @@ import React from 'react'
 import Home from "../Pages/Home";
 import NavBar from "../Layout/NavBar/NavBar";
 import Footer from "../Layout/Footer/Footer";
+import GridServices from "../Layout/GridServicesMain/GridServices";
 
 const Ways = () => {
   return (
@@ -13,6 +14,7 @@ const Ways = () => {
             <Route path="/" element={<Home />} />
         </Routes>
     </NavBar>
+    <GridServices></GridServices>
     <Footer />
     </BrowserRouter>
   )
