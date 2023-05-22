@@ -1,8 +1,8 @@
-    import React from 'react'
+ import GridServices from "../Layout/GridServicesMain/GridServices"
     
     const Home = () => {
       return (
-        <div>Home</div>
+        <GridServices />
       )
     }
     

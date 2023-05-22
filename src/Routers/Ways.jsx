@@ -8,12 +8,11 @@ import Footer from "../Layout/Footer/Footer";
 const Ways = () => {
   return (
     <BrowserRouter>
-    <NavBar>
-        <Routes>
-            <Route path="/" element={<Home />} />
-        </Routes>
-    </NavBar>
-    <Footer />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
