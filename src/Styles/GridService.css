@@ -1,0 +1,20 @@
+.main_service_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 130px);
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.item_service-grid{
+    background-color: #0f4e77;
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem;
+}
+
+
+.title_grid_service{
+    margin: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
