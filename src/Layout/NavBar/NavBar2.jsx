@@ -14,7 +14,7 @@ const NavBar2 = () => {
   return (
     <div>
         <Nav className='navbar_2'>     
-            <a href="/">
+            <a href="/" className='link_logo'>
                 <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
             </a>                        
             {/*São José*/}
@@ -41,5 +41,4 @@ const NavBar2 = () => {
   </div>
   )
 }
-
 export default NavBar2

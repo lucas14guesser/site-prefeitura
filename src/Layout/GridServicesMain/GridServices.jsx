@@ -1,4 +1,5 @@
 import {Container} from "react-bootstrap";
+
 import "../../Styles/GridService.css";
 
 const GridServices = () => {
@@ -8,7 +9,7 @@ const GridServices = () => {
         <div className="background_grid_service">
             <Container>
                 <h1 className="title_grid_service">
-                    O que eu Preciso?
+                    Todos os Serviços
                 </h1>
                 <div className="main_service_grid">
                     <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/autenticidade-de-documentos-e-relatorios" className="item_service-grid">
