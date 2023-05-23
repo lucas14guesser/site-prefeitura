@@ -17,9 +17,16 @@ const NavBar = () => {
             <a href="">lorem</a>
             <a href="">lorem</a>
             <a href="">lorem</a>
-          </div>
-          <SocialListNavBar />                   
-        </Nav>  
+            <a href="">lorem</a>
+            <a href="">lorem</a>
+            <a href="">lorem</a>
+            <a href="">lorem</a>
+            <a href="">lorem</a>
+          </div>                 
+        </Nav>
+        <div className='navbar_intra_social'>
+          <SocialListNavBar />   
+        </div>
       </Navbar> 
   </div>
 

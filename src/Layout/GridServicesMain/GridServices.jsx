@@ -42,12 +42,9 @@ const GridServices = () => {
                         <small>Emissão de Guias Dívida Ativa</small>
                     </a>
                 </div>
-
             </Container>         
         </div>
         </>
-        
-
     );
 }
  

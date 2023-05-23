@@ -14,29 +14,32 @@ const NavBar2 = () => {
   return (
     <div>
         <Nav className='navbar_2'>     
-            <a href="/">
+            <a className='logo' href="/">
                 <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
-            </a>                        
-            {/*São José*/}
-            <SaoJoseComponent />
+            </a>
+            <div className='nav-links'>
+              {/*São José*/}
+              <SaoJoseComponent />
 
-            {/*Cidadão*/}
-            <CidadaoComponent />
+              {/*Cidadão*/}
+              <CidadaoComponent />
 
-            {/*Empresa*/}
-            <EmpresaComponent />
+              {/*Empresa*/}
+              <EmpresaComponent />
 
-            {/*Turismo*/}
-            <TurismoComponent />
+              {/*Turismo*/}
+              <TurismoComponent />
 
-            {/*Carta Serviços*/}
-            <CartaServicoComponent />
-          
-            {/*Servidor*/}
-            <ServidorComponent />
+              {/*Carta Serviços*/}
+              <CartaServicoComponent />
+            
+              {/*Servidor*/}
+              <ServidorComponent />
 
-            {/*Transparência*/}
-            <TransparenciaComponent />
+              {/*Transparência*/}
+              <TransparenciaComponent />              
+            </div>                        
+
         </Nav>  
   </div>
   )

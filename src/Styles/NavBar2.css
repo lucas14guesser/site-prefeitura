@@ -1,40 +1,107 @@
 @import './Root.css';
 
-.navbar_2 {
-    background-color: var(--gelo);
-    padding: 0;
-    gap: 15px;  
-    display: flex;
-    width: 100%;
-    align-items: center;
+
+
+
+
+@media (min-width: 319px) and (max-width: 768px){
+    .navbar_2 > a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .navbar_2 {
+        background-color: var(--gelo);
+        padding: 0;
+        gap: 15px;  
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .logo_navbar {
+        width: 100%;
+        max-width: 180px;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .dropdown-toggle {
+        font-size: 20px;
+        color: var(--azul_forte)!important;
+    }
+    
+    
+    .dropdown-toggle::after {
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        vertical-align: 0;
+        border: 0;
+    }
+    
+    .link_navbar_2 {
+        font-size: 20px;
+        color: var(--azul_forte)!important;
+    }
+
 }
 
-.logo_navbar {
-    width: 100%;
-    max-width: 180px;
-    margin-left: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+@media (width > 768px){
+    .navbar_2 > .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .navbar_2 {
+        background-color: var(--gelo);
+        padding: 0;
+        gap: 15px;  
+        display: flex;
+        width: 100%;
+    }
+    
+    .logo_navbar {
+        width: 100%;
+        max-width: 180px;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .dropdown-toggle {
+        font-size: 20px;
+        color: var(--azul_forte)!important;
+    }
+    
+    
+    .dropdown-toggle::after {
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        vertical-align: 0;
+        border: 0;
+    }
+    
+    .link_navbar_2 {
+        font-size: 20px;
+        color: var(--azul_forte)!important;
+    }
+
+
+    .nav-links{
+        display: grid;
+        grid-template-columns: (auto-fill, 40px);
+    }
+
+
+
 }
-
-.dropdown-toggle {
-    font-size: 20px;
-    color: var(--azul_forte)!important;
-}
-
-
-.dropdown-toggle::after {
-    content: "";
-    display: inline-block;
-    width: 0;
-    height: 0;
-    vertical-align: 0;
-    border: 0;
-}
-
-.link_navbar_2 {
-    font-size: 20px;
-    color: var(--azul_forte)!important;
-}
-
-
