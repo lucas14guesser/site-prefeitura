@@ -1,0 +1,19 @@
+@import './Root.css';
+
+.carousel_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    background-color: var(--gelo);
+}
+
+.carousel_moviment {
+    width: 800px;
+    padding: 1rem;
+}
+
+.carousel_img {
+    width: 800px;
+}

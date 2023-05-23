@@ -1,8 +1,17 @@
- import GridServices from "../Layout/GridServicesMain/GridServices"
+ import CarouselSlogan from "../Layout/Carousel/CarouselSlogan"
+import GridServices from "../Layout/GridServicesMain/GridServices"
     
     const Home = () => {
       return (
-        <GridServices />
+        <div>
+          <div>
+            <GridServices />
+          </div>
+          <div>
+            <CarouselSlogan />
+          </div>
+        </div>
+
       )
     }
     
