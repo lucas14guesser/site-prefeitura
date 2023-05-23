@@ -5,7 +5,7 @@ import '../../Styles/NavBar.css'
 const CartaServicoComponent = () => {
   return (
     <>
-        <NavDropdown title="São José" className='itens_nav2'>
+        <NavDropdown title="Carta Serviço" className='itens_nav2'>
             <NavDropdown.Item eventKey="1">Serviços Oferecidos PMSJ</NavDropdown.Item>
             <NavDropdown.Item eventKey="2">Serviços Administração</NavDropdown.Item>
             <NavDropdown.Item eventKey="3">Serviços Assistência Social</NavDropdown.Item>
