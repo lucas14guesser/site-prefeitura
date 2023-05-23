@@ -12,11 +12,52 @@
     width: 7rem;
     height: 7rem;
     margin: 1rem;
+
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.item_service-grid > small{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 70%;
+    text-align: center;
+    padding: 4px;
+
+}
+
+
+.item_service-grid:hover{
+    border: 2px solid rgb(199, 199, 199);
 }
 
 
 .title_grid_service{
-    margin: 2rem;
     text-transform: uppercase;
     font-weight: 500;
+    width: 100%;
+    padding: 2%;
+    padding-top: 4%;
+    padding-left: 6%;
 }
+
+
+
+
+@media (width < 425px) {
+    .title_grid_service{
+        text-transform: uppercase;
+        font-weight: 500;
+        width: 100%;
+        padding: 2%;
+        padding-top: 7%;
+        text-align: center;
+    }
+}
+
+

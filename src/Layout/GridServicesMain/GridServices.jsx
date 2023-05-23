@@ -1,39 +1,52 @@
 import {Container} from "react-bootstrap";
-
-import "../../Styles/GridService.css"
+import "../../Styles/GridService.css";
 
 const GridServices = () => {
+        
     return (
+        <>
         <div className="background_grid_service">
             <Container>
                 <h1 className="title_grid_service">
                     O que eu Preciso?
                 </h1>
                 <div className="main_service_grid">
-                    <a href="#" className="item_service-grid">1</a>
-                    <a href="#" className="item_service-grid">2</a>
-                    <a href="#" className="item_service-grid">3</a>
-                    <a href="#" className="item_service-grid">4</a>
-                    <a href="#" className="item_service-grid">5</a>
-                    <a href="#" className="item_service-grid">6</a>
-                    <a href="#" className="item_service-grid">7</a>
-
-                    <a href="#" className="item_service-grid">8</a>
-                    <a href="#" className="item_service-grid">9</a>
-                    <a href="#" className="item_service-grid">10</a>
-                    <a href="#" className="item_service-grid">11</a>
-                    <a href="#" className="item_service-grid">12</a>
-                    <a href="#" className="item_service-grid">13</a>
-                    <a href="#" className="item_service-grid">14</a>
-
-                    <a href="#" className="item_service-grid">15</a>
-                    <a href="#" className="item_service-grid">16</a>
-                    <a href="#" className="item_service-grid">17</a>
-                    <a href="#" className="item_service-grid">18</a>
+                    <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/autenticidade-de-documentos-e-relatorios" className="item_service-grid">
+                        <small>Autenticidade de Documentos e Relatórios</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/ficha-cadastral-do-imovel" className="item_service-grid">
+                        <small>Espelho Cadastral IPTU</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/certidao-de-baixa-da-inscricao-municipal" className="item_service-grid">
+                        <small>Certidão de Baixa de Empresa</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/autenticidade-de-certidao-negativa-de-debitos" className="item_service-grid">
+                        <small>Consulta e Autenticidade da Certidão Negativa de Débitos - CND</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/comprovante-de-inscricao-municipal" className="item_service-grid">
+                        <small>Espelho Econômico</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/consulta-de-processo-digital" className="item_service-grid">
+                        <small>Consulta de Processo</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/consulta-a-ouvidoria" className="item_service-grid">
+                        <small>Consulta a Ouvidoria</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/certidao-negativa-de-debitos" className="item_service-grid">
+                        <small>Emissão da Certidão Negativa de Débitos - CND</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/guias-itbi" className="item_service-grid">
+                        <small>Emissão de Guias ITBI</small>
+                    </a>
+                    <a href="https://saojose.atende.net/autoatendimento/servicos/guias-divida-ativa" className="item_service-grid">
+                        <small>Emissão de Guias Dívida Ativa</small>
+                    </a>
                 </div>
 
-            </Container>            
+            </Container>         
         </div>
+        </>
+        
 
     );
 }
