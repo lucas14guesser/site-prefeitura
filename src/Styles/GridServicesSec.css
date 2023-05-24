@@ -3,7 +3,7 @@
 .main_service_grid_sec{
     display: grid;
     grid-template-columns: repeat(auto-fill, 130px);
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     justify-content: center;
 }
 
