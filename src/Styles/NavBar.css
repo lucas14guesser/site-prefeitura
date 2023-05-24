@@ -10,6 +10,10 @@
     color: var(--gelo)!important;
 }
 
+.navbar {
+    width: 50%;
+}
+
 .navbar_intra {
     display: flex;
     align-items: center;

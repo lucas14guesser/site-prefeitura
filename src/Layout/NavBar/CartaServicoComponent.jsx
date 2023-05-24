@@ -1,12 +1,12 @@
 import { NavDropdown } from 'react-bootstrap';
 
-import '../../Styles/NavBar.css'
+import '../../Styles/NavBar2.css'
 
 const CartaServicoComponent = () => {
 
   return (
     <>
-      <NavDropdown title="Carta Serviços" className='itens_nav2'>
+      <NavDropdown title="Carta Serviços" className='itens_nav_2'>
         <NavDropdown.Item eventKey="1">Serviços Oferecidos PMSJ</NavDropdown.Item>
         <NavDropdown.Item eventKey="2">Serviços Administração</NavDropdown.Item>
         <NavDropdown.Item eventKey="3">Serviços Assistência Social</NavDropdown.Item>

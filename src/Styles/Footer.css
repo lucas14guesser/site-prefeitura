@@ -3,7 +3,9 @@
 .footer_main {
     background: var(--degrade);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -12,9 +14,15 @@
     color: var(--branco);
 }
 
+.footer_main ul {
+    list-style: none;
+    font-size: 1em;
+}
+
 .footer_info {
-    margin: 2px 20px;
+    margin: 2px 150px;
     padding: 15px;
+    width: 33.3%;
 }
 
 .footer_info h4 {
@@ -32,8 +40,9 @@
 }
 
 .footer_about {
-    margin: 2px 300px;
+    margin: 2px 150px;
     padding: 15px;
+    width: 33.3%;
 }
 
 .footer_about h4 {
@@ -59,8 +68,9 @@
 }
 
 .footer_services {
-    margin: 2px 20px;
+    margin: 2px 150px;
     padding: 15px;
+    width: 33.3%;
 }
 
 .footer_services h4 {

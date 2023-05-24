@@ -1,9 +1,12 @@
 @import './Root.css';
 
 .social_media_nav {
+    position: relative;
     display: flex;
     align-items: center;
-    margin-left: 650px;    
+    justify-content: end;
+    width: 50%;
+    margin-right: 3rem;
 }
 
 .social_media_nav a {

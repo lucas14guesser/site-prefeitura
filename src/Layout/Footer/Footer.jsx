@@ -14,7 +14,7 @@ const Footer = () => {
           <li><a href="#">Rádio</a></li>
         </ul>
         <h4>Servidor</h4>
-        <ul className='footer_table'>
+        <ul className='footer_service_table'>
           <li><a href="#">Portal do servidor</a></li>
           <li><a href="#">Intranet</a></li>
           <li><a href="#">Webmail</a></li>

@@ -17,12 +17,11 @@ const NavBar = () => {
             <a href="">lorem</a>
             <a href="">lorem</a>
             <a href="">lorem</a>
-          </div>
-          <SocialListNavBar />                   
-        </Nav>  
-      </Navbar> 
+          </div>                  
+        </Nav> 
+      </Navbar>
+      <SocialListNavBar />   
   </div>
-
   )
 }
 export default NavBar

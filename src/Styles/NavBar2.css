@@ -1,7 +1,7 @@
 @import './Root.css';
 
 .navbar_2 {
-    background: var(--gelo);
+    background-color: var(--gelo);
     padding: 0;
     gap: 15px;  
     display: flex;
@@ -32,9 +32,12 @@
     border: 0;
 }
 
-.link_navbar_2 {
-    font-size: 20px;
-    color: var(--azul_forte)!important;
+.itens_nav_2 {
+    margin-left: 3rem;
 }
 
-
+.link_navbar_2 {
+    font-size: 20px;
+    margin-left: 3rem;
+    color: var(--azul_forte)!important;
+}
