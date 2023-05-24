@@ -1,7 +1,7 @@
 @import './Root.css';
 
 .navbar_2 {
-    background-color: var(--gelo);
+    background: var(--gelo);
     padding: 0;
     gap: 15px;  
     display: flex;

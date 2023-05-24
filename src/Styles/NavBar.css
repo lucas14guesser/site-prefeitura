@@ -1,13 +1,13 @@
 @import './Root.css';
 
 .navbar_main {
-    background-color: var(--azul_forte);
+    background: var(--degrade);
     padding: 3px 2px;
     display: flex;
 }
 
 .navbar_main a:hover {
-    color: var(--azul_medio)!important;
+    color: var(--gelo)!important;
 }
 
 .navbar_intra {

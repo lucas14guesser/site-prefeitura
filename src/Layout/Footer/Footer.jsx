@@ -43,7 +43,7 @@ const Footer = () => {
           <li><a href="#">Biblioteca SME</a></li>
           <li><a href="#">Calendário Oficial</a></li>
         </ul>
-        <h5>Siga-nos</h5>
+        <h5>Redes sociais</h5>
         <SocialListFooter />
       </div>
     </div>

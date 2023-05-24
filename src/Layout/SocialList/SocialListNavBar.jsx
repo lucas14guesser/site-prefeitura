@@ -10,7 +10,7 @@ const SocialListNavBar = () => {
   return (
     <div className='social_media_nav'>
         
-        <span>Siga a Prefeitura <a href=""><AiFillFacebook /></a></span>
+        <span><a href=""><AiFillFacebook /></a></span>
         <span><a href=""><AiFillInstagram /></a></span>
         <span><a href=""><TfiYoutube /></a></span>
         <span><a href=""><AiFillTwitterSquare /></a></span>
