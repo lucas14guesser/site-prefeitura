@@ -1,8 +1,8 @@
 import { AiFillFacebook,
     AiFillInstagram,
-    AiFillYoutube,
     AiFillTwitterSquare }
 from 'react-icons/ai';
+import { GrYoutube } from  'react-icons/gr'
 
 import '../../Styles/SocialListFooter.css'
 
@@ -16,7 +16,7 @@ const SocialListFooter = () => {
         <a href="#"><AiFillInstagram /></a> 
         </span>
         <span>
-        <a href="#"><AiFillYoutube /></a> 
+        <a href="#"><GrYoutube /></a> 
         </span>
         <span>
         <a href="#"><AiFillTwitterSquare /></a> 

@@ -2,7 +2,7 @@ import { AiFillFacebook,
     AiFillInstagram,
     AiFillTwitterSquare }
 from 'react-icons/ai';
-import { TfiYoutube } from  'react-icons/tfi'
+import { GrYoutube } from  'react-icons/gr'
 
 import '../../Styles/SocialListNavBar.css'
 
@@ -12,7 +12,7 @@ const SocialListNavBar = () => {
         
         <span><a href=""><AiFillFacebook /></a></span>
         <span><a href=""><AiFillInstagram /></a></span>
-        <span><a href=""><TfiYoutube /></a></span>
+        <span><a href=""><GrYoutube /></a></span>
         <span><a href=""><AiFillTwitterSquare /></a></span>
     </div>
   )
