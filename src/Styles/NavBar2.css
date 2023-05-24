@@ -32,6 +32,20 @@
     border: 0;
 }
 
+.dropdown-menu {
+    background-color: var(--gelo);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--gelo);
+    background-color: var(--azul_forte);
+}
+
+.dropdown-item:hover {
+    color: var(--gelo);
+    background-color: var(--azul_forte);
+}
+
 .itens_nav_2 {
     margin-left: 3rem;
 }
@@ -40,4 +54,8 @@
     font-size: 20px;
     margin-left: 3rem;
     color: var(--azul_forte)!important;
+}
+
+.dropdown-item {
+    color: var(--azul_forte);
 }
