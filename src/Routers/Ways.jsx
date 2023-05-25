@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import NavBar from "../Layout/NavBar/NavBar";
 import NavBar2 from "../Layout/NavBar/NavBar2";
 import Footer from "../Layout/Footer/Footer";
+import FooterLocal from "../Layout/Footer/FooterLocal";
 
 const Ways = () => {
   return (

@@ -9,7 +9,7 @@ const GridServices = () => {
         <div className="background_grid_service">
             <Container>
                 <h1 className="title_grid_service">
-                    Todos os Serviços
+                    Serviços Atende.NET
                 </h1>
                 <div className="main_service_grid">
                     <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/autenticidade-de-documentos-e-relatorios" className="item_service_grid">

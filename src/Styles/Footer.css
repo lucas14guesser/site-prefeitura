@@ -104,3 +104,8 @@
 .footer_main a:hover {
     color: var(--gelo);
 }
+
+.local {
+    order: 4;
+    margin-top: 20px;
+}

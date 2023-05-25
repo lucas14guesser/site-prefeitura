@@ -1,6 +1,6 @@
-import SocialListFooter from '../SocialList/SocialListFooter'
-
-import '../../Styles/Footer.css'
+import React from 'react';
+import SocialListFooter from '../SocialList/SocialListFooter';
+import '../../Styles/Footer.css';
 
 const Footer = () => {
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
         <SocialListFooter />
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

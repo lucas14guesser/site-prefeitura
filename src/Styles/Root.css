@@ -2,7 +2,8 @@
     --branco: #FFF;
     --preto: #222;
     --azul_forte: rgba(15,78,119,1);
-    --gelo: #F2F3F4;
+    --gelo: rgba(242, 243, 244, 1);
     --azul_medio: rgb(13, 110, 253);
     --degrade: linear-gradient(90deg, rgba(15,78,119,1) 0%, rgba(0,0,0,1) 100%);
+    --degrade_gelo: linear-gradient(90deg, rgba(242, 243, 244, 1) 62%, rgba(0,0,0,1) 100%);
 }
