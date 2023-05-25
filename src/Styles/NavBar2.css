@@ -1,12 +1,13 @@
 @import './Root.css';
 
-.navbar_2 {
+.nav {
     background-color: var(--gelo);
     padding: 0;
     gap: 15px;  
     display: flex;
     width: 100%;
     align-items: center;
+    color: var(--azul_forte);
 }
 
 .logo_navbar {
@@ -21,7 +22,34 @@
 .dropdown-toggle {
     font-size: 20px;
     font-weight: 500;
-    color: var(--azul_forte)!important;
+    color: var(--azul_forte);
+}
+
+.dropdown-menu {
+    background-color: var(--gelo);
+}
+
+.nav .show > .nav-link {
+    color: var(--azul_forte);
+}
+
+.dropdown-menu .nav-link {
+    color: var(--azul_forte);
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-left: 2rem;
+    color: var(--azul_forte);
+}
+
+.dropdown-item a{
+    color: var(--azul_forte);
+    text-decoration: none;
 }
 
 .dropdown-toggle::after {
@@ -33,30 +61,38 @@
     border: 0;
 }
 
-.dropdown-menu {
-    background-color: var(--gelo);
+.dropdown-toggle:hover {
+    color: var(--azul_forte);
 }
 
-.dropdown-item.active, .dropdown-item:active {
-    color: var(--gelo);
-    background-color: var(--azul_forte);
+.dropdown-toggle:active {
+    color: var(--azul_forte);
+}
+
+.dropdown-item.active, .dropdown-item a:active {
+    color: var(--azul_forte);
+    background-color: var(--gelo);
 }
 
 .dropdown-item:hover {
     color: var(--gelo);
-    background-color: var(--azul_forte);
+    background-color: var(--gelo);
 }
 
-.itens_nav_2 {
-    margin-left: 3rem;
+.dropdown-item a:hover {
+    color: var(--preto);
 }
 
-.link_navbar_2 {
-    font-size: 20px;
-    margin-left: 3rem;
-    color: var(--azul_forte)!important;
-}
-
-.dropdown-item {
+.nav-link:hover {
     color: var(--azul_forte);
+}
+
+.nav-link:active {
+    color: var(--azul_forte);
+}
+
+.dropdown-menu .nav-link:hover,
+.dropdown-menu .nav-link:focus {
+    color: var(--gelo);
+    background-color: var(--azul_forte);
 }

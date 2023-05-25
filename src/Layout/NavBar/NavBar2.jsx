@@ -1,4 +1,4 @@
-import {Image , Nav, Navbar, Container} from 'react-bootstrap';
+import {Image , Nav} from 'react-bootstrap';
 
 import SaoJoseComponent from './SaoJoseComponent';
 import CidadaoComponent from './CidadaoComponent';
@@ -13,7 +13,7 @@ import '../../Styles/NavBar2.css'
 const NavBar2 = () => {
   return (
     <div>
-        <Nav className='navbar_2'>     
+        <Nav>     
             <a href="/" className='link_logo'>
                 <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
             </a>                        

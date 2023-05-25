@@ -4,11 +4,11 @@ import '../../Styles/NavBar2.css'
 
 const ServidorComponent = () => {
   return (
-    <NavDropdown title="Servidor" className='itens_nav_2'>
-        <NavDropdown.Item eventKey="1">Webmail</NavDropdown.Item>
-        <NavDropdown.Item eventKey="2">Portal do Servidor</NavDropdown.Item>
-        <NavDropdown.Item eventKey="3">Autoatendimento</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4">Intranet</NavDropdown.Item>
+    <NavDropdown title="Servidor">
+        <NavDropdown.Item eventKey="1"><a href="#">Webmail</a></NavDropdown.Item>
+        <NavDropdown.Item eventKey="2"><a href="#">Portal do Servidor</a></NavDropdown.Item>
+        <NavDropdown.Item eventKey="3"><a href="#">Autoatendimento</a></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4"><a href="#">Intranet</a></NavDropdown.Item>
   </NavDropdown>
   )
 }

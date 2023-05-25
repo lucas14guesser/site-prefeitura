@@ -5,12 +5,12 @@ import '../../Styles/NavBar2.css'
 const EmpresaComponent = () => {
   return (
     <>
-        <NavDropdown title="Empresa" className='itens_nav_2'>
-            <NavDropdown.Item eventKey="1">Nota Fiscal Eletrônica</NavDropdown.Item>
-            <NavDropdown.Item eventKey="2">Documentos para Processos</NavDropdown.Item>
-            <NavDropdown.Item eventKey="3">Abertura Processos</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4">Licitações</NavDropdown.Item>
-            <NavDropdown.Item eventKey="5">TFPU</NavDropdown.Item>
+        <NavDropdown title="Empresa">
+            <NavDropdown.Item eventKey="1"><a href="#">Nota Fiscal Eletrônica</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="2"><a href="#">Documentos para Processos</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="3"><a href="#">Abertura Processos</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="4"><a href="#">Licitações</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="5"><a href="#">TFPU</a></NavDropdown.Item>
         </NavDropdown>
     </>
   )

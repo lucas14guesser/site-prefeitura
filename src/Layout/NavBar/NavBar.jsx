@@ -9,15 +9,13 @@ const NavBar = () => {
     <div className='navbar_main'>
       <Navbar>
         <Nav>
-          <div className="navbar_intra">
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-            <a href="">lorem</a>
-          </div>                  
+          <a href="">lorem</a>
+          <a href="">lorem</a>
+          <a href="">lorem</a>
+          <a href="">lorem</a>
+          <a href="">lorem</a>
+          <a href="">lorem</a>
+          <a href="">lorem</a>
         </Nav> 
       </Navbar>
       <SocialListNavBar />   

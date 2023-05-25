@@ -6,13 +6,13 @@ const CidadaoComponent = () => {
   return (
     <>
         {/*Cidadão*/}
-        <NavDropdown title="Cidadão" className='itens_nav_2'>
-            <NavDropdown.Item eventKey="1">Serviços ao Cidadão</NavDropdown.Item>
-            <NavDropdown.Item eventKey="2">Serviços Oferecidos Pmsj</NavDropdown.Item>
-            <NavDropdown.Item eventKey="3">Pedido de Fechamento de Vias</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4">Publicações Legais</NavDropdown.Item>
-            <NavDropdown.Item eventKey="5">IPTU</NavDropdown.Item>
-            <NavDropdown.Item eventKey="6">Procon Municipal de São José</NavDropdown.Item>
+        <NavDropdown title="Cidadão">
+            <NavDropdown.Item eventKey="1"><a href="#">Serviços ao Cidadão</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="2"><a href="#">Serviços Oferecidos Pmsj</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="3"><a href="#">Pedido de Fechamento de Vias</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="4"><a href="#">Publicações Legais</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="5"><a href="#">IPTU</a></NavDropdown.Item>
+            <NavDropdown.Item eventKey="6"><a href="#">Procon Municipal de São José</a></NavDropdown.Item>
         </NavDropdown>
     </>
   )
