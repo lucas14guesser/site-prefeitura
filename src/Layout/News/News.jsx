@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Figure, Container } from 'react-bootstrap'
+import { Figure } from 'react-bootstrap'
 
 import '../../Styles/News.css'
 
@@ -15,12 +15,7 @@ const News = () => {
                 <Figure.Caption>
                     Saúde alerta para baixa procura da população para dose de reforço contra Covid-19
                 </Figure.Caption>
-                <Figure.Image
-                    width={600}
-                    height={300}
-                    alt="600x300"
-                    src="../img/noticia1-teste.png"
-                />
+                <Figure.Image width={600} height={300} alt="600x300" src="../img/noticia1-teste.png"/>
             </Figure>
         </div>
         <div className='news_bar_2'>
@@ -39,5 +34,4 @@ const News = () => {
     </div>
   )
 }
-
 export default News
