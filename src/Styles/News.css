@@ -1,0 +1,43 @@
+@import './Root.css';
+
+.news_main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 4rem;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+  
+.news_title {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+.news_title h4 {
+    font-size: 2rem;
+    color: var(--azul_forte);
+    text-transform: uppercase;
+}
+
+
+
+.news_bar img, .news_bar_2 img {
+    max-width: 600px;
+    max-height: 300px;
+}
+
+.news_bar .figure, .news_bar_2 .figure{
+    max-width: 100%;
+    flex: 1;
+}
+
+.figure-caption {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--azul_forte);
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+ 
