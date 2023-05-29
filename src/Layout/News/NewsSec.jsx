@@ -1,35 +1,18 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import NewsLinkButton from './NewsLinkButton';
 
 import '../../Styles/NewsSec.css';
-import NewsLinkButton from './NewsLinkButton';
 
 const NewsSec = () => {
   return (
     <>
         <div className='sec_news_grid'>
             <div className='item_news_grid'>
-            <img src='./img/noticia1-teste.png' alt='news1' />
-            <span>
-                <p>
-                Saúde alerta para baixa procura da população para dose de reforço contra Covid-19
-                </p>
-            </span>
-            </div>
-            <div className='item_news_grid'>
-            <img src='./img/noticia2-teste.png' alt='news1' />
-            <span>
-                <p>
-                    Prefeitura entrega becas para os integrantes do coral do CATI
-                </p>
-            </span>
-            </div>
-            <div className='item_news_grid'>
             <img src='./img/noticia3-teste.png' alt='news1' />
             <span>
                 <p>
-                    Jiu Jitsu comemora a conquista de nove medalhas no Floripa Fall Internacional
+                    Nacional Handebol é São José no Torneio Sul-Centro Americano
                 </p>
             </span>
             </div>
@@ -37,7 +20,23 @@ const NewsSec = () => {
             <img src='./img/noticia4-teste.png' alt='news1' />
             <span>
                 <p>
-                    Cinco creches particulares aderem ao Programa Bolsa Educação 2023
+                    Prefeitura de São José entrega kits escolares pelo segundo ano consecutivo
+                </p>
+            </span>
+            </div>
+            <div className='item_news_grid'>
+            <img src='./img/noticia5-teste.png' alt='news1' />
+            <span>
+                <p>
+                    Residências do Loteamento Benjamim começam a ser demolidas para obras da Avenida Beira-Rio
+                </p>
+            </span>
+            </div>
+            <div className='item_news_grid'>
+            <img src='./img/noticia6-teste.png' alt='news1' />
+            <span>
+                <p>
+                    Agendamento prévio do mutirão de castração da Dibea abre nesta segunda-feira (29) para o bairro Procasa
                 </p>
             </span>
             </div>

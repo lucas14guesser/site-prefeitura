@@ -15,5 +15,6 @@
 }
 
 .carousel_img {
-    width: 1175px;
+    min-width: 1150px;
+    max-height: 300px;
 }

@@ -12,21 +12,21 @@ function CarouselSlogan() {
                     <Carousel.Item>
                     <img
                         className="carousel_img"
-                        src="../img/teste-carousel.png"
+                        src="../img/teste1-carousel.png"
                         alt="Primeiro slide"
                     />
                     </Carousel.Item>
                     <Carousel.Item>
                     <img
                         className="carousel_img"
-                        src="../img/teste-carousel.png"
+                        src="../img/teste-carousel.jpeg"
                         alt="Segundo slide"
                     />
                     </Carousel.Item>
                     <Carousel.Item>
                     <img
                         className="carousel_img"
-                        src="../img/teste-carousel.png"
+                        src="../img/teste-carousel3.jpeg"
                         alt="Terceiro slide"
                     />
                     </Carousel.Item>
