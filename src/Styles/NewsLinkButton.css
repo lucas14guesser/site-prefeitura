@@ -1,0 +1,16 @@
+@import './Root.css';
+
+.type_button {
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.button:hover {
+    color: var(--gelo);
+}

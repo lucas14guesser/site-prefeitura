@@ -1,5 +1,11 @@
 @import './Root.css';
 
 .news_container {
-    margin-left: 20rem;
+    margin-left: 22.2rem;
+}
+
+.news_sec_container {
+    margin-left: 24rem;
+    margin-right: 9.25rem;
+    margin-bottom: 4rem;
 }

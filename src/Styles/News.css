@@ -4,10 +4,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding: 4rem;
-    gap: 2rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    gap: 1rem;
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
 }
   
 .news_title {
@@ -34,7 +35,6 @@
 }
 
 .figure-caption {
-    margin-top: 1rem;
     font-size: 1.5rem;
     color: var(--azul_forte);
     margin-bottom: 1rem;

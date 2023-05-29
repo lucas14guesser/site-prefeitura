@@ -2,6 +2,7 @@
 import GridServices from "../Layout/GridServicesMain/GridServices"
 import GridServicesSec from "../Layout/GridServicesMain/GridServicesSec"
 import News from "../Layout/News/News"
+import NewsSec from "../Layout/News/NewsSec"
 
 import '../Styles/Home.css'
 
@@ -20,6 +21,9 @@ import '../Styles/Home.css'
           </div>
           <div className="news_container">
             <News/>
+          </div>
+          <div className="news_sec_container">
+            <NewsSec />
           </div>
         </div>
 
