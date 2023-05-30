@@ -1,0 +1,51 @@
+@import './Root.css';
+
+.dados_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    background: var(--gelo);
+}
+
+.main_dados {
+    border: 1px solid;
+    border-color: var(--branco);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--branco);
+}
+
+.text_dados {
+    width: 100%;
+    color: var(--azul_forte);
+    margin-bottom: 4rem;
+}
+
+.text_dados > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_dados > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+
+}
+
+.text_dados > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_dados > p > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--azul_forte);
+}

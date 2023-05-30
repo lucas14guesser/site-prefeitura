@@ -8,6 +8,7 @@ import Footer from "../Layout/Footer/Footer";
 import Cidade from "../Pages/Cidade";
 import Feriados from "../Pages/Feriados";
 import Prefeitos from "../Pages/Prefeitos";
+import Dados from "../Pages/Dados";
 
 const Ways = () => {
   return (
@@ -25,6 +26,9 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/prefeitos" element={<Prefeitos />} />
+      </Routes>
+      <Routes>
+        <Route path="/dados" element={<Dados />} />
       </Routes>
       <Footer />
     </BrowserRouter>
