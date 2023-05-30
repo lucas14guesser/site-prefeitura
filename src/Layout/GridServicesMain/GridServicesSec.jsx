@@ -13,7 +13,7 @@ const GridServicesSec = () => {
                 </h1>
                 <div className="main_service_grid_sec">
                     <a href="https://saojose.sc.gov.br/declaracao-de-acidente-de-transito-dat/" className="item_service_grid_sec">
-                        <small>DAT Acidente de Trânsito</small>
+                        <small>DAT – Acidente de Trânsito</small>
                     </a>
                     <a href="https://saojose.sc.gov.br/cati/" className="item_service_grid_sec">
                         <small>Cati</small>

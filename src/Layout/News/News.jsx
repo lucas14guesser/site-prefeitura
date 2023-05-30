@@ -15,7 +15,7 @@ const News = () => {
                 <Figure.Caption>
                     Saúde alerta para baixa procura da população para dose de reforço contra Covid-19
                 </Figure.Caption>
-                <Figure.Image width={600} height={300} alt="600x300" src="../img/noticia1-teste.png"/>
+                <Figure.Image width={600} height={300} alt="600x300" src="../img/news/noticia1-teste.png"/>
             </Figure>
         </div>
         <div className='news_bar_2'>
@@ -27,7 +27,7 @@ const News = () => {
                     width={600}
                     height={300}
                     alt="600x300"
-                    src="../img/noticia2-teste.png"
+                    src="../img/news/noticia2-teste.png"
                 />
             </Figure>
         </div>

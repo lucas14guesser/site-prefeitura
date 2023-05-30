@@ -1,0 +1,87 @@
+@import './Root.css';
+
+.feriado_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    background: var(--gelo);
+}
+
+.main_feriado {
+    border: 1px solid;
+    border-color: var(--branco);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--branco);
+}
+
+.text_feriado {
+    width: 100%;
+    color: var(--azul_forte);
+    margin-bottom: 4rem;
+}
+
+.text_feriado > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_feriado > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+
+}
+
+.text_feriado > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_feriado > p > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--azul_forte);
+}
+
+.table_feriado > h6 {
+    font-weight: 600;
+    padding: 2%;
+    color: var(--azul_forte);
+}
+
+.table_feriado table {
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    width: 95%;
+    height: 50px;
+    border: 1px solid;
+    color: var(--azul_forte);
+}
+
+.table_feriado table > thead > tr > th {
+    padding: 2%;
+    border: 1px solid;
+}
+
+.table_feriado table > tbody > tr > td {
+    padding: 1%;
+}
+
+.text_feriado > a:hover {
+    color: var(--preto);
+}
+
+.text_feriado > a:hover {
+    color: var(--preto);
+}
+
+.text_feriado > p > a:hover {
+    color: var(--preto);
+}

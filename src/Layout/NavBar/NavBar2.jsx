@@ -15,7 +15,7 @@ const NavBar2 = () => {
     <div>
         <Nav>     
             <a href="/" className='link_logo'>
-                <Image className='logo_navbar' src="./img/logo-topo.png" rounded />
+                <Image className='logo_navbar' src="./img/index/logo-topo.png" rounded />
             </a>                        
             {/*São José*/}
             <SaoJoseComponent />
