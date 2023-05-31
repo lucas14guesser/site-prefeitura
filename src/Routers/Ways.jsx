@@ -5,10 +5,17 @@ import Home from "../Pages/Home";
 import NavBar from "../Layout/NavBar/NavBar";
 import NavBar2 from "../Layout/NavBar/NavBar2";
 import Footer from "../Layout/Footer/Footer";
+import FooterLocal from "../Layout/Footer/FooterLocal"
 import Cidade from "../Pages/Cidade";
 import Feriados from "../Pages/Feriados";
 import Prefeitos from "../Pages/Prefeitos";
 import Dados from "../Pages/Dados";
+import Simbolos from "../Pages/Simbolos";
+import Vias from "../Pages/Vias";
+import Procon from "../Pages/Procon";
+import Licitacoes from "../Pages/Licitacoes";
+import PublicacoesLegais from "../Pages/PublicacoesLegais";
+import ServicosPMSJ from "../Pages/ServicosPMSJ";
 
 const Ways = () => {
   return (
@@ -30,7 +37,26 @@ const Ways = () => {
       <Routes>
         <Route path="/dados" element={<Dados />} />
       </Routes>
+      <Routes>
+        <Route path="/simbol" element={<Simbolos />} />
+      </Routes>
+      <Routes>
+        <Route path="/vias" element={<Vias />} />
+      </Routes>
+      <Routes>
+        <Route path="/procon" element={<Procon />} />
+      </Routes>
+      <Routes>
+        <Route path="/licitacoes" element={<Licitacoes />} />
+      </Routes>
+      <Routes>
+        <Route path="/publi-legais" element={<PublicacoesLegais />} />
+      </Routes>
+      <Routes>
+        <Route path="/servicos-pmsj" element={<ServicosPMSJ />} />
+      </Routes>
       <Footer />
+      <FooterLocal />
     </BrowserRouter>
   )
 }

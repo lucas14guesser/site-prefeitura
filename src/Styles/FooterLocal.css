@@ -1,7 +1,7 @@
 @import './Root.css';
 
 .footer_local_main {
-    background: var(--gelo);
+    background: var(--degrade);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .footer_local {
-    color: var(--azul_forte);
+    color: var(--branco);
     font-size: .9em;
     text-align: center;
 }

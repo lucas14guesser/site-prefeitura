@@ -1,6 +1,6 @@
 @import './Root.css';
 
-.city_container {
+.procon_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     margin-bottom: 4rem;
 }
 
-.main_city {
+.main_procon {
     border: 1px solid;
     border-color: var(--gelo);
     border-radius: 10px;
@@ -17,42 +17,59 @@
     background: var(--gelo);
 }
 
-.text_city {
+.text_procon {
     width: 100%;
     color: var(--azul_forte);
 }
 
-.text_city > a {
+.text_procon > a {
     text-decoration: none;
     padding: 2%;
     font-size: .8rem;
     color: var(--azul_forte);
 }
 
-.text_city > h4{
+.text_procon > h4{
     font-size: 2rem;
     font-weight: 600;
     padding: 2%;
     text-transform: uppercase;
 }
 
-.text_city > p {
+.text_procon > h5 {
+    font-weight: 600;
+    padding: 2%;
+    color: var(--vermelho_destaque);
+}
+
+.text_procon > h5 > a {
+    text-decoration: none;
+    color: var(--vermelho_destaque);
+}
+
+.text_procon > p {
     font-size: 1rem;
     padding: 2%;
     text-align: justify;
 }
 
-.locate_city {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 4rem;
+.atend_procon > h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
 }
 
-.locate_city > iframe {
-    width: 750px;
-    height: 250px;
+.atend_procon > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
 }
 
-.text_city > a:hover {
+.text_procon > a:hover {
     color: var(--preto);
+}
+
+.text_procon > h5 > a:hover {
+    text-decoration: underline;
 }

@@ -1,6 +1,6 @@
 @import './Root.css';
 
-.city_container {
+.servSj_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     margin-bottom: 4rem;
 }
 
-.main_city {
+.main_servSj {
     border: 1px solid;
     border-color: var(--gelo);
     border-radius: 10px;
@@ -17,42 +17,27 @@
     background: var(--gelo);
 }
 
-.text_city {
+.text_servSj {
     width: 100%;
     color: var(--azul_forte);
 }
 
-.text_city > a {
+.text_servSj > a {
     text-decoration: none;
     padding: 2%;
     font-size: .8rem;
     color: var(--azul_forte);
 }
 
-.text_city > h4{
+.text_servSj > h4{
     font-size: 2rem;
     font-weight: 600;
     padding: 2%;
     text-transform: uppercase;
 }
 
-.text_city > p {
+.text_servSj > p {
     font-size: 1rem;
     padding: 2%;
     text-align: justify;
-}
-
-.locate_city {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 4rem;
-}
-
-.locate_city > iframe {
-    width: 750px;
-    height: 250px;
-}
-
-.text_city > a:hover {
-    color: var(--preto);
 }
