@@ -6,15 +6,15 @@
     align-items: center;
     padding: 1rem;
     margin-top: 4rem;
-    background: var(--gelo);
+    margin-bottom: 4rem;
 }
 
 .main_city {
     border: 1px solid;
-    border-color: var(--branco);
+    border-color: var(--gelo);
     border-radius: 10px;
     width: 50%;
-    background: var(--branco);
+    background: var(--gelo);
 }
 
 .text_city {

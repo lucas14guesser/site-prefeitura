@@ -1,8 +1,8 @@
 import { AiFillFacebook,
-    AiFillInstagram,
-    AiFillTwitterSquare }
+    AiFillInstagram }
 from 'react-icons/ai';
 import { GrYoutube } from  'react-icons/gr'
+import { IoLogoWhatsapp } from 'react-icons/io'
 
 import '../../Styles/SocialListFooter.css'
 
@@ -10,16 +10,16 @@ const SocialListFooter = () => {
   return (
     <div className='social_midia'>
         <span>
-            <a href="#"><AiFillFacebook /></a> 
+            <a href="https://www.facebook.com/prefeituradesaojose"><AiFillFacebook /></a> 
         </span>
         <span>
-        <a href="#"><AiFillInstagram /></a> 
+        <a href="https://www.instagram.com/prefeituradesaojose/"><AiFillInstagram /></a> 
         </span>
         <span>
-        <a href="#"><GrYoutube /></a> 
+        <a href="https://www.youtube.com/@PrefeituraMunicipaldeSaoJose"><GrYoutube /></a> 
         </span>
         <span>
-        <a href="#"><AiFillTwitterSquare /></a> 
+        <a href="https://api.whatsapp.com/send/?phone=5548988075743&text&type=phone_number&app_absent=0"><IoLogoWhatsapp /></a> 
         </span>
     </div>
 
