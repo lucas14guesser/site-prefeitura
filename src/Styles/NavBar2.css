@@ -96,3 +96,7 @@
     color: var(--gelo);
     background-color: var(--azul_forte);
 }
+
+.nav-item a:hover {
+    color: var(--preto);
+}

@@ -5,7 +5,6 @@ import Home from "../Pages/Home";
 import NavBar from "../Layout/NavBar/NavBar";
 import NavBar2 from "../Layout/NavBar/NavBar2";
 import Footer from "../Layout/Footer/Footer";
-import FooterLocal from "../Layout/Footer/FooterLocal"
 import Cidade from "../Pages/Cidade";
 import Feriados from "../Pages/Feriados";
 import Prefeitos from "../Pages/Prefeitos";
@@ -56,7 +55,6 @@ const Ways = () => {
         <Route path="/servicos-pmsj" element={<ServicosPMSJ />} />
       </Routes>
       <Footer />
-      <FooterLocal />
     </BrowserRouter>
   )
 }
