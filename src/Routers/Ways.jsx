@@ -15,6 +15,7 @@ import Procon from "../Pages/Procon";
 import Licitacoes from "../Pages/Licitacoes";
 import PublicacoesLegais from "../Pages/PublicacoesLegais";
 import ServicosPMSJ from "../Pages/ServicosPMSJ";
+import DocsProcessos from "../Pages/DocsProcessos";
 
 const Ways = () => {
   return (
@@ -53,6 +54,9 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/servicos-pmsj" element={<ServicosPMSJ />} />
+      </Routes>
+      <Routes>
+        <Route path="/docs-processos" element={<DocsProcessos />} />
       </Routes>
       <Footer />
     </BrowserRouter>
