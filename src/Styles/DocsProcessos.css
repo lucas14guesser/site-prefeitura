@@ -1,0 +1,49 @@
+@import './Root.css';
+
+.docs_proccess_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.main_docs_proccess {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    background: var(--gelo);
+    width: 21.3%;
+}
+
+.MuiTreeView-root {
+    text-align: center;
+    width: 100%;
+}
+
+.MuiTreeItem-label {
+    color: var(--azul_forte);
+}
+
+.MuiCollapse-wrapperInner a {
+    text-decoration: none;
+}
+  
+.MuiSvgIcon-root {
+    color: var(--preto)
+}
+
+.css-2cq9xd-MuiTreeView-root {
+    height: auto !important;
+}
+  
+.MuiCollapse-wrapperInner a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.MuiTreeItem-label:hover {
+    color: var(--preto);
+}
