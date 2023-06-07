@@ -1,6 +1,4 @@
-import { NavDropdown } from 'react-bootstrap';
-
-import { Link } from 'react-router-dom';
+import { NavDropdown, Nav } from 'react-bootstrap';
 
 import '../../Styles/NavBar2.css'
 
@@ -8,11 +6,11 @@ const SaoJoseComponent = () => {
   return (
     <>
         <NavDropdown title="São José">
-        <NavDropdown.Item eventKey="1"><Link to="/cidade">A Cidade</Link></NavDropdown.Item>
-        <NavDropdown.Item eventKey="2"><Link to="/feriados">Feriados Municipais</Link></NavDropdown.Item>
-        <NavDropdown.Item eventKey="3"><Link to="/prefeitos">Relação de Prefeitos</Link></NavDropdown.Item>
-        <NavDropdown.Item eventKey="4"><Link to="/dados">São José em Dados</Link></NavDropdown.Item>
-        <NavDropdown.Item eventKey="5"><Link to="/simbol">Símbolos do Municípios</Link></NavDropdown.Item>
+          <Nav.Link href="/cidade">A Cidade</Nav.Link>
+          <Nav.Link href="/feriados">Feriados Municipais</Nav.Link>
+          <Nav.Link href="/prefeitos">Relação de Prefeitos</Nav.Link>
+          <Nav.Link href="/dados">São José em Dados</Nav.Link>
+          <Nav.Link href="/simbol">Símbolos do Municípios</Nav.Link>
         </NavDropdown>
     </>
   )

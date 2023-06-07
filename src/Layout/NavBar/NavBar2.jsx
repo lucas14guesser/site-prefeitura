@@ -5,7 +5,6 @@ import CidadaoComponent from './CidadaoComponent';
 import EmpresaComponent from './EmpresaComponent';
 import TurismoComponent from './TurismoComponent';
 import CartaServicoComponent from './CartaServicoComponent';
-import ServidorComponent from './ServidorComponent';
 import TransparenciaComponent from './TransparenciaComponent';
 
 import '../../Styles/NavBar2.css'
@@ -31,9 +30,6 @@ const NavBar2 = () => {
 
             {/*Carta Serviços*/}
             <CartaServicoComponent />
-          
-            {/*Servidor*/}
-            <ServidorComponent />
 
             {/*Transparência*/}
             <TransparenciaComponent />

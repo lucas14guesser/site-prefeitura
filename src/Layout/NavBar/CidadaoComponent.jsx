@@ -1,6 +1,4 @@
-import { NavDropdown } from 'react-bootstrap';
-
-import { Link } from 'react-router-dom'
+import { NavDropdown, Nav } from 'react-bootstrap';
 
 import '../../Styles/NavBar2.css'
 
@@ -9,12 +7,12 @@ const CidadaoComponent = () => {
     <>
         {/*Cidadão*/}
         <NavDropdown title="Cidadão">
-            <NavDropdown.Item eventKey="1"><a href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital">Serviços ao Cidadão</a></NavDropdown.Item>
-            <NavDropdown.Item eventKey="2"><Link to="/servicos-pmsj">Serviços Oferecidos Pmsj</Link></NavDropdown.Item>
-            <NavDropdown.Item eventKey="3"><Link to='/vias'>Pedido de Fechamento de Vias</Link></NavDropdown.Item>
-            <NavDropdown.Item eventKey="4"><Link to="/publi-legais">Publicações Legais</Link></NavDropdown.Item>
-            <NavDropdown.Item eventKey="5"><a href="https://saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1">IPTU</a></NavDropdown.Item>
-            <NavDropdown.Item eventKey="6"><Link to="/procon">Procon Municipal de São José</Link></NavDropdown.Item>
+            <Nav.Link href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital" target='_blank'>Serviços ao Cidadão</Nav.Link>
+            <Nav.Link href="/servicos-pmsj">Serviços Oferecidos Pmsj</Nav.Link>
+            <Nav.Link href='/vias'>Pedido de Fechamento de Vias</Nav.Link>
+            <Nav.Link href="/publi-legais">Publicações Legais</Nav.Link>
+            <Nav.Link href="https://saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" target='_blank'>IPTU</Nav.Link>
+            <Nav.Link href="/procon">Procon Municipal de São José</Nav.Link>
         </NavDropdown>
     </>
   )

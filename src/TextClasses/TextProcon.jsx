@@ -13,7 +13,7 @@ const TextProcon = () => {
 
         <img src="../img/procon/procon-logo-3.png" alt="procon" />
 
-        <h5>Importante: Fazer o agendamento via o site <a href="https://agendamento.saojose.sc.gov.br/?_gl=1*x4l2h3*_ga*MTI5NjMzNTY3My4xNjg0NDM4Mjk3*_ga_Y6Q5YHNV0H*MTY4NTU1MjMwMS4zMC4xLjE2ODU1NTU1NTEuMC4wLjA.&_ga=2.254601416.1186840495.1685376409-1296335673.1684438297#/login"> agendamento.saojose.sc.gov.br</a></h5>
+        <h5>Importante: Fazer o agendamento via o site: <a href="https://agendamento.saojose.sc.gov.br/?_gl=1*x4l2h3*_ga*MTI5NjMzNTY3My4xNjg0NDM4Mjk3*_ga_Y6Q5YHNV0H*MTY4NTU1MjMwMS4zMC4xLjE2ODU1NTU1NTEuMC4wLjA.&_ga=2.254601416.1186840495.1685376409-1296335673.1684438297#/login"> agendamento.saojose.sc.gov.br</a></h5>
 
         <p>
             O Procon é um órgão público responsável por proteger e defender os direitos dos consumidores. Ele é vinculado à Secretaria de Segurança, defesa Social e Trânsito do Município de São José e tem como objetivo principal garantir a relação justa e equilibrada entre consumidores e fornecedores de produtos e serviços.

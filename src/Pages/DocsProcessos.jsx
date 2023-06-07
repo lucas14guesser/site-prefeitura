@@ -9,6 +9,17 @@ import '../Styles/DocsProcessos.css'
 
 const DocsProcessos = () => {
   return (
+    <div className="docs_proccess_container">
+        <div className="main_docs_proccess">
+            <div className="text_docs_proccess">
+                <a href="https://saojose.sc.gov.br/downloads/?dir=cac/Abertura%20de%20Processos">iframe que será utilizado nesta</a>
+            </div>
+        </div>
+    </div>
+    /*
+    <iframe src="https://saojose.sc.gov.br/downloads/?dir=cac/Abertura%20de%20Processos" frameborder="0" width="1160" height="1300"></iframe>
+    */
+    /*
     <div className='docs_proccess_container'>
       <div className="main_docs_proccess">      
       <TreeView
@@ -207,6 +218,8 @@ const DocsProcessos = () => {
       </TreeView>
       </div>
     </div>
+    */
+
   );
 };
 
