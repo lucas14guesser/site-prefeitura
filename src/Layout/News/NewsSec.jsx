@@ -9,7 +9,7 @@ const NewsSec = () => {
     <>
         <div className='sec_news_grid'>
             <div className='item_news_grid'>
-            <img src='./img/news/noticia3-teste.png' alt='news1' />
+            <img src='./img/news/noticia3-teste.png'/>
             <span>
                 <p>
                     Nacional Handebol é São José no Torneio Sul-Centro Americano
@@ -17,7 +17,7 @@ const NewsSec = () => {
             </span>
             </div>
             <div className='item_news_grid'>
-            <img src='./img/news/noticia4-teste.png' alt='news1' />
+            <img src='./img/news/noticia4-teste.png'/>
             <span>
                 <p>
                     Prefeitura de São José entrega kits escolares pelo segundo ano consecutivo
@@ -25,7 +25,7 @@ const NewsSec = () => {
             </span>
             </div>
             <div className='item_news_grid'>
-            <img src='./img/news/noticia5-teste.png' alt='news1' />
+            <img src='./img/news/noticia5-teste.png'/>
             <span>
                 <p>
                     Residências do Loteamento Benjamim começam a ser demolidas para obras da Avenida Beira-Rio
@@ -33,7 +33,7 @@ const NewsSec = () => {
             </span>
             </div>
             <div className='item_news_grid'>
-            <img src='./img/news/noticia6-teste.png' alt='news1' />
+            <img src='./img/news/noticia6-teste.png'/>
             <span>
                 <p>
                     Agendamento prévio do mutirão de castração da Dibea abre nesta segunda-feira (29) para o bairro Procasa

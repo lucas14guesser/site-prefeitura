@@ -15,15 +15,9 @@
     margin-left: 2rem;
 } 
 
-.nav > .nav-link {
-    font-size: 1rem;
-    color: var(--azul_forte);
-    font-weight: 500;
-    text-align: justify;
-}
-
 .nav-link {
     color: var(--azul_forte);
+    text-align: justify;
 }
 
 .logo_navbar {
@@ -36,6 +30,7 @@
 }
 
 .dropdown-menu {
+    padding: 0;
     background-color: var(--gelo);
     width: 15rem;
 }

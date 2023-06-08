@@ -15,7 +15,7 @@ const News = () => {
                 <Figure.Caption>
                     Saúde alerta para baixa procura da população para dose de reforço contra Covid-19
                 </Figure.Caption>
-                <Figure.Image width={600} height={300} alt="600x300" src="../img/news/noticia1-teste.png"/>
+                <Figure.Image src="../img/news/noticia1-teste.png"/>
             </Figure>
         </div>
         <div className='news_bar_2'>
@@ -23,12 +23,7 @@ const News = () => {
                 <Figure.Caption>
                     Prefeitura entrega becas para os integrantes do coral do CATI
                 </Figure.Caption>
-                <Figure.Image
-                    width={600}
-                    height={300}
-                    alt="600x300"
-                    src="../img/news/noticia2-teste.png"
-                />
+                <Figure.Image src="../img/news/noticia2-teste.png"/>
             </Figure>
         </div>
     </div>

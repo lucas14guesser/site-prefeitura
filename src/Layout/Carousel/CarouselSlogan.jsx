@@ -19,14 +19,14 @@ function CarouselSlogan() {
                     <Carousel.Item>
                     <img
                         className="carousel_img"
-                        src="../img/carousel/teste-carousel.jpeg"
+                        src="../img/carousel/teste-carousel.png"
                         alt="Segundo slide"
                     />
                     </Carousel.Item>
                     <Carousel.Item>
                     <img
                         className="carousel_img"
-                        src="../img/carousel/teste-carousel3.jpeg"
+                        src="../img/carousel/teste-carousel3.png"
                         alt="Terceiro slide"
                     />
                     </Carousel.Item>

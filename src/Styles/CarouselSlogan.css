@@ -10,11 +10,12 @@
 }
 
 .carousel_moviment {
-    width: 1175px;
-    padding: 1rem;
+    width: 1150px;
 }
 
 .carousel_img {
     min-width: 1150px;
+    max-width: 1150px;
+    min-height: 300px;
     max-height: 300px;
 }
