@@ -12,31 +12,31 @@ const GridServicesSec = () => {
                     Serviços pmsj
                 </h1>
                 <div className="main_service_grid_sec">
-                    <a href="https://saojose.sc.gov.br/declaracao-de-acidente-de-transito-dat/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/declaracao-de-acidente-de-transito-dat/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/dat.png"/>
                         <small>DAT – Acidente de Trânsito</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/cati/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/cati/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/cati.png"/>
                         <small>Cati</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/vacinacao-covid-19/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/vacinacao-covid-19/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/vacina.png"/>
                         <small>Vacinação</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/cidadao-portal/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/cidadao-portal/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/cidadao.png"/>
                         <small>Serviço para o Cidadão</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/centro-atendimento-cidadao-portal/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/centro-atendimento-cidadao-portal/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/receita.png"/>
                         <small>Receita Online</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/espaco-do-empreendedor/" className="item_service_grid_sec">
+                    <a href="https://saojose.sc.gov.br/espaco-do-empreendedor/" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/empreendedor.png"/>
                         <small>Espaço do Empreendedor</small>
                     </a>
-                    <a href="https://saojosemaisempregos.santacatarinapelaeducacao.com.br/oportunidades" className="item_service_grid_sec">
+                    <a href="https://saojosemaisempregos.santacatarinapelaeducacao.com.br/oportunidades" className="item_service_grid_sec" target="_blank">
                         <img src="../img/icons/emprego.png"/>
                         <small>São José + Empregos</small>
                     </a>

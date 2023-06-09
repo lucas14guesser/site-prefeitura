@@ -23,25 +23,25 @@ const Footer = () => {
       <div className="footer_about">
         <h4>Sobre a PMSJ</h4>
         <ul className='footer_about_table'>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
+          <li><a href="/cidade">A Cidade</a></li>
+          <li><a href="/feriados">Feriados Municipais</a></li>
+          <li><a href="/prefeitos">Relação de Prefeitos</a></li>
+          <li><a href="/dados">São José em Dados</a></li>
+          <li><a href="https://linktr.ee/prefeiturasaojose" target='_blank'>Links Úteis</a></li>
+          <li><a href="https://saojose.sc.gov.br/ouvidoria/" target='_blank'>Ouvidoria PMSJ</a></li>
+          <li><a href="https://saojose.sc.gov.br/portal-da-transparencia/" target='_blank'>Transparência</a></li>
         </ul>
-        <p><a href="">Lorem</a></p>
+        <p><a href="https://www.google.com/maps?ll=-27.609364,-48.626843&z=15&t=m&hl=pt-BR&gl=US&mapclient=embed&cid=549091403687192313" target='_blank'>Localização da PMSJ</a></p>
       </div>
       <div className="footer_services">
         <h4>Serviços</h4>
         <ul className='footer_services_table'>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Todos os Serviços</a></li>
+          <li><a href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital" target='_blank'>Serviços do Cidadão</a></li>
+          <li><a href="https://saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" target='_blank'>IPTU</a></li>
+          <li><a href="#">Sou Empresa</a></li>
+          <li><a href="#">Infraestrutura</a></li>
+          <li><a href="/procon">Procon</a></li>
         </ul>
         <h5>Redes sociais</h5>
         <SocialListFooter />
