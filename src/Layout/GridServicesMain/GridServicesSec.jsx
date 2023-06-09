@@ -9,7 +9,7 @@ const GridServicesSec = () => {
         <div className="background_grid_service_sec">
             <Container>
                 <h1 className="title_grid_service_sec">
-                    Serviços pmsj
+                    Mais serviços
                 </h1>
                 <div className="main_service_grid_sec">
                     <a href="https://saojose.sc.gov.br/declaracao-de-acidente-de-transito-dat/" className="item_service_grid_sec" target="_blank">

@@ -7,7 +7,7 @@ import '../../Styles/NavBar2.css'
 const TransparenciaComponent = () => {
   return (
     <Nav.Item>
-        <Nav.Link href='https://saojose.sc.gov.br/portal-da-transparencia/' eventKey="link-2">Transparência</Nav.Link>
+        <Nav.Link href='/portal-transparencia' eventKey="link-2">Transparência</Nav.Link>
     </Nav.Item>
   )
 }

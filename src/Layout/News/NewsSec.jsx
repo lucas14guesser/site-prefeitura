@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NewsLinkButton from './NewsLinkButton';
+import NewsLinkButton from '../../LinkButtons/NewsLinkButton';
 
 import '../../Styles/NewsSec.css';
 
