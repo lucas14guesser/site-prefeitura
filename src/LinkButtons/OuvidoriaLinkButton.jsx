@@ -9,7 +9,7 @@ import '../Styles/OuvidoriaLinkButton.css'
 const OuvidoriaLinkButton = () => {
   return (
     <div className='type_button_ouv'>
-        <a href="https://saojose.sc.gov.br/ouvidoria/" className='button_ouv' target='_blank'><BsChatDots />Sistema Ouvidoria</a>
+        <a href="/ouvidoria" className='button_ouv'><BsChatDots />Sistema Ouvidoria</a>
     </div>
   )
 }

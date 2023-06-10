@@ -28,7 +28,7 @@ const Footer = () => {
           <li><a href="/prefeitos">Relação de Prefeitos</a></li>
           <li><a href="/dados">São José em Dados</a></li>
           <li><a href="https://linktr.ee/prefeiturasaojose" target='_blank'>Links Úteis</a></li>
-          <li><a href="https://saojose.sc.gov.br/ouvidoria/" target='_blank'>Ouvidoria PMSJ</a></li>
+          <li><a href="/ouvidoria">Ouvidoria PMSJ</a></li>
           <li><a href="/portal-transparencia">Transparência</a></li>
         </ul>
         <p><a href="https://www.google.com/maps?ll=-27.609364,-48.626843&z=15&t=m&hl=pt-BR&gl=US&mapclient=embed&cid=549091403687192313" target='_blank'>Localização da PMSJ</a></p>

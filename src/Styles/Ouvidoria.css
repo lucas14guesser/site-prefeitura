@@ -1,0 +1,83 @@
+@import './Root.css';
+
+@import './Root.css';
+
+.ouv_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_ouv {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.text_ouv {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_ouv > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_ouv > ul > li > a {
+    color: var(--azul_forte);
+}
+
+.text_dif > p {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.text_ouv p > a {
+    text-decoration: underline;
+    color: var(--azul_forte);
+}
+
+.text_ouv > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_ouv > h6 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_ouv > h8 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_ouv > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_ouv > a:hover {
+    color: var(--preto);
+}
+
+.text_ouv p > a:hover {
+    color: var(--preto);
+}
+
+.text_ouv > ul > li > a:hover {
+    color: var(--preto);
+}

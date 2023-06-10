@@ -18,6 +18,7 @@ import PublicacoesLegais from "../Pages/PublicacoesLegais";
 import ServicosPMSJ from "../Pages/ServicosPMSJ";
 import DocsProcessos from "../Pages/DocsProcessos";
 import Transparencia from "../Pages/Transparencia";
+import Ouvidoria from "../Pages/Ouvidoria";
 
 const Ways = () => {
   return (
@@ -62,6 +63,9 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/portal-transparencia" element={<Transparencia />} />
+      </Routes>
+      <Routes>
+        <Route path="/ouvidoria" element={<Ouvidoria />} />
       </Routes>
       <Footer />
     </BrowserRouter>
