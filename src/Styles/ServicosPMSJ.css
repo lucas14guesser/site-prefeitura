@@ -36,8 +36,23 @@
     text-transform: uppercase;
 }
 
-.text_servSj > p {
+.text_servSj > h6{
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_servSj ul > li > a {
     font-size: 1rem;
     padding: 2%;
-    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.text_servSj > ul > li{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.text_servSj > ul > li > a:hover {
+    color: var(--preto);
 }
