@@ -20,6 +20,7 @@ import DocsProcessos from "../Pages/DocsProcessos";
 import Transparencia from "../Pages/Transparencia";
 import Ouvidoria from "../Pages/Ouvidoria";
 import PortalCidadao from "../Pages/PortalCidadao";
+import CentroAtendimento from "../Pages/CentroAtendimento";
 
 const Ways = () => {
   return (
@@ -46,6 +47,9 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/portal-cidadao" element={<PortalCidadao />} />
+      </Routes>
+      <Routes>
+        <Route path="/centro-atendimento" element={<CentroAtendimento />} />
       </Routes>
       <Routes>
         <Route path="/vias" element={<Vias />} />

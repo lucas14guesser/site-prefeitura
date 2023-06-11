@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.main_port_cid > a {
+    text-decoration: none;
+    padding: 2%;
+    color: var(--azul_forte);
+    font-size: .8rem;
+}
+
 .text_port_cid {
     width: 100%;
     padding: 2%;
