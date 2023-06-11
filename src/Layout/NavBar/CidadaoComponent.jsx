@@ -7,6 +7,7 @@ const CidadaoComponent = () => {
     <>
         {/*Cidadão*/}
         <NavDropdown title="Cidadão">
+            <Nav.Link href='/portal-cidadao'>Portal do Cidadão</Nav.Link>
             <Nav.Link href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital" target='_blank'>Serviços ao Cidadão</Nav.Link>
             <Nav.Link href="/servicos-pmsj">Serviços Oferecidos Pmsj</Nav.Link>
             <Nav.Link href='/vias'>Pedido de Fechamento de Vias</Nav.Link>
