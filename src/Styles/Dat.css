@@ -1,0 +1,70 @@
+@import './Root.css';
+
+.dat_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_dat {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.text_dat {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_dat > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_dat > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_dat > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_dat > p > h6{
+    font-weight: 600;
+}
+
+.text_dat > p > a > img {
+    max-width: 900px;
+}
+
+.text_dat > p > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_dat > img {
+    margin-bottom: 2rem;
+    padding: 2%;
+}
+
+.text_dat > a:hover {
+    color: var(--preto);
+}
+
+.text_dat > p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}

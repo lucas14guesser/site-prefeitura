@@ -21,6 +21,9 @@ import Transparencia from "../Pages/Transparencia";
 import Ouvidoria from "../Pages/Ouvidoria";
 import PortalCidadao from "../Pages/PortalCidadao";
 import CentroAtendimento from "../Pages/CentroAtendimento";
+import Dat from "../Pages/Dat";
+import Cati from "../Pages/Cati";
+import Vacinacao from "../Pages/Vacinacao";
 
 const Ways = () => {
   return (
@@ -74,6 +77,15 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/ouvidoria" element={<Ouvidoria />} />
+      </Routes>
+      <Routes>
+        <Route path="/dat" element={<Dat />} />
+      </Routes>
+      <Routes>
+        <Route path="/cati" element={<Cati />} />
+      </Routes>
+      <Routes>
+        <Route path="/vacinacao" element={<Vacinacao />} />
       </Routes>
       <Footer />
     </BrowserRouter>

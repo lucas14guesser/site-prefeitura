@@ -12,23 +12,23 @@ const GridServicesSec = () => {
                     Mais serviços
                 </h1>
                 <div className="main_service_grid_sec">
-                    <a href="https://saojose.sc.gov.br/declaracao-de-acidente-de-transito-dat/" className="item_service_grid_sec" target="_blank">
+                    <a href="/dat" className="item_service_grid_sec">
                         <img src="../img/icons/dat.png"/>
                         <small>DAT – Acidente de Trânsito</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/cati/" className="item_service_grid_sec" target="_blank">
+                    <a href="/cati" className="item_service_grid_sec">
                         <img src="../img/icons/cati.png"/>
                         <small>Cati</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/vacinacao-covid-19/" className="item_service_grid_sec" target="_blank">
+                    <a href="/vacinacao" className="item_service_grid_sec">
                         <img src="../img/icons/vacina.png"/>
                         <small>Vacinação</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/cidadao-portal/" className="item_service_grid_sec" target="_blank">
+                    <a href="/portal-cidadao" className="item_service_grid_sec">
                         <img src="../img/icons/cidadao.png"/>
                         <small>Serviço para o Cidadão</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/centro-atendimento-cidadao-portal/" className="item_service_grid_sec" target="_blank">
+                    <a href="/centro-atendimento" className="item_service_grid_sec">
                         <img src="../img/icons/receita.png"/>
                         <small>Receita Online</small>
                     </a>

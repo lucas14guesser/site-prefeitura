@@ -1,0 +1,125 @@
+@import './Root.css';
+
+.vacina_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_vacina {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.text_vacina {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_vacina > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_vacina > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_vacina > h6{
+    font-weight: 600;
+    padding: 2%;
+}
+
+
+.text_vacina > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_vacina > section > object {
+    width: 100%;
+    height: 287px;
+    padding: 2%;
+}
+
+.table_vacina_container {
+    display: flex;
+    width: 100%;
+    gap: 27px;
+}
+
+.table_vacina1 > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.table_vacina1 > ul > li > a{
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.table_vacina2 > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.table_vacina2 > ul > li > a{
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.table_vacina3 > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.table_vacina3 > ul > li > a{
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.table_vacina4 > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.table_vacina4 > ul > li > a{
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.text_vacina > a:hover {
+    color: var(--preto);
+}
+
+.table_vacina1 > ul > li > a:hover{
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.table_vacina2 > ul > li > a:hover{
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.table_vacina3 > ul > li > a:hover{
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.table_vacina4 > ul > li > a:hover{
+    color: var(--preto);
+    text-decoration: underline;
+}
