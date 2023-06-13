@@ -71,9 +71,14 @@
     border: 1px solid;
 }
 
+.table_expl_vacina table tbody td {
+    vertical-align: top;
+  }
+
 .table_feriado table > tbody > tr > td {
     padding: 1%;
-}
+    border: 1px solid;
+}  
 
 .text_feriado > a:hover {
     color: var(--preto);

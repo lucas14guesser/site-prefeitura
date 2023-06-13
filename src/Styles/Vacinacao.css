@@ -54,6 +54,25 @@
     padding: 2%;
 }
 
+.table_expl_vacina table {
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    width: 95%;
+    border: 1px solid;
+    color: var(--azul_forte);
+}
+
+.table_expl_vacina table > thead > tr > th {
+    width: 20%;
+    padding: 2%;
+    border: 1px solid;
+}
+
+.table_expl_vacina table > tbody > tr > td {
+    padding: 1%;
+    border: 1px solid;
+}
+
 .table_vacina_container {
     display: flex;
     width: 100%;

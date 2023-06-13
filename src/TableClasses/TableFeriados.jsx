@@ -19,22 +19,22 @@ const TableFeriados = () => {
                     <td>19/03</td>
                     <td>Aniversário da Cidade</td>
                     <td>nº 2302, 28/08/1991</td> 
-            </tr>
-            <tr>
+                </tr>
+                <tr>
                     <td>14/04</td>
                     <td>Sexta-Feira Santa</td>
                     <td>nº 2302, 28/08/1991</td> 
-            </tr> 
-            <tr>
+                </tr> 
+                <tr>
                     <td>15/06</td>
                     <td>Corpus Christi</td>
                     <td> nº 2302, 28/08/1991</td> 
-            </tr> 
-            <tr>
+                </tr> 
+                <tr>
                     <td>02/11</td>
                     <td>Dia de Finados</td>
                     <td> nº 2302, 28/08/1991</td> 
-            </tr> 
+                </tr> 
             </tbody>
         </table>
         <h6>Feriados Nacionais</h6>

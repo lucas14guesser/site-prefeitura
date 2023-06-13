@@ -14,9 +14,28 @@ const Vacinacao = () => {
 
                 <h4>Vacinação</h4>
 
-                <section>
-                    <object data="../pdf/Avisos_Idade_Atual_Vacinação_PMSJ_2021.pdf"></object>
-                </section>
+                <div className="table_expl_vacina">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>1ª Dose</th>
+                            <th>2ª Dose</th>
+                            <th>Reforço</th>
+                            <th>Reforço Janssen</th>
+                            <th>4ª Dose</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><li>A partir de 6 meses de vida</li></td>
+                            <td><li>AstraZeneca:<br />10 Semanas após a D1<br /><br /></li><li>Pfizer:<br />8 Semanas após a D1<br /><br /></li><li>CoronaVac: <br />4 Semanas após a D1</li></td>
+                            <td><li>4 Meses após a realização da segunda dose para quem fez Butantan, AstraZeneca, Pfizer</li></td>
+                            <td><li>Pessoas acima de 18 anos que realizaram a dose única e já completaram o período mínimo de 2 meses<br /><br /><li>As mulheres que receberam a dose da Janssen que agora estão gestantes ou puérperas: devem realizar a dose de reforço com a vacina Pfizer, respeitando o intervalo de 5 meses e apresentar o comprovante de gestação ou exame médico atualizado</li></li></td>
+                            <td><li>Receberão nova dose de reforço com 4 meses de intervalo:<br /><br />Pessoas com 25 anos ou mais com 4 meses da terceira dose</li></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <h4>Documentos Necessários para a vacinação</h4>
                 <p>
                     Os documentos são:
