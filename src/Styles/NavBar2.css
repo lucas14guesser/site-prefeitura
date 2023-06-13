@@ -14,9 +14,14 @@
 }
 
 .nav > .nav-item {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 2px;
 } 
+
+.indent_font {
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
 .nav-link {
     color: var(--branco);
@@ -32,7 +37,7 @@
 
 .dropdown-menu {
     padding: 0;
-    background-color: var(--azul_forte);
+    background-color: var(--azul_social);
     width: 15rem;
 }
 
@@ -49,7 +54,8 @@
 }
 
 .dropdown-toggle {
-    font-size: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .dropdown-toggle::after {

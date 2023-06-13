@@ -7,7 +7,7 @@ const CartaServicoComponent = () => {
   return (
     <>
       <Nav.Item>
-          <Nav.Link href='/servicos-pmsj' eventKey="link-2">Carta Serviços</Nav.Link>
+          <Nav.Link href='/servicos-pmsj' eventKey="link-2" className='indent_font'>Carta Serviços</Nav.Link>
       </Nav.Item>
     </>
   )
