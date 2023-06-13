@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import '../Styles/Vacinacao.css'
 
 const Vacinacao = () => {
-    const studioLocker = 'https://lookerstudio.google.com/u/0/reporting/142c9183-168c-48bf-8cc1-01ac45f2ba75/page/1M'
   return (
     <div className='vacina_container'>
         <div className="main_vacina">

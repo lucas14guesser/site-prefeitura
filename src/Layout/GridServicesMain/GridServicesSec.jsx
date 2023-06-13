@@ -19,11 +19,11 @@ const GridServicesSec = () => {
                     <a href="/cati" className="item_service_grid_sec">
                         <img src="../img/icons/cati.png"/>
                         <small>Cati</small>
-                    </a>
-                    <a href="/vacinacao" className="item_service_grid_sec">
+                    </a>                  
+                    {/*<a href="/vacinacao" className="item_service_grid_sec">
                         <img src="../img/icons/vacina.png"/>
                         <small>Vacinação</small>
-                    </a>
+                    </a>*/}
                     <a href="/portal-cidadao" className="item_service_grid_sec">
                         <img src="../img/icons/cidadao.png"/>
                         <small>Serviço para o Cidadão</small>
@@ -32,7 +32,7 @@ const GridServicesSec = () => {
                         <img src="../img/icons/receita.png"/>
                         <small>Receita Online</small>
                     </a>
-                    <a href="https://saojose.sc.gov.br/espaco-do-empreendedor/" className="item_service_grid_sec" target="_blank">
+                    <a href="/empreendedor" className="item_service_grid_sec">
                         <img src="../img/icons/empreendedor.png"/>
                         <small>Espaço do Empreendedor</small>
                     </a>

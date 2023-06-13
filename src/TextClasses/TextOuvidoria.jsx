@@ -8,7 +8,7 @@ import '../Styles/Ouvidoria.css'
 const TextOuvidoria = () => {
   return (
     <div className="text_ouv">
-        <Link to='/'>Home</Link>
+        <Link to='/portal-transparencia'>Página Anterior</Link>
 
         <h4>Ouvidoria</h4>
 

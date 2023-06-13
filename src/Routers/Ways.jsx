@@ -24,6 +24,11 @@ import CentroAtendimento from "../Pages/CentroAtendimento";
 import Dat from "../Pages/Dat";
 import Cati from "../Pages/Cati";
 import Vacinacao from "../Pages/Vacinacao";
+import Empreendedor from "../Pages/Empreendedor";
+import SouMei from "../Pages/SouMei";
+import CertidoesSouMei from "../Pages/CertidoesSouMei";
+import CertidoesBaixa from "../Pages/CertidoesBaixa";
+import NotasFiscais from "../Pages/NotasFiscais";
 
 const Ways = () => {
   return (
@@ -84,8 +89,24 @@ const Ways = () => {
       <Routes>
         <Route path="/cati" element={<Cati />} />
       </Routes>
-      <Routes>
+      {/*<Routes>
         <Route path="/vacinacao" element={<Vacinacao />} />
+      </Routes>
+  */}
+      <Routes>
+        <Route path="/empreendedor" element={<Empreendedor />} />
+      </Routes>
+      <Routes>
+        <Route path="/sou-mei" element={<SouMei />} />
+      </Routes>
+      <Routes>
+        <Route path="/certidoes-sou-mei" element={<CertidoesSouMei />} />
+      </Routes>
+      <Routes>
+        <Route path="/certidoes-baixa" element={<CertidoesBaixa />} />
+      </Routes>
+      <Routes>
+        <Route path="/notas-fiscais" element={<NotasFiscais />} />
       </Routes>
       <Footer />
     </BrowserRouter>

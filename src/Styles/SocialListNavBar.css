@@ -11,12 +11,12 @@
 
 .social_media_nav a {
     font-size: 28px;
-    color: var(--branco);
+    color: var(--azul_forte);
     padding: 3px 2px;
 }
 
 .social_media_nav span {
     font-size: 15px;
-    color: var(--branco);
+    color: var(--azul_forte);
     padding: 3px 2px;
 }
