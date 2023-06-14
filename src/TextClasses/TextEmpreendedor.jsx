@@ -17,7 +17,7 @@ const TextEmpreendedor = () => {
         <h4 className="title_emp">Espaço do empreendedor</h4 >
 
         <div className="main_emp">
-            <a href="#" className='item_emp'>
+            <a href="/sou-empresa" className='item_emp'>
                 <img src="../img/empreendedor/souEmpresa.png" alt="" />
                 <small>Sou Empresa</small>
             </a>
@@ -25,11 +25,11 @@ const TextEmpreendedor = () => {
                 <img src="../img/empreendedor/souMei.png" alt="" />
                 <small>Sou MEI</small>
             </a>
-            <a href="#" className='item_emp'>
+            <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei" className='item_emp' target='_blank'>
                 <img src="../img/empreendedor/queroSerMei.png" alt="" />
                 <small>Quero ser MEI</small>
             </a>
-            <a href="#" className='item_emp'>
+            <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes" className='item_emp' target='_blank'>
                 <img src="../img/empreendedor/duvidasMei.png" alt="" />
                 <small>Dúvidas MEI</small>
             </a>

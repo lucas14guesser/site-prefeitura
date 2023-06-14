@@ -1,7 +1,8 @@
 import React from 'react'
 
-import '../Styles/NotasFiscais.css'
 import TextNotasFiscais from '../TextClasses/TextNotasFiscais'
+
+import '../Styles/NotasFiscais.css'
 
 const NotasFiscais = () => {
   return (

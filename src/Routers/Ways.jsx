@@ -23,12 +23,15 @@ import PortalCidadao from "../Pages/PortalCidadao";
 import CentroAtendimento from "../Pages/CentroAtendimento";
 import Dat from "../Pages/Dat";
 import Cati from "../Pages/Cati";
-import Vacinacao from "../Pages/Vacinacao";
 import Empreendedor from "../Pages/Empreendedor";
 import SouMei from "../Pages/SouMei";
 import CertidoesSouMei from "../Pages/CertidoesSouMei";
 import CertidoesBaixa from "../Pages/CertidoesBaixa";
 import NotasFiscais from "../Pages/NotasFiscais";
+import SouEmpresa from "../Pages/SouEmpresa";
+import LivroEletronico from "../Pages/LivroEletronico";
+import VigilanciaSanitaria from "../Pages/VigilanciaSanitaria";
+import NotaFiscalEmp from "../Pages/NotaFiscalEmp";
 
 const Ways = () => {
   return (
@@ -107,6 +110,18 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/notas-fiscais" element={<NotasFiscais />} />
+      </Routes>
+      <Routes>
+        <Route path="/sou-empresa" element={<SouEmpresa />} />
+      </Routes>
+      <Routes>
+        <Route path="/livro-eletronico" element={<LivroEletronico />} />
+      </Routes>
+      <Routes>
+        <Route path="/vigilancia-sanitaria" element={<VigilanciaSanitaria />} />
+      </Routes>
+      <Routes>
+        <Route path="/nota-fiscal-emp" element={<NotaFiscalEmp />} />
       </Routes>
       <Footer />
     </BrowserRouter>

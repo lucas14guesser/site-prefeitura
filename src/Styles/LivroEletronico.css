@@ -1,0 +1,60 @@
+@import './Root.css';
+
+.livro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_livro {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.text_livro {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_livro > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_livro > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_livro > h6{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_livro > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_livro > p > a {
+    color: var(--azul_forte);
+}
+
+.text_livro > a:hover {
+    color: var(--preto);
+}
+
+.text_livro > p > a:hover {
+    color: var(--preto);
+}
