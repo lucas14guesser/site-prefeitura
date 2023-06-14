@@ -124,6 +124,7 @@ const Ways = () => {
         <Route path="/nota-fiscal-emp" element={<NotaFiscalEmp />} />
       </Routes>
       <Footer />
+      <FooterLocal />
     </BrowserRouter>
   )
 }

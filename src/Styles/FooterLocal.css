@@ -3,20 +3,22 @@
 .footer_local_main {
     background: var(--degrade);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
 .footer_logo {
-    width: 120px;
+    width: 150px;
     margin-top: 1.5em;
     margin-bottom: .3rem;
 }
 
 .footer_local {
     color: var(--branco);
-    font-size: .9em;
+    font-size: 1em;
     text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
 }

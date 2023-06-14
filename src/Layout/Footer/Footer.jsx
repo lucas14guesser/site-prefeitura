@@ -31,7 +31,6 @@ const Footer = () => {
           <li><a href="/ouvidoria">Ouvidoria PMSJ</a></li>
           <li><a href="/portal-transparencia">Transparência</a></li>
         </ul>
-        <p><a href="https://www.google.com/maps?ll=-27.609364,-48.626843&z=15&t=m&hl=pt-BR&gl=US&mapclient=embed&cid=549091403687192313" target='_blank'>Localização da PMSJ</a></p>
       </div>
       <div className="footer_services">
         <h4>Serviços</h4>
