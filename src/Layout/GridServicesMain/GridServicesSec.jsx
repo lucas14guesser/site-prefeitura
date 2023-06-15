@@ -30,7 +30,7 @@ const GridServicesSec = () => {
                     </a>
                     <a href="/centro-atendimento" className="item_service_grid_sec">
                         <img src="../img/icons/receita.png"/>
-                        <small>Receita Online</small>
+                        <small>Receita <br />Online</small>
                     </a>
                     <a href="/empreendedor" className="item_service_grid_sec">
                         <img src="../img/icons/empreendedor.png"/>

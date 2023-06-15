@@ -18,11 +18,11 @@ const TextCertidoesSouMei = () => {
 
         <div className="main_cert_sou_mei">
             <a href="https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir" className='item_sou_mei' target='_blank'>
-                <img src="../img/certidoesSouMei/cndFederal.png" alt="" />
+                <img src="../img/souMei/certidoes.png" alt="" />
                 <small>CND Federal</small>
             </a>
             <a href="https://sat.sef.sc.gov.br/tax.NET/Sat.CtaCte.Web/SolicitacaoCnd.aspx" className='item_sou_mei' target='_blank'>
-                <img src="../img/certidoesSouMei/cndEstadual.png" alt="" />
+                <img src="../img/souMei/certidoes.png" alt="" />
                 <small>CND Estadual</small>
             </a>
             <a href="/certidoes-baixa" className='item_sou_mei'>
@@ -30,7 +30,7 @@ const TextCertidoesSouMei = () => {
                 <small>Certidões de Baixa</small>
             </a>
             <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/certidoes-e-comprovantes" className='item_sou_mei' target='_blank'>
-                <img src="../img/certidoesSouMei/certidaoOutras.png" alt="" />
+                <img src="../img/souMei/certidoes.png" alt="" />
                 <small>Demais Certidões</small>
             </a>
         </div>

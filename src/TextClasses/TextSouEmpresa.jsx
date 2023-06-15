@@ -32,7 +32,7 @@ const TextSouEmpresa = () => {
             </a>
             <a href="/nota-fiscal-emp" className='item_sou_empresa'>
                 <img src="../img/souMei/notaFiscal.png" alt="" />
-                <small>Nota Fiscal</small>
+                <small>Nota <br />Fiscal</small>
             </a>
             <a href="https://sigat.cbm.sc.gov.br/sigat/modulos/solicitacoes/solic_funcionamento_orienta_externo.php" className='item_sou_empresa' target='_blank'>
                 <img src="../img/souEmpresa/bombeiro.png" alt="" />
@@ -40,7 +40,7 @@ const TextSouEmpresa = () => {
             </a>
             <a href="https://saojose.atende.net/autoatendimento/servicos/consulta-de-processo-digital" className='item_sou_empresa' target='_blank'>
                 <img src="../img/souEmpresa/processoLup.png" alt="" />
-                <small>Acompanhamento de Processos Online</small>
+                <small>Acompanhar Processos Online</small>
             </a>
             <a href="https://saojose.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse" className='item_sou_empresa' target='_blank'>
                 <img src="../img/souEmpresa/notaAut.png" alt="" />

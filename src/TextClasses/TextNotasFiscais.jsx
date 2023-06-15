@@ -17,11 +17,11 @@ const TextNotasFiscais = () => {
 
         <div className="main_nf">
             <a href="https://sat.sef.sc.gov.br/tax.NET/Login.aspx?ReturnUrl=%2ftax.net%2fdefault.aspx" className='item_nf' target='_blank'>
-                <img src="../img/notasFiscais/nfComPro.png" alt="" />
+                <img src="../img/souMei/notaFiscal.png" alt="" />
                 <small>Quero Emitir Nota Fiscal de Comércio e Produto</small>
             </a>
             <a href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-nfse-por-webservice" className='item_nf' target='_blank'>
-                <img src="../img/notasFiscais/nfServico.png" alt="" />
+                <img src="../img/souMei/notaFiscal.png" alt="" />
                 <small>Quero Emitir Nota Fiscal de <br />Serviço</small>
             </a>
         </div>
