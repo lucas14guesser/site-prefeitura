@@ -1,18 +1,33 @@
+import React, { useState } from 'react';
 import { NavDropdown, Nav } from 'react-bootstrap';
 
-import '../../Styles/NavBar2.css'
-
 const SaoJoseComponent = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+  };
+
   return (
-    <>
-        <NavDropdown title="São José">
-          <Nav.Link href="/cidade">A Cidade</Nav.Link>
-          <Nav.Link href="/feriados">Feriados Municipais</Nav.Link>
-          <Nav.Link href="/prefeitos">Relação de Prefeitos</Nav.Link>
-          <Nav.Link href="/dados">São José em Dados</Nav.Link>
-          <Nav.Link href="/simbol">Símbolos do Municípios</Nav.Link>
-        </NavDropdown>
-    </>
-  )
-}
-export default SaoJoseComponent
+    <NavDropdown
+      title="São José"
+      id="dropdown-menu-sao-jose"
+      show={showDropdown}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <Nav.Link href="/cidade">A Cidade</Nav.Link>
+      <Nav.Link href="/feriados">Feriados Municipais</Nav.Link>
+      <Nav.Link href="/prefeitos">Relação de Prefeitos</Nav.Link>
+      <Nav.Link href="/dados">São José em Dados</Nav.Link>
+      <Nav.Link href="/simbol">Símbolos do Municípios</Nav.Link>
+    </NavDropdown>
+  );
+};
+
+export default SaoJoseComponent;
+
