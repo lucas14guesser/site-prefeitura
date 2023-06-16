@@ -22,15 +22,15 @@
 }
 
 .item_service_grid_sec > small{
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 60%;
+    font-size: 70%;
     text-align: center;
     padding: 4px;
 }
 
 .item_service_grid_sec > img {
-    width: 30%;
+    width: 40%;
     margin-left: 40px;
 }
 

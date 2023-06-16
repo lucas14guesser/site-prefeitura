@@ -7,15 +7,14 @@
     gap: 2rem;  
     display: flex;
     width: 100%;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     color: var(--gelo);
 }
 
 .nav > .nav-item {
     font-size: 20px;
-    margin-left: 2px;
+    height: 47px;
 } 
 
 .indent_font {
