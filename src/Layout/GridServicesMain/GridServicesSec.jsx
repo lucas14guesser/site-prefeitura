@@ -9,7 +9,7 @@ const GridServicesSec = () => {
         <div className="background_grid_service_sec">
             <Container>
                 <h1 className="title_grid_service_sec">
-                    Mais serviços
+                    Serviços da prefeitura
                 </h1>
                 <div className="main_service_grid_sec">
                     <a href="/dat" className="item_service_grid_sec">

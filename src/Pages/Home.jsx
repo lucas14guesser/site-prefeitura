@@ -14,10 +14,10 @@ import '../Styles/Home.css'
             <GridServices />
           </div>
           <div>
-            <GridServicesSec />
+            <CarouselSlogan />
           </div>
           <div>
-            <CarouselSlogan />
+            <GridServicesSec />
           </div>
           <div className="news_container">
             <News/>
