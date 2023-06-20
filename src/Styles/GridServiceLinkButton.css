@@ -1,0 +1,18 @@
+@import './Root.css';
+
+.type_button_grid {
+    margin-top: 2rem;
+    margin-left: 4.8rem;
+}
+
+.button_grid {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--gelo);
+}

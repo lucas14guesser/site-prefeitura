@@ -35,10 +35,10 @@ const Footer = () => {
       <div className="footer_services">
         <h4>Serviços</h4>
         <ul className='footer_services_table'>
-          <li><a href="#">Todos os Serviços</a></li>
+          <li><a href="/todos-os-servicos">Todos os Serviços</a></li>
           <li><a href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital" target='_blank'>Serviços do Cidadão</a></li>
           <li><a href="https://saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" target='_blank'>IPTU</a></li>
-          <li><a href="#">Sou Empresa</a></li>
+          <li><a href="/sou-empresa">Sou Empresa</a></li>
           <li><a href="#">Infraestrutura</a></li>
           <li><a href="/procon">Procon</a></li>
         </ul>

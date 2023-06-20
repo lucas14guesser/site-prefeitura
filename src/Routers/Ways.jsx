@@ -32,6 +32,7 @@ import SouEmpresa from "../Pages/SouEmpresa";
 import LivroEletronico from "../Pages/LivroEletronico";
 import VigilanciaSanitaria from "../Pages/VigilanciaSanitaria";
 import NotaFiscalEmp from "../Pages/NotaFiscalEmp";
+import AllServices from "../Pages/AllServices";
 
 const Ways = () => {
   return (
@@ -122,6 +123,9 @@ const Ways = () => {
       </Routes>
       <Routes>
         <Route path="/nota-fiscal-emp" element={<NotaFiscalEmp />} />
+      </Routes>
+      <Routes>
+        <Route path="/todos-os-servicos" element={<AllServices />} />
       </Routes>
       <Footer />
       <FooterLocal />
