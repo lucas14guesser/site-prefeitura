@@ -13,6 +13,6 @@
     border-radius: 5px;
 }
 
-.button:hover {
+.button_grid:hover {
     color: var(--gelo);
 }

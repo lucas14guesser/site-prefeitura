@@ -17,8 +17,17 @@
     text-decoration: none;
     padding: 2%;
     font-size: .8rem;
-    margin-left: 4.3rem;
     color: var(--azul_forte);
+}
+
+.links {
+    margin-left: 4.3rem;
+}
+
+.icon_sou_mei {
+    font-size: .7rem;
+    margin: 0;
+    padding: 0;
 }
 
 .item_sou_mei{
