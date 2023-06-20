@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_livro {
+    text-decoration: none;
+    font-size: .8rem;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
 .text_livro {
     width: 100%;
     color: var(--azul_forte);
@@ -49,6 +56,10 @@
 
 .text_livro > p > a {
     color: var(--azul_forte);
+}
+
+.link_livro:hover {
+    color: var(--preto);
 }
 
 .text_livro > a:hover {

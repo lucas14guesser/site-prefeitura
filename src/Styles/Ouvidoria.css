@@ -19,6 +19,14 @@
     background: var(--gelo);
 }
 
+.link_ouv {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+
 .text_ouv {
     width: 100%;
     color: var(--azul_forte);
@@ -69,6 +77,11 @@
     padding: 2%;
     text-align: justify;
 }
+
+.link_ouv:hover {
+    color: var(--preto);
+}
+
 
 .text_ouv > a:hover {
     color: var(--preto);

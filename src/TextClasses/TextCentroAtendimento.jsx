@@ -7,7 +7,9 @@ import '../Styles/CentroAtendimento.css'
 const TextCentroAtendimento = () => {
   return (
     <div className="text_cac">
-        <Link to='/'>Home</Link>
+        <div>
+            <Link to="/" className='link_cac'>Home</Link>/<Link to='/centro-atendimento' className='link_cac'>Centro de Atendimento ao Cidadão</Link>
+        </div>
 
         <h4>Centro de Atendimento ao Cidadão</h4>
 

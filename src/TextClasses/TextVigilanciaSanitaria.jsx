@@ -7,7 +7,9 @@ import '../Styles/VigilanciaSanitaria.css'
 const TextVigilanciaSanitaria = () => {
   return (
     <div className="text_visa">
-        <Link to='/sou-empresa'>Página Anterior</Link>
+        <div>
+            <Link to="/" className='link_visa'>Home</Link>/<Link to='/empreendedor' className='link_visa'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_visa'>Sou Empresa</Link>/<Link to="/vigilancia-sanitaria" className='link_visa'>Vigilância Sanitária</Link>
+        </div>
 
         <h4>Vigilância em Saúde</h4>
 

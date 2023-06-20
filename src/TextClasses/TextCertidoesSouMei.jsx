@@ -12,7 +12,9 @@ const TextCertidoesSouMei = () => {
   return (
     <Container>
 
-        <Link to="/sou-mei" className='link_cert_sou_mei'>Página Anterior</Link>
+        <div>
+            <Link to='/' className='link_cert_sou_mei'>Home</Link>/<Link to='/empreendedor' className='link_cert_sou_mei'>Espaço do empreendedor</Link>/<Link to='/sou-mei' className='link_cert_sou_mei'>Sou mei</Link>/<Link to='/certidoes-sou-mei' className='link_cert_sou_mei'>Certidões Sou Mei</Link>
+        </div>
 
         <h4 className="title_cert_sou_mei">Certidões Sou Mei</h4>
 

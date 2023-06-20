@@ -7,7 +7,9 @@ import '../Styles/Cidade.css'
 const TextCidade = () => {
   return (
     <div className='text_city'>
-        <Link to="/">Home</Link>
+      <div>
+        <Link to="/" className='link_city'>Home</Link>/<Link to='/cidade' className='link_city'>Cidade</Link>
+      </div>
 
         <h4>A Cidade</h4>
         <p>

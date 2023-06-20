@@ -9,7 +9,9 @@ const PublicacoesLegais = () => {
     <div className="publi_container">
         <div className="main_publi">
             <div className="text_publi">
-                <Link to="/">Home</Link>
+              <div>
+                <Link to="/" className='link_publi'>Home</Link>/<Link to='/publi-legais' className='link_publi'>Publicações Legais</Link>
+              </div>
 
                 <h4>Direto no banco</h4>
             </div>

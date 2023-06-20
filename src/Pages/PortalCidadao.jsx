@@ -10,7 +10,9 @@ const PortalCidadao = () => {
   return (
     <div className='port_cid_container'>
         <div className="main_port_cid">
-            <Link to='/'>Home</Link>
+          <div>
+            <Link to="/" className='link_cid'>Home</Link>/<Link to='/portal-cidadao' className='link_cid'>Portal do Cidadão</Link>
+          </div>
             <TextPortalCidadao />
         </div>
     </div>

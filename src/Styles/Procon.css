@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_procon {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_procon {
     width: 100%;
     color: var(--azul_forte);
@@ -64,6 +71,10 @@
     font-size: 1rem;
     padding: 2%;
     text-align: justify;
+}
+
+.link_procon:hover {
+    color: var(--preto);
 }
 
 .text_procon > a:hover {

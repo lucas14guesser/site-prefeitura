@@ -7,7 +7,9 @@ import '../Styles/Procon.css'
 const TextProcon = () => {
   return (
     <div className="text_procon">
-        <Link to="/">Home</Link>
+        <div>
+            <Link to="/" className='link_procon'>Home</Link>/<Link to='/procon' className='link_procon'>Procon Municipal de São José</Link>
+        </div>
 
         <h4>Procon Municipal de São José</h4>
 

@@ -11,7 +11,9 @@ import '../Styles/Transparencia.css'
 const TextTransparencia = () => {
   return (
     <div className="text_transp">
-        <Link to="/">Home</Link>   
+        <div>
+            <Link to="/" className='link_transp'>Home</Link>/<Link to='/portal-transparencia' className='link_transp'>Portal da Transparência</Link>
+        </div>  
 
         <h4>Portal da Transparência</h4>
 

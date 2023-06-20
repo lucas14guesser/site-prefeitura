@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { IoLogoWhatsapp } from 'react-icons/io'
-import { AiOutlineArrowRight } from 'react-icons/ai'
 
 import { Link } from 'react-router-dom'
 
@@ -10,8 +9,8 @@ import '../Styles/SouMei.css'
 const TextSouMei = () => {
   return (
     <div className="container_sou_mei">
-        <div className="links">
-            <Link to='/' className='link_sou_mei'>Home</Link> <AiOutlineArrowRight className='icon_sou_mei' /><Link to='/empreendedor' className='link_sou_mei'>Espaço do empreendedor</Link> <AiOutlineArrowRight className='icon_sou_mei' /> <Link to='/sou-mei' className='link_sou_mei'>Sou mei</Link>
+        <div>
+            <Link to='/' className='link_sou_mei'>Home</Link>/<Link to='/empreendedor' className='link_sou_mei'>Espaço do empreendedor</Link>/<Link to='/sou-mei' className='link_sou_mei'>Sou mei</Link>
         </div>
 
         <h4 className="title_sou_mei">Sou Mei</h4>

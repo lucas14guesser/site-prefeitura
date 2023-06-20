@@ -12,7 +12,9 @@ const TextNotaFiscalEmp = () => {
   return (
     <Container>
 
-        <Link to="/sou-empresa" className='link_nfe'>Página Anterior</Link>
+        <div>
+            <Link to="/" className='link_nfe'>Home</Link>/<Link to='/empreendedor' className='link_nfe'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_nfe'>Sou Empresa</Link>/<Link to="/nota-fiscal-emp" className='link_nfe'>Notas Fiscais</Link>
+        </div>
 
         <h4 className="title_nfe">Notas Fiscais</h4 >
 

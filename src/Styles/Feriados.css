@@ -18,6 +18,13 @@
     background: var(--gelo);
 }
 
+.link_feriado {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_feriado {
     width: 100%;
     color: var(--azul_forte);
@@ -78,7 +85,11 @@
 .table_feriado table > tbody > tr > td {
     padding: 1%;
     border: 1px solid;
-}  
+}
+
+.link_feriado:hover {
+    color: var(--preto);
+}
 
 .text_feriado > a:hover {
     color: var(--preto);

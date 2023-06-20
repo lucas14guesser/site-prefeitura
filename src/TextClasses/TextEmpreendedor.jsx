@@ -12,7 +12,9 @@ const TextEmpreendedor = () => {
   return (
     <Container>
             
-        <Link to="/" className='link_emp'>Home</Link>
+        <div>
+            <Link to="/" className='link_emp'>Home</Link>/<Link to='/empreendedor' className='link_emp'>Espaço do Empreendedor</Link>
+        </div>
 
         <h4 className="title_emp">Espaço do empreendedor</h4 >
 
@@ -82,8 +84,8 @@ const TextEmpreendedor = () => {
             </p>
         </div>
 
-        <div className="data_emp">
-            <object data="https://app.powerbi.com/view?r=eyJrIjoiYjQ3ZGRkMTMtMTNjNS00ZGUxLTg4ZDAtZDM0ZmFiOTAxMzZlIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9" type=""></object>
+        <div className="empa_emp">
+            <object empa="https://app.powerbi.com/view?r=eyJrIjoiYjQ3ZGRkMTMtMTNjNS00ZGUxLTg4ZempZDM0ZmFiOTAxMzZlIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9" type=""></object>
         </div>
     </Container>
   )

@@ -18,6 +18,13 @@
     background: var(--gelo);
 }
 
+.link_dados {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_dados {
     width: 100%;
     color: var(--azul_forte);
@@ -49,4 +56,8 @@
     text-decoration: none;
     font-size: 1.2rem;
     color: var(--azul_forte);
+}
+
+.link_dados:hover {
+    color: var(--preto);
 }

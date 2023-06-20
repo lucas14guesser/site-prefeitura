@@ -15,9 +15,8 @@
 
 .link_sou_empresa {
     text-decoration: none;
-    padding: 2%;
     font-size: .8rem;
-    margin-left: 4.3rem;
+    margin: 5px;
     color: var(--azul_forte);
 }
 

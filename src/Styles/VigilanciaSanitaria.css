@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_visa {
+    text-decoration: none;
+    font-size: .8rem;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
 .text_visa {
     width: 100%;
     color: var(--azul_forte);
@@ -82,6 +89,10 @@
 }
 
 .text_visa > a:hover {
+    color: var(--preto);
+}
+
+.link_visa:hover {
     color: var(--preto);
 }
 

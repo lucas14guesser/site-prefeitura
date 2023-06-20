@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_simbol {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_simbol {
     width: 100%;
     color: var(--azul_forte);
@@ -66,6 +73,10 @@
 
 .custom_audio {
     background: var(--azul_forte);
+}
+
+.link_simbol:hover {
+    color: var(--preto);
 }
 
 .text_simbol > a:hover {

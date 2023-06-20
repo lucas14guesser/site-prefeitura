@@ -17,12 +17,13 @@
     background: var(--gelo);
 }
 
-.main_port_cid > a {
+.link_cid {
     text-decoration: none;
-    padding: 2%;
-    color: var(--azul_forte);
+    margin: 5px;
     font-size: .8rem;
+    color: var(--azul_forte);
 }
+
 
 .text_port_cid {
     width: 100%;
@@ -46,6 +47,10 @@
     font-weight: 600;
     padding: 2%;
     text-transform: uppercase;
+}
+
+.link_cid:hover {
+    color: var(--preto);
 }
 
 .text_port_cid > p > a:hover {

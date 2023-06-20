@@ -7,7 +7,9 @@ import '../Styles/Dat.css'
 const TextDat = () => {
   return (
     <div className="text_dat">
-        <Link to="/">Home</Link>
+        <div>
+            <Link to="/" className='link_dat'>Home</Link>/<Link to='/dat' className='link_dat'>Declaração de Acidente de Trânsito - DAT</Link>
+        </div>
 
         <h4>Declaração de Acidente de Trânsito - DAT</h4>
 

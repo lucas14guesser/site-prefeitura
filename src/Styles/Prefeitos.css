@@ -18,6 +18,13 @@
     background: var(--gelo);
 }
 
+.link_pref {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .pref_text {
     color: var(--azul_forte);
 }
@@ -54,4 +61,8 @@
 
 .pref_imgs p {
     color: var(--azul_forte);
+}
+
+.link_pref:hover {
+    color: var(--preto);
 }

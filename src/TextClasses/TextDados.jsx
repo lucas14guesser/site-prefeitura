@@ -7,7 +7,9 @@ import '../Styles/Dados.css'
 const TextDados = () => {
   return (
     <div className="text_dados">
-        <Link to="/">Home</Link>
+      <div>
+        <Link to="/" className='link_dados'>Home</Link>/<Link to='/dados' className='link_dados'>São José em Dados</Link>
+      </div>
 
         <h4>São José em Dados</h4>
 

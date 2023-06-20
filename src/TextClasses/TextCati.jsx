@@ -7,7 +7,9 @@ import '../Styles/Cati.css'
 const TextCati = () => {
   return (
     <div className="text_cati">
-        <Link to="/">Home</Link>
+        <div>
+            <Link to="/" className='link_cati'>Home</Link>/<Link to='/cati' className='link_cati'>Cati</Link>
+        </div>
 
         <h4>Cati</h4>
 

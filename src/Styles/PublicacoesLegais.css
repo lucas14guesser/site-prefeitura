@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_publi {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_publi {
     width: 100%;
     color: var(--azul_forte);
@@ -40,4 +47,8 @@
     font-size: 1rem;
     padding: 2%;
     text-align: justify;
+}
+
+.link_publi:hover {
+    color: var(--preto);
 }

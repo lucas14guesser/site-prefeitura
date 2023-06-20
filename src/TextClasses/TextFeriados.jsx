@@ -7,7 +7,9 @@ import '../Styles/Feriados.css'
 const TextFeriados = () => {
   return (
     <div className="text_feriado">
-        <Link to="/">Home</Link>
+      <div>
+        <Link to="/" className='link_feriado'>Home</Link>/<Link to='/feriados' className='link_feriado'>Feriados</Link>
+      </div>
 
         <h4>Feriados Municipais</h4>
 

@@ -7,14 +7,16 @@ import '../Styles/ServicosPMSJ.css'
 const TextServicosPMSJ = () => {
   return (
     <div className="text_servSj">
-        <Link to="/">Home</Link>
+      <div>
+        <Link to="/" className='link_servSj'>Home</Link>/<Link to='/servicos-pmsj' className='link_servSj'>Carta Serviços</Link>
+      </div>
 
         <h4>Carta Serviços</h4>
 
         <h6>Links:</h6>
 
         <ul>
-        <li><a href="https://saojose.sc.gov.br/servicos-oferecidos-pmsj/">Serviços Oferecidos PMSJ</a></li>
+        <li><a href="https://saojose.sc.gov.br/servicos-ofereservSjos-pmsj/">Serviços OfereservSjos PMSJ</a></li>
         <li><a href="https://saojose.sc.gov.br/category/secretaria-de-administracao/servicos-secretaria-de-administracao/">Serviços Administração</a></li>
         <li><a href="https://saojose.sc.gov.br/category/secretaria-de-assistencia-social/servicos-assistencia/">Serviços Assistência</a></li>
         <li><a href="https://saojose.sc.gov.br/category/secretaria-executiva-de-comunicacao-social/servicos-secretaria-executiva-de-comunicacao-social/">Serviços Comunicação</a></li>

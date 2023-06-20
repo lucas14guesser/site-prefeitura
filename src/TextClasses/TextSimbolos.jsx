@@ -7,7 +7,9 @@ import '../Styles/Simbolos.css'
 const TextSimbolos = () => {
   return (
     <div className="text_simbol">
-        <Link to="/">Home</Link>
+      <div>
+        <Link to="/" className='link_simbol'>Home</Link>/<Link to='/simbol' className='link_simbol'>Símbolos do Município</Link>
+      </div>
 
         <h4>Símbolos do Município</h4>
 

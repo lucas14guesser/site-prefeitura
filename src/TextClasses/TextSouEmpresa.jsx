@@ -9,7 +9,9 @@ import '../Styles/SouEmpresa.css'
 const TextSouEmpresa = () => {
   return (
     <div className="container_sou_empresa">
-        <Link to='/empreendedor' className='link_sou_empresa'>Página Anterior</Link>
+        <div>
+            <Link to="/" className='link_sou_empresa'>Home</Link>/<Link to='/empreendedor' className='link_sou_empresa'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_sou_empresa'>Sou Empresa</Link>
+        </div>
 
         <h4 className="title_sou_empresa">Sou empresa</h4>
 

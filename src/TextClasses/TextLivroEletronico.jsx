@@ -7,7 +7,9 @@ import '../Styles/LivroEletronico.css'
 const TextLivroEletronico = () => {
   return (
     <div className="text_livro">
-        <Link to="/sou-empresa">Página Anterior</Link>
+        <div>
+            <Link to="/" className='link_livro'>Home</Link>/<Link to='/empreendedor' className='link_livro'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_livro'>Sou Empresa</Link>/<Link to="/livro-eletronico" className='link_livro'>Livro Eletrônico</Link>
+        </div>
 
         <h4>Livro Eletrônico</h4>
 

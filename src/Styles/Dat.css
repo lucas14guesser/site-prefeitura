@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_dat {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_dat {
     width: 100%;
     color: var(--azul_forte);
@@ -58,6 +65,10 @@
 .text_dat > img {
     margin-bottom: 2rem;
     padding: 2%;
+}
+
+.link_dat:hover {
+    color: var(--preto);
 }
 
 .text_dat > a:hover {

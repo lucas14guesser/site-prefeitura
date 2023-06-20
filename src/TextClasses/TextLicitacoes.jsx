@@ -7,7 +7,9 @@ import '../Styles/Licitacoes.css'
 const TextLicitacoes = () => {
   return (
     <div className="text_licitacao">
-        <Link to="/">Home</Link>
+        <div>
+            <Link to="/" className='link_licitacao'>Home</Link>/<Link to='/licitacoes' className='link_licitacao'>Licitações</Link>
+        </div>
 
         <h4>Licitações</h4>
 

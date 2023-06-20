@@ -9,9 +9,8 @@
 
 .link_emp {
     text-decoration: none;
-    padding: 2%;
+    margin: 5px;
     font-size: .8rem;
-    margin-left: 3.3rem;
     color: var(--azul_forte);
 }
 

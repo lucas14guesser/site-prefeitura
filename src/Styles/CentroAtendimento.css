@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_cac {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_cac {
     width: 100%;
     color: var(--azul_forte);
@@ -51,6 +58,10 @@
 .text_cac ul > li > a {
     color: var(--azul_forte);
     text-decoration: none;
+}
+
+.link_cac:hover {
+    color: var(--preto);
 }
 
 .text_cac > a:hover {

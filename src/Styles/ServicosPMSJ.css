@@ -17,6 +17,13 @@
     background: var(--gelo);
 }
 
+.link_servSj {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
 .text_servSj {
     width: 100%;
     color: var(--azul_forte);
@@ -53,6 +60,11 @@
     list-style: none;
     margin-bottom: 2rem;
 }
+
+.link_servSj:hover {
+    color: var(--preto);
+}
+
 
 .text_servSj > ul > li > a:hover {
     color: var(--preto);
