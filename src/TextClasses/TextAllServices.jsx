@@ -1,14 +1,17 @@
 import React from 'react'
+import { useState } from 'react';
 
 import {Container} from "react-bootstrap";
 
 import '../Styles/GridService.css'
 
 const TextAllServices = () => {
+
   return (
     <>
     <div className="background_grid_service">
         <Container>
+
             <h1 className="title_grid_service">
                 Todos os Serviços Disponíveis
             </h1>
