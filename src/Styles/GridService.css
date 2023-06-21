@@ -59,8 +59,13 @@
 
 .search_box_service_grid > input {
     height: 40px;
-    border-width: 1px;
+    border-width: 1.5px;
+    padding: 5px;
     border-color: var(--azul_forte);
+}
+
+.search_box_service_grid input::placeholder {
+    color: var(--azul_forte);
 }
 
 .link_service_grid:hover {
