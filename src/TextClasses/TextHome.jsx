@@ -19,10 +19,10 @@ const TextHome = () => {
         <div>
             <GridServicesSec />
         </div>
-        <div className="news_container">
+        <div>
             <News/>
         </div>
-        <div className="news_sec_container">
+        <div>
             <NewsSec />
         </div>
   </div>

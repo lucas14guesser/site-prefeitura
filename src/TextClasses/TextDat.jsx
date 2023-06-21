@@ -3,10 +3,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../Styles/Dat.css'
+import { Container } from 'react-bootstrap'
 
 const TextDat = () => {
   return (
-    <div className="text_dat">
+    <Container>
+        <div className="text_dat">
         <div>
             <Link to="/" className='link_dat'>Home</Link>/<Link to='/dat' className='link_dat'>Declaração de Acidente de Trânsito - DAT</Link>
         </div>
@@ -83,6 +85,7 @@ const TextDat = () => {
             <a href="https://saojose.sc.gov.br/wp-content/uploads/2022/11/PASSO-A-PASSO-E-DUVIDAS-FREQUENTES-DAT-GMSJ.pdf" target='_blank'>Passo a passo e dúvidas frequentes – DAT GMSJ (acesse aqui)</a>
         </p>
     </div>
+    </Container>
   )
 }
 

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import {Container} from "react-bootstrap";
 
 import '../Styles/GridService.css'
+import { Link } from 'react-router-dom';
 
 const TextAllServices = () => {
 
@@ -11,7 +12,7 @@ const TextAllServices = () => {
     <>
     <div className="background_grid_service">
         <Container>
-
+            <Link to='/' className='link_service_grid'>Home</Link>/<Link to='/todos-os-servicos' className='link_service_grid'>Todos os Serviços Disponíveis</Link>
             <h1 className="title_grid_service">
                 Todos os Serviços Disponíveis
             </h1>

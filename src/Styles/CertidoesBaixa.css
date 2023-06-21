@@ -4,9 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding-bottom: 1rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
 }
 
 .main_cert_baixa {
@@ -15,6 +14,13 @@
     border-radius: 10px;
     width: 50%;
     background: var(--gelo);
+}
+
+.link_cert_baixa {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
 }
 
 .text_cert_baixa {
@@ -50,6 +56,10 @@
 .text_cert_baixa > p > ul > li > a {
     text-decoration: none;
     color: var(--azul_forte);
+}
+
+.link_baixa:hover {
+    color: var(--preto);
 }
 
 .text_cert_baixa > a:hover {

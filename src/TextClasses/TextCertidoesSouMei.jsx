@@ -11,7 +11,6 @@ import '../Styles/CertidoesSouMei.css'
 const TextCertidoesSouMei = () => {
   return (
     <Container>
-
         <div>
             <Link to='/' className='link_cert_sou_mei'>Home</Link>/<Link to='/empreendedor' className='link_cert_sou_mei'>Espaço do empreendedor</Link>/<Link to='/sou-mei' className='link_cert_sou_mei'>Sou mei</Link>/<Link to='/certidoes-sou-mei' className='link_cert_sou_mei'>Certidões Sou Mei</Link>
         </div>

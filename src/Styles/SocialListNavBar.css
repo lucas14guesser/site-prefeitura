@@ -1,7 +1,6 @@
 @import './Root.css';
 
 .social_media_nav {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: end;

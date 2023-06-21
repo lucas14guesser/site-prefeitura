@@ -3,8 +3,7 @@
 .main_nf{
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
-    padding-bottom: 4rem;
-    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .link_nf {
@@ -18,7 +17,7 @@
     background-color: var(--gelo);
     width: 10rem;
     height: 10rem;
-    margin: 2rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
     color: var(--azul_forte);
     text-decoration: none;
@@ -47,9 +46,8 @@
     font-weight: 500;
     font-size: 2rem;
     width: 100%;
-    padding: 2%;
+    padding-bottom: 2%;
     padding-top: 4%;
-    padding-left: 6%;
     color: var(--azul_forte);
 }
 

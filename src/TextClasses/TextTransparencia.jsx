@@ -7,10 +7,12 @@ import OuvidoriaLinkButton from '../LinkButtons/OuvidoriaLinkButton'
 import DiOficialLinkButton from '../LinkButtons/DiOficialLinkButton'
 
 import '../Styles/Transparencia.css'
+import { Container } from 'react-bootstrap'
 
 const TextTransparencia = () => {
   return (
-    <div className="text_transp">
+    <Container>
+        <div className="text_transp">
         <div>
             <Link to="/" className='link_transp'>Home</Link>/<Link to='/portal-transparencia' className='link_transp'>Portal da Transparência</Link>
         </div>  
@@ -64,6 +66,7 @@ const TextTransparencia = () => {
             </ul>               
         </p>
     </div>
+    </Container>
   )
 }
 

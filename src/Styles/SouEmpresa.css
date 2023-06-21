@@ -1,16 +1,9 @@
 @import './Root.css';
 
-.container_sou_empresa {
-    max-width: 900px;
-    margin-left: 20rem;
-    margin-right: 20rem;
-}
-
 .main_sou_empresa{
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
-    padding-bottom: 4rem;
-    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .link_sou_empresa {
@@ -24,7 +17,7 @@
     background-color: var(--gelo);
     width: 10rem;
     height: 10rem;
-    margin: 2rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
     color: var(--azul_forte);
     text-decoration: none;
@@ -53,10 +46,8 @@
     font-weight: 500;
     font-size: 2rem;
     width: 100%;
-    padding: 2%;
+    padding-bottom: 2%;
     padding-top: 4%;
-    padding-left: 6%;
-    margin-left: 2rem;
     color: var(--azul_forte);
 }
 

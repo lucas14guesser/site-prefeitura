@@ -1,14 +1,8 @@
-import { Nav } from 'react-bootstrap';
-
-import '../../Styles/NavBar2.css'
-
-
+import TextTransparenciaComponent from "../../TextClasses/TextTransparenciaComponent"
 
 const TransparenciaComponent = () => {
   return (
-    <Nav.Item>
-        <Nav.Link href='/portal-transparencia' eventKey="link-2" className='indent_font'>Transparência</Nav.Link>
-    </Nav.Item>
+    <TextTransparenciaComponent />
   )
 }
 

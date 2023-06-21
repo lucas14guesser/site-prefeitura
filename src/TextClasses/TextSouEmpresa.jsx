@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom'
 import { IoLogoWhatsapp } from 'react-icons/io'
 
 import '../Styles/SouEmpresa.css'
+import { Container } from 'react-bootstrap'
 
 const TextSouEmpresa = () => {
   return (
-    <div className="container_sou_empresa">
+    <Container>
         <div>
             <Link to="/" className='link_sou_empresa'>Home</Link>/<Link to='/empreendedor' className='link_sou_empresa'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_sou_empresa'>Sou Empresa</Link>
         </div>
@@ -57,9 +58,9 @@ const TextSouEmpresa = () => {
                 <small>Abertura de Processo na Jucesc</small>
             </a>
         </div>
-        
+            
         <p className='wpp_sou_empresa'><a href="https://api.whatsapp.com/send/?phone=554884828630&text=Ol%C3%A1%2C+tenho+d%C3%BAvidas+em+rela%C3%A7%C3%A3o+ao+espa%C3%A7o+do+empreendedor&type=phone_number&app_absent=0" target='_blank'><IoLogoWhatsapp/> Entre em contato via WhatsApp</a></p>
-    </div>
+    </Container>
   )
 }
 

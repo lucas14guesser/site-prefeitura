@@ -10,8 +10,7 @@ import '../Styles/Empreendedor.css'
 
 const TextEmpreendedor = () => {
   return (
-    <Container>
-            
+    <Container>            
         <div>
             <Link to="/" className='link_emp'>Home</Link>/<Link to='/empreendedor' className='link_emp'>Espaço do Empreendedor</Link>
         </div>

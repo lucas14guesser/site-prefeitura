@@ -1,15 +1,10 @@
-import {  Nav } from 'react-bootstrap';
+import TextCartaServicoComponent from "../../TextClasses/TextCartaServicoComponent"
 
-import '../../Styles/NavBar2.css'
 
 const CartaServicoComponent = () => {
 
   return (
-    <>
-      <Nav.Item>
-          <Nav.Link href='/servicos-pmsj' eventKey="link-2" className='indent_font'>Carta Serviços</Nav.Link>
-      </Nav.Item>
-    </>
+    <TextCartaServicoComponent />
   )
 }
 export default CartaServicoComponent

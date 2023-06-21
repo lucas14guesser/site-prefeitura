@@ -3,10 +3,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../Styles/Licitacoes.css'
+import { Container } from 'react-bootstrap'
 
 const TextLicitacoes = () => {
   return (
-    <div className="text_licitacao">
+    <Container>
+        <div className="text_licitacao">
         <div>
             <Link to="/" className='link_licitacao'>Home</Link>/<Link to='/licitacoes' className='link_licitacao'>Licitações</Link>
         </div>
@@ -66,6 +68,7 @@ const TextLicitacoes = () => {
             </p>
         </div>
     </div>
+    </Container>
   )
 }
 

@@ -4,21 +4,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    margin-top: 4rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     background-color: var(--gelo);
-    margin-bottom: 4rem;
 }
 
 .carousel_moviment {
-    width: 1150px;
+    width: 1300px;
 }
 
 .carousel_img {
-    min-width: 1150px;
-    max-width: 1150px;
-    min-height: 300px;
-    max-height: 300px;
+    min-width: 1300px;
+    max-width: 1300px;
+    min-height: 350px;
+    max-height: 350px;
 }
 
 .carousel-control-next {
@@ -37,9 +37,4 @@
 .carousel-control-prev-icon {
     position: absolute;
     left: 0%;
-}
-
-.carousel-indicators {
-    width: 0;
-    height: 0;
 }

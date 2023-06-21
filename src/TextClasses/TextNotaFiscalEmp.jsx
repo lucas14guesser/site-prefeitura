@@ -11,7 +11,6 @@ import '../Styles/NotaFiscalEmp.css'
 const TextNotaFiscalEmp = () => {
   return (
     <Container>
-
         <div>
             <Link to="/" className='link_nfe'>Home</Link>/<Link to='/empreendedor' className='link_nfe'>Espaço do Empreendedor</Link>/<Link to='/sou-empresa' className='link_nfe'>Sou Empresa</Link>/<Link to="/nota-fiscal-emp" className='link_nfe'>Notas Fiscais</Link>
         </div>
