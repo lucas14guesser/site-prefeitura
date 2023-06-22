@@ -87,11 +87,6 @@ const TextAllServices = () => {
             externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-da-ficha-financeira/detalhar/1"
         },
         {
-            title: "Emissão da Certidão CND",
-            imageSrc: "../img/icons/emissaoCnd.png",
-            externalLink: "https://saojose.atende.net/autoatendimento/servicos/certidao-negativa-de-debitos"
-        },
-        {
             title: "Espelho Cadastral IPTU",
             imageSrc: "../img/icons/iptu.png",
             externalLink: "https://saojose.atende.net/autoatendimento/servicos/ficha-cadastral-do-imovel"
@@ -110,31 +105,6 @@ const TextAllServices = () => {
             title: "Sistema Fiscal Web",
             imageSrc: "../img/icons/sistemaFiscal.png",
             externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/acesso-ao-sistema-fiscal-web-novo"
-        },
-        {
-            title: "Emissão de Alvará",
-            imageSrc: "../img/icons/emissaoAlvara.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/impressao-do-alvara"
-        },
-        {
-            title: "Alterar Senha de Acesso",
-            imageSrc: "../img/icons/alterarSenha.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/alterar-senha-de-acesso"
-        },
-        {
-            title: "Autenticidade de Documentos",
-            imageSrc: "../img/icons/autenticidadeDocs.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/autenticidade-de-documentos-e-relatorios"
-        },
-        {
-            title: "Certidão de Baixa de Empresa",
-            imageSrc: "../img/icons/empresa.png",
-            externalLink: "https://saojose.atende.net/autoatendimento/servicos/certidao-de-baixa-da-inscricao-municipal"
-        },
-        {
-            title: "Autenticidade e Consulta da CND",
-            imageSrc: "../img/icons/cnd.png",
-            externalLink: "https://saojose.atende.net/autoatendimento/servicos/autenticidade-de-certidao-negativa-de-debitos"
         },
         {
             title: "Consulta a Ouvidoria",
@@ -167,34 +137,14 @@ const TextAllServices = () => {
             externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/extrato-de-pagamentos"
         },
         {
-            title: "Ficha Financeira",
-            imageSrc: "../img/icons/fichaFinanceira.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-da-ficha-financeira/detalhar/1"
-        },
-        {
             title: "Emissão da Certidão CND",
             imageSrc: "../img/icons/emissaoCnd.png",
             externalLink: "https://saojose.atende.net/autoatendimento/servicos/certidao-negativa-de-debitos"
         },
         {
-            title: "Espelho Cadastral IPTU",
-            imageSrc: "../img/icons/iptu.png",
-            externalLink: "https://saojose.atende.net/autoatendimento/servicos/ficha-cadastral-do-imovel"
-        },
-        {
-            title: "Ouvidoria Municipal",
-            imageSrc: "../img/icons/ouvidoria.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/ouvidoria-municipal"
-        },
-        {
             title: "Atendimento Plantão Fiscal",
             imageSrc: "../img/icons/plantaoFiscal.png",
             externalLink: "https://saojose.atende.net/autoatendimento/servicos/e-atendimento-plantao-fiscal"
-        },
-        {
-            title: "Sistema Fiscal Web",
-            imageSrc: "../img/icons/sistemaFiscal.png",
-            externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/acesso-ao-sistema-fiscal-web-novo"
         },
         {
             title: "Emissão de Alvará",

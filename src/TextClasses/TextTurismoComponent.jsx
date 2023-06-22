@@ -20,9 +20,9 @@ const TextTurismoComponent = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Nav.Link href="#">Iniciativas Turismo</Nav.Link>
-      <Nav.Link href="#">Pontos Turísticos</Nav.Link>
-      <Nav.Link href="#">Feira Freguesia</Nav.Link>
+      <Nav.Link href="/construcao">Iniciativas Turismo</Nav.Link>
+      <Nav.Link href="/construcao">Pontos Turísticos</Nav.Link>
+      <Nav.Link href="/construcao">Feira Freguesia</Nav.Link>
     </NavDropdown>
   )
 }

@@ -1,0 +1,19 @@
+@import './Root.css';
+
+.main_construcao {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title_construcao {
+    color: var(--azul_forte);
+}
+
+.subtitle_construcao {
+    color: var(--azul_forte);
+}
+
+.img_construcao {
+    width: 500px;
+}

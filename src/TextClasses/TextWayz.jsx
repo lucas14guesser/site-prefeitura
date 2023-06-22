@@ -34,6 +34,7 @@ import LivroEletronico from "../Pages/LivroEletronico";
 import VigilanciaSanitaria from "../Pages/VigilanciaSanitaria";
 import NotaFiscalEmp from "../Pages/NotaFiscalEmp";
 import AllServices from "../Pages/AllServices";
+import Construcao from '../Pages/Construcao';
 
 const TextWayz = () => {
   return (
@@ -127,6 +128,9 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/todos-os-servicos" element={<AllServices />} />
+      </Routes>
+      <Routes>
+        <Route path="/construcao" element={<Construcao />} />
       </Routes>
       <Footer />
       <FooterLocal />
