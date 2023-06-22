@@ -1,0 +1,89 @@
+@import './Root.css';
+
+.consig_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_consig {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_consig {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_consig {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_consig > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_consig > h5{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_consig > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_consig > p > a {
+    color: var(--azul_forte);
+}
+
+.text_consig > ul > li {
+    margin-bottom: 5px;
+}
+
+.text_consig > ul > li > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.boxes_consig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 2rem;
+}
+
+.boxes_consig > img {
+    width: 700px;
+}
+
+.link_consig:hover {
+    color: var(--preto);
+}
+
+.text_consig > a:hover {
+    color: var(--preto);
+}
+
+.text_consig > p > a:hover {
+    color: var(--preto);
+}
+
+.text_consig > ul > li > a:hover {
+    color: var(--preto)
+}

@@ -2,8 +2,9 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import '../Styles/Cati.css'
 import { Container } from 'react-bootstrap'
+
+import '../Styles/Cati.css'
 
 const TextCati = () => {
   return (

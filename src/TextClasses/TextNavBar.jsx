@@ -11,8 +11,8 @@ const TextNavBar = () => {
     <div className='navbar_main'>
       <Navbar>
         <Nav>
-          <a href="">Intranet</a>
-          <a href="">Portal do Servidor</a>
+          <a href="https://Intradis.pmsj.sc.gov.br/inicio">Intranet</a>
+          <a href="/portal-servidor">Portal do Servidor</a>
           <a href="https://email.fecam.org.br/" target='_blank'>Webmail</a>
           <a href="https://saojose.atende.net/autoatendimento" target='_blank'>Autoatendimento</a>
         </Nav> 

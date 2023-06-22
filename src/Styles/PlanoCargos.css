@@ -1,0 +1,76 @@
+@import './Root.css';
+
+.pl_carg_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_pl_carg {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_pl_carg {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_pl_carg {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_pl_carg > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_pl_carg > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_pl_carg > p > a {
+    color: var(--azul_forte);
+}
+
+.text_pl_carg > ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.text_pl_carg > ul > li {
+    margin-bottom: 5px;
+}
+
+.text_pl_carg > ul > li > a {
+    color: var(--azul_forte);
+}
+
+.link_pl_carg:hover {
+    color: var(--preto);
+}
+
+.text_pl_carg > a:hover {
+    color: var(--preto);
+}
+
+.text_pl_carg > p > a:hover {
+    color: var(--preto);
+}
+
+.text_pl_carg > ul > li > a:hover {
+    color: var(--preto)
+}

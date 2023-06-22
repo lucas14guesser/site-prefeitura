@@ -1,0 +1,71 @@
+@import './Root.css';
+
+.legis_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_legis {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_legis {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_legis {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_legis > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_legis > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_legis > p > a {
+    color: var(--azul_forte);
+}
+
+.text_legis > ul > li {
+    margin-bottom: 5px;
+}
+
+.text_legis > ul > li > a {
+    color: var(--azul_forte);
+}
+
+.link_legis:hover {
+    color: var(--preto);
+}
+
+.text_legis > a:hover {
+    color: var(--preto);
+}
+
+.text_legis > p > a:hover {
+    color: var(--preto);
+}
+
+.text_legis > ul > li > a:hover {
+    color: var(--preto)
+}

@@ -1,0 +1,70 @@
+@import './Root.css';
+
+.ava_desemp_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_ava_desemp {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_ava_desemp {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_ava_desemp {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_ava_desemp > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_ava_desemp > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_ava_desemp > p > a {
+    color: var(--azul_forte);
+}
+
+.text_ava_desemp > ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.text_ava_desemp > ul > li {
+    margin-bottom: 5px;
+}
+
+.text_ava_desemp > ul > li > a {
+    text-decoration: underline;
+    color: var(--azul_forte);
+}
+
+.link_ava_desemp:hover {
+    color: var(--preto);
+}
+
+
+.text_ava_desemp > ul > li > a:hover {
+    color: var(--preto)
+}

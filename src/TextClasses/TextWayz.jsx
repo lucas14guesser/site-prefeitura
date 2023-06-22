@@ -35,6 +35,16 @@ import VigilanciaSanitaria from "../Pages/VigilanciaSanitaria";
 import NotaFiscalEmp from "../Pages/NotaFiscalEmp";
 import AllServices from "../Pages/AllServices";
 import Construcao from '../Pages/Construcao';
+import PortalServidor from '../Pages/PortalServidor';
+import Legislacao from '../Pages/Legislacao';
+import ContraCheque from '../Pages/ContraCheque';
+import EspelhoPonto from '../Pages/EspelhoPonto';
+import AvaliacaoDesempenhoServ from '../Pages/AvaliacaoDesempenhoServ';
+import Consignados from '../Pages/Consignados';
+import NormasPatrimonio from '../Pages/NormasPatrimonio';
+import SjPrev from '../Pages/SjPrev';
+import PlanoCargos from '../Pages/PlanoCargos';
+import PlanoSaúde from '../Pages/PlanoSaúde';
 
 const TextWayz = () => {
   return (
@@ -131,6 +141,36 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/construcao" element={<Construcao />} />
+      </Routes>
+      <Routes>
+        <Route path="/portal-servidor" element={<PortalServidor />} />
+      </Routes>
+      <Routes>
+        <Route path="/legislacao" element={<Legislacao />} />
+      </Routes>
+      <Routes>
+        <Route path="/contra-cheque" element={<ContraCheque />} />
+      </Routes>
+      <Routes>
+        <Route path="/espelho-ponto" element={<EspelhoPonto />} />
+      </Routes>
+      <Routes>
+        <Route path="/avaliacao-de-desempenho-de-servidores" element={<AvaliacaoDesempenhoServ />} />
+      </Routes>
+      <Routes>
+        <Route path="/consignados" element={<Consignados />} />
+      </Routes>
+      <Routes>
+        <Route path="/normas-do-patrimonio" element={<NormasPatrimonio />} />
+      </Routes>
+      <Routes>
+        <Route path="/sjprev-2" element={<SjPrev />} />
+      </Routes>
+      <Routes>
+        <Route path="/plano-de-cargos" element={<PlanoCargos />} />
+      </Routes>
+      <Routes>
+        <Route path="/plano-de-saude" element={<PlanoSaúde />} />
       </Routes>
       <Footer />
       <FooterLocal />

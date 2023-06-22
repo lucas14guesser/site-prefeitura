@@ -1,0 +1,94 @@
+@import './Root.css';
+
+.esp_pont_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_esp_pont {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_esp_pont {
+    text-decoration: none;
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_esp_pont {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_esp_pont > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_esp_pont > h5{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_esp_pont > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_esp_pont > p > a {
+    color: var(--azul_forte);
+}
+
+.ident_img_esp_pont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.ident_access_esp_pont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.ident_access_esp_pont > h5 > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.link_esp_pont:hover {
+    color: var(--preto);
+}
+
+.text_esp_pont > a:hover {
+    color: var(--preto);
+}
+
+.text_esp_pont > p > a:hover {
+    color: var(--preto);
+}
+
+.text_esp_pont > ul > li > a:hover {
+    color: var(--preto)
+}
+
+.ident_access_esp_pont > h5 > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
