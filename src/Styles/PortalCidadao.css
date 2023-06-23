@@ -18,16 +18,19 @@
 }
 
 .link_cid {
+    display: flex;
+    justify-content: start;
+}
+
+.link_cid > a {
     text-decoration: none;
     margin: 5px;
-    font-size: .8rem;
     color: var(--azul_forte);
 }
 
 
 .text_port_cid {
     width: 100%;
-    padding: 2%;
     color: var(--azul_forte);
     text-align: center;
 }

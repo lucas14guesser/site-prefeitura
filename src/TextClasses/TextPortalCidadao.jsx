@@ -14,8 +14,9 @@ const TextPortalCidadao = () => {
         <div className="main_port_cid">
           <Container>
             <div className="text_port_cid">
-              <Link to="/" className='link_cid'>Home</Link>/<Link to='/portal-cidadao' className='link_cid'>Portal do Cidadão</Link>
-
+              <div className="link_cid">
+                <Link to="/">Home</Link>/<Link to='/portal-cidadao'>Portal do Cidadão</Link>
+              </div>
               <h4>Portal do Cidadão</h4>
 
               <p>

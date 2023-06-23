@@ -3,8 +3,6 @@ import { useState } from 'react';
 
 import {Container} from "react-bootstrap";
 
-import { AiOutlineSearch } from 'react-icons/ai'
-
 import '../Styles/GridService.css'
 import { Link } from 'react-router-dom';
 
@@ -17,35 +15,6 @@ const TextAllServices = () => {
 
     const items = [
 
-          {
-            title: "DAT - Acidente de Trânsito",
-            imageSrc:"../img/icons/dat.png"
-          },
-          {
-            title: "Cati",
-            imageSrc: "../img/icons/cati.png",
-          },
-          {
-            title: "Vacinação",
-            imageSrc: "../img/icons/vacina.png",
-          },
-          {
-            title: "Serviço para o Cidadão",
-            imageSrc: "../img/icons/cidadao.png",
-          },
-          {
-            title: "Receita Online",
-            imageSrc: "../img/icons/receita.png",
-          },
-          {
-            title: "Espaço do Empreendedor",
-            imageSrc: "../img/icons/empreendedor.png",
-          },
-          {
-            title: "São José + Empregos",
-            imageSrc: "../img/icons/emprego.png",
-            externalLink: "https://saojosemaisempregos.santacatarinapelaeducacao.com.br/oportunidades",
-          },
           {
             title: "Emissão Guias de IPTU",
             imageSrc: "../img/icons/iptu.png",
@@ -602,7 +571,7 @@ const TextAllServices = () => {
             key={index}
             href={item.externalLink || "#"}
             className="item_service_grid_sec"
-            target={item.externalLink ? "_blank" : ""}
+            target={item.externalLink ? '_blank' : ''}
           >
             <img src={item.imageSrc} alt={item.title} />
             <small>{item.title}</small>
