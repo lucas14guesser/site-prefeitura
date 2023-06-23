@@ -31,7 +31,6 @@
 
 .text_publi > a {
     text-decoration: none;
-    padding: 2%;
     font-size: .8rem;
     color: var(--azul_forte);
 }

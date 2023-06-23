@@ -83,8 +83,8 @@ const TextEmpreendedor = () => {
             </p>
         </div>
 
-        <div className="empa_emp">
-            <object empa="https://app.powerbi.com/view?r=eyJrIjoiYjQ3ZGRkMTMtMTNjNS00ZGUxLTg4ZempZDM0ZmFiOTAxMzZlIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9" type=""></object>
+        <div className="data_emp">
+            <object data="https://app.powerbi.com/view?r=eyJrIjoiZWE0Y2U3NDUtM2ZkMy00M2E4LWIwYjMtNTEwZjI1ZDJiNGRkIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9"></object>
         </div>
     </Container>
   )

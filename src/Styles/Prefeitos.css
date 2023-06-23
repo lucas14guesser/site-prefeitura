@@ -36,7 +36,6 @@
 
 .pref_text > a {
     text-decoration: none;
-    padding: 2%;
     color: var(--azul_forte);
     font-size: .8rem;
 }

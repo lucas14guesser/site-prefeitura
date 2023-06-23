@@ -35,13 +35,6 @@
     padding: 2%;
 }
 
-.text_visa > a {
-    text-decoration: none;
-    padding: 2%;
-    font-size: .8rem;
-    color: var(--azul_forte);
-}
-
 .text_visa > h4{
     font-size: 2rem;
     font-weight: 600;
@@ -86,10 +79,6 @@
 .text_visa > ul > li > a {
     text-decoration: none;
     color: var(--azul_forte);
-}
-
-.text_visa > a:hover {
-    color: var(--preto);
 }
 
 .link_visa:hover {

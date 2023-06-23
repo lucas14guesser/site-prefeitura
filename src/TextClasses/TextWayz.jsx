@@ -44,7 +44,7 @@ import Consignados from '../Pages/Consignados';
 import NormasPatrimonio from '../Pages/NormasPatrimonio';
 import SjPrev from '../Pages/SjPrev';
 import PlanoCargos from '../Pages/PlanoCargos';
-import PlanoSaúde from '../Pages/PlanoSaúde';
+import PlanoSaude from '../Pages/PlanoSaude';
 
 const TextWayz = () => {
   return (
@@ -170,7 +170,7 @@ const TextWayz = () => {
         <Route path="/plano-de-cargos" element={<PlanoCargos />} />
       </Routes>
       <Routes>
-        <Route path="/plano-de-saude" element={<PlanoSaúde />} />
+        <Route path="/plano-de-saude" element={<PlanoSaude />} />
       </Routes>
       <Footer />
       <FooterLocal />

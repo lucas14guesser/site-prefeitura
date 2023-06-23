@@ -30,13 +30,6 @@
     color: var(--azul_forte);
 }
 
-.text_transp > a {
-    text-decoration: none;
-    padding: 2%;
-    font-size: .8rem;
-    color: var(--azul_forte);
-}
-
 .text_transp > ul {
     list-style: none;
     text-align: center;
@@ -79,10 +72,6 @@
 }
 
 .link_transp:hover {
-    color: var(--preto);
-}
-
-.text_transp > a:hover {
     color: var(--preto);
 }
 
