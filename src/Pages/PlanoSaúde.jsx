@@ -11,15 +11,288 @@ import '../Styles/PlanoSaude.css';
 const PlanoSaúde = () => {
   const [showContent1, setShowContent1] = useState(false);
   const [showContent2, setShowContent2] = useState(false);
+  const [showContent3, setShowContent3] = useState(false);
+  const [showContent4, setShowContent4] = useState(false);
+  const [showContent5, setShowContent5] = useState(false);
+  const [showContent6, setShowContent6] = useState(false);
+  const [showContent7, setShowContent7] = useState(false);
+  const [showContent8, setShowContent8] = useState(false);
+  const [showContent9, setShowContent9] = useState(false);
+  const [showContent10, setShowContent10] = useState(false);
+  const [showContent11, setShowContent11] = useState(false);
+  const [showContent12, setShowContent12] = useState(false);
+  const [showContent13, setShowContent13] = useState(false);
+  const [showContent14, setShowContent14] = useState(false);
+  const [showContent15, setShowContent15] = useState(false);
 
   const toggleContent = () => {
     setShowContent1(!showContent1);
     setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
   };
 
   const toggleContent2 = () => {
     setShowContent2(!showContent2);
     setShowContent1(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+  
+  const toggleContent3 = () => {
+    setShowContent3(!showContent3);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent4 = () => {
+    setShowContent4(!showContent4);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent5 = () => {
+    setShowContent5(!showContent5);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent6 = () => {
+    setShowContent6(!showContent6);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent7 = () => {
+    setShowContent7(!showContent7);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent8 = () => {
+    setShowContent8(!showContent8);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent9 = () => {
+    setShowContent9(!showContent9);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent10 = () => {
+    setShowContent10(!showContent10);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent11 = () => {
+    setShowContent11(!showContent11);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent12 = () => {
+    setShowContent12(!showContent12);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent13(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent13 = () => {
+    setShowContent13(!showContent13);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent14(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent14 = () => {
+    setShowContent14(!showContent14);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent15(false);
+  };
+
+  const toggleContent15 = () => {
+    setShowContent15(!showContent15);
+    setShowContent1(false);
+    setShowContent2(false);
+    setShowContent3(false);
+    setShowContent4(false);
+    setShowContent5(false);
+    setShowContent6(false);
+    setShowContent7(false);
+    setShowContent8(false);
+    setShowContent9(false);
+    setShowContent10(false);
+    setShowContent11(false);
+    setShowContent12(false);
+    setShowContent13(false);
+    setShowContent14(false);
   };
 
   return (
@@ -112,6 +385,94 @@ const PlanoSaúde = () => {
                         <li>vereadores;</li>
                         <li>inativos e pensionistas.</li>
                      </ol>
+                </div>
+                )}
+            </div>
+            <div className="ident_button_pl_sau">
+            <button className="toggle-button" onClick={toggleContent3}>
+                {showContent3 ? (
+                <>
+                Quem é Considerado(a) Dependente? <FontAwesomeIcon icon={faChevronDown} />
+                </>
+                ) : (
+                <>
+                Quem é Considerado(a) Dependente? <FontAwesomeIcon icon={faChevronRight} />
+                </>
+                )}
+                </button>
+
+                {showContent3 && (
+                <div>
+                    <p>
+                      São considerados dependentes do(a) segurado(a) titular:
+                    </p>     
+
+                     <ol>
+                        <li>cônjuge ou companheiro(a);</li>
+                        <li>filho não emancipado menor de 21 (vinte e um) anos;</li>
+                        <li>filho inválido;</li>
+                        <li>filho menor de 24 (vinte e quatro anos), desde que demonstre estar regularmente matriculado e frequentando curso de nível superior, através de comprovante original. Ao completar 24 (vinte e quatro anos) o(a) dependente filho(a) perde o benefício.;</li>
+                     </ol>
+
+                     <p>
+                        O enteado e o menor tutelado equiparam-se aos filhos, em idênticas condições, desde que não possuam recursos próprios e comprovem formalmente a sua dependência econômica do segurado titular.
+                        <br /><br />
+                        Também é assegurada a inscrição de filhos adotivos menores de 12 (doze) anos, nas mesmas condições de cobertura do adotante, inclusive com o aproveitamento dos períodos de carência já cumpridos, exceto para doenças preexistentes, desde que inscrito até 30 dias após a formalização da adoção e apresentado o respectivo termo.
+                     </p>
+                </div>
+                )}
+            </div>
+            <div className="ident_button_pl_sau">
+            <button className="toggle-button" onClick={toggleContent4}>
+                {showContent4 ? (
+                <>
+                Entrega de comprovante de matrícula e/ou atestado de frequência – dependentes com 21 a 24 anos <FontAwesomeIcon icon={faChevronDown} />
+                </>
+                ) : (
+                <>
+                Entrega de comprovante de matrícula e/ou atestado de frequência – dependentes com 21 a 24 anos <FontAwesomeIcon icon={faChevronRight} />
+                </>
+                )}
+                </button>
+
+                {showContent4 && (
+                <div>
+                    <p>
+                      Conforme artigo 8º do Decreto 4464/2015, são considerados dependentes do(a) segurado(a) titular filho(a) menor de 24 (vinte e quatro) anos, desde que demonstre estar regularmente matriculado e frequentando curso de nível superior, através de comprovante original.
+                      <br /><br />
+                      Os comprovantes de Matrícula e/ou Atestado de Frequência em Curso de Nível Superior dos dependentes do Plano Municipal de Assistência à Saúde dos Servidores Municipais/Unimed, com idade completa de 21 (vinte e um anos) e menores de 24 (vinte e quatro anos), deverão ser enviadas ao e-mail unimed@pmsj.sc.gov.br, ou entregue na Secretaria de Administração – Setor de Administração do Plano de Saúde, localizado na sede da Prefeitura Municipal de São José, sito à Avenida Acioni Souza Filho, 403 – 3º andar – Praia Comprida.
+                      <br /><br />
+                      IMPORTANTE: A apresentação do comprovante de Matrícula e/ou Atestado de Frequência em Curso de Nível Superior deverá ser SEMESTRALMENTE. Sendo que o comprovante de matrícula e/ou frequência do 1º semestre deverá ser apresentado até 10 de março e o 2º semestre até 10 de agosto, SOB PENA DE EXCLUSÃO, SEM AVISO PRÉVIO, DO(S) DEPENDENTE(S) NO 1º DIA DO MÊS SUBSEQUENTE.
+                      <br /><br />
+                      Caso seja necessária, a comunicação de exclusão de dependente (s) com idade entre 21 e 24 anos, nos casos de falta de comprovante de matrícula e/ou frequência, SERÁ VIA MENSAGEM ELETRÔNICA, cabendo ao titular do Plano de Saúde, o dever de manter os seus dados cadastrais atualizados.
+                    </p>
+                </div>
+                )}
+            </div>
+            <div className="ident_button_pl_sau">
+            <button className="toggle-button" onClick={toggleContent5}>
+                {showContent5 ? (
+                <>
+                Período para inclusões <FontAwesomeIcon icon={faChevronDown} />
+                </>
+                ) : (
+                <>
+                Período para inclusões <FontAwesomeIcon icon={faChevronRight} />
+                </>
+                )}
+                </button>
+
+                {showContent5 && (
+                <div>
+                  <p>
+                    As inclusões são realizadas do dia 01 ao dia 10 de cada mês, exceto em casos de aproveitamento de carência.
+                    <br /><br />
+                    INCLUSÃO DE TITULARES E DEPENDENTES
+                    <br /><br />
+                    Encaminhar solicitação via e-mail para: <a href="mailto:unimed@pmsj.sc.gov.br">unimed@pmsj.sc.gov.br</a> com o assunto: “INCLUSÃO PLANO DE SAÚDE – UNIMED”. Anexar todos os documentos necessários para adesão ao plano de saúde.
+                    <br /><br />
+                    Observação: Os documentos deverão ser preenchidos, assinados e enviados em arquivo digital, de preferência escaneado.
+                  </p>
                 </div>
                 )}
             </div>

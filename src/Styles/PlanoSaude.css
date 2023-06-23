@@ -66,6 +66,12 @@
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: start;
+}
+
+.ident_button_pl_sau a {
+    color: var(--azul_forte);
+    text-decoration: none;
 }
 
 .link_pl_sau:hover {
@@ -82,4 +88,9 @@
 
 .text_pl_sau > ul > li > a:hover {
     color: var(--preto)
+}
+
+.ident_button_pl_sau a:hover {
+    color: var(--preto);
+    text-decoration: underline;
 }
