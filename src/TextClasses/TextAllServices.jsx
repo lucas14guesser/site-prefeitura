@@ -17,6 +17,36 @@ const TextAllServices = () => {
     const items = [
 
           {
+            title: "DAT – Acidente de Trânsito",
+            imageSrc: "../img/icons/dat.png",
+            externalLink: "/dat",
+          },
+          {
+            title: "Cati",
+            imageSrc: "../img/icons/cati.png",
+            externalLink: "/cati",
+          },
+          {
+            title: "Serviço para o Cidadão",
+            imageSrc: "../img/icons/cidadao.png",
+            externalLink: "/portal-cidadao",
+          },
+          {
+            title: "Receita Online",
+            imageSrc: "../img/icons/receita.png",
+            externalLink: "/centro-atendimento",
+          },
+          {
+            title: "Espaço do Empreendedor",
+            imageSrc: "../img/icons/empreendedor.png",
+            externalLink: "/empreendedor",
+          },
+          {
+            title: "São José + Empregos",
+            imageSrc: "../img/icons/emprego.png",
+            externalLink: "https://saojosemaisempregos.santacatarinapelaeducacao.com.br/oportunidades",
+          },
+          {
             title: "Emissão Guias de IPTU",
             imageSrc: "../img/icons/iptu.png",
             externalLink: "https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1",
