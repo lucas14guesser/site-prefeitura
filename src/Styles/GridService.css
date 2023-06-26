@@ -58,13 +58,27 @@
 
 .search_box_service_grid > input {
     height: 40px;
-    border-width: 1.5px;
+    border-width: .3px;
     padding: 5px;
+    width: 230px;
     border-color: var(--azul_forte);
+    background: var(--gelo);
 }
 
 .search_box_service_grid input::placeholder {
     color: var(--azul_forte);
+}
+
+.link_service_grid_return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_service_grid_return > a {
+    color: var(--azul_forte);
+    text-decoration: none;
+    margin-bottom: 2rem;
 }
 
 .link_service_grid:hover {
@@ -73,6 +87,10 @@
 
 .item_service_grid:hover{
     border: 1px solid var(--azul_forte);
+}
+
+.link_service_grid_return > a:hover {
+    color: var(--preto);
 }
 
 @media (width < 425px) {

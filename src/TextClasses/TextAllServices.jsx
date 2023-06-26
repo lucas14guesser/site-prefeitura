@@ -3,8 +3,9 @@ import { useState } from 'react';
 
 import {Container} from "react-bootstrap";
 
-import '../Styles/GridService.css'
 import { Link } from 'react-router-dom';
+
+import '../Styles/GridService.css'
 
 const TextAllServices = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -546,6 +547,10 @@ const TextAllServices = () => {
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
 <>
   <div className="background_grid_service">
@@ -560,7 +565,7 @@ const TextAllServices = () => {
       <div className="search_box_service_grid">
         <input
           type="text"
-          placeholder=" Buscar serviço..."
+          placeholder=" Digite o serviço que procura..."
           value={searchTerm}
           onChange={handleSearchChange}
         />
@@ -577,6 +582,9 @@ const TextAllServices = () => {
             <small>{item.title}</small>
           </a>
         ))}
+      </div>
+      <div className="link_service_grid_return">
+        <Link to="#" onClick={scrollToTop}>Voltar ao Topo da Página</Link>
       </div>
     </Container>
   </div>
