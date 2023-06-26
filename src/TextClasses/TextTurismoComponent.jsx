@@ -12,6 +12,10 @@ const TextTurismoComponent = () => {
       setShowDropdown(false);
     };
 
+    const redirectToTurismo = () => {
+      window.location.href='/construcao'
+    }
+
   return (
     <NavDropdown
       title="Turismo"
@@ -19,6 +23,7 @@ const TextTurismoComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={redirectToTurismo}
     >
       <Nav.Link href="/construcao">Iniciativas Turismo</Nav.Link>
       <Nav.Link href="/construcao">Pontos Turísticos</Nav.Link>

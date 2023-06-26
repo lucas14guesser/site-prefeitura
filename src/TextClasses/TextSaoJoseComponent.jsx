@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavDropdown, Nav } from 'react-bootstrap';
 
-
 const TextSaoJoseComponent = () => {
         const [showDropdown, setShowDropdown] = useState(false);
       
@@ -12,6 +11,10 @@ const TextSaoJoseComponent = () => {
         const handleMouseLeave = () => {
           setShowDropdown(false);
         };
+
+        const redirectToHomePage = () => {
+          window.location.href='/';
+        }
   return (
     <NavDropdown
       title="São José"
@@ -19,6 +22,7 @@ const TextSaoJoseComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={redirectToHomePage}
     >
       <Nav.Link href="/cidade">A Cidade</Nav.Link>
       <Nav.Link href="/feriados">Feriados Municipais</Nav.Link>

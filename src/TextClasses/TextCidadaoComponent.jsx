@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { NavDropdown, Nav } from 'react-bootstrap';
 
-
-
 const TextCidadaoComponent = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
@@ -14,6 +12,10 @@ const TextCidadaoComponent = () => {
       setShowDropdown(false);
     };
 
+    const redirectToCidadao = () => {
+      window.location.href='/portal-cidadao'
+    }
+
   return (
     <NavDropdown
       title="Cidadão"
@@ -21,6 +23,7 @@ const TextCidadaoComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={redirectToCidadao}
     >
       <Nav.Link href="/portal-cidadao">Portal do Cidadão</Nav.Link>
       <Nav.Link href="https://saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital" target="_blank">Serviços ao Cidadão</Nav.Link>

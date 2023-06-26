@@ -20,11 +20,11 @@
 .link_cid {
     display: flex;
     justify-content: start;
+    gap: 5px;
 }
 
 .link_cid > a {
     text-decoration: none;
-    margin: 5px;
     color: var(--azul_forte);
 }
 
