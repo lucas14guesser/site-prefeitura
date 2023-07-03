@@ -1,14 +1,56 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { Nav } from 'react-bootstrap';
+import { Nav, NavDropdown } from 'react-bootstrap';
 
 import '../Styles/NavBar2.css'
 
 const TextTransparenciaComponent = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+  };
+
+  const redirectToTransparencia = () => {
+    window.location.href='/portal-transparencia'
+  }
+
+  const redirectToExternalLink = (e, url) => {
+    e.preventDefault()
+    if (url.startsWith('http')) {
+        window.open(url, '_blank')
+    }
+    else {
+        window.location.href = url
+    }
+}
+
   return (
-    <Nav.Item>
-        <Nav.Link href='/portal-transparencia' eventKey="link-2" className='indent_font'>Transparência</Nav.Link>
-    </Nav.Item>
+    <NavDropdown
+    title="Transparência"
+    id="dropdown-menu-transparencia"
+    show={showDropdown}
+    onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+    onClick={redirectToTransparencia}
+    >
+      <Nav.Link href='/portal-transparencia'>Portal da Transparência</Nav.Link>
+      <Nav.Link href='/ouvidoria'>Sistema Ouvidoria</Nav.Link>
+      <Nav.Link
+        href='https://www.diariomunicipal.sc.gov.br/site/'
+        target='_blank'
+        onClick={(e) =>
+        redirectToExternalLink(
+          e,
+          'https://www.diariomunicipal.sc.gov.br/site/'
+        )}
+      >
+        Diário Oficial</Nav.Link>
+    </NavDropdown>
   )
 }
 

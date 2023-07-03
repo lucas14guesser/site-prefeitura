@@ -7,7 +7,7 @@ import '../Styles/NewsLinkButton.css'
 const NewsLinkButton = () => {
   return (
     <div className='type_button'>
-        <Link to="/construcao" className="button">Todas as Notícias</Link>    
+        <Link to="/todas-as-noticias" className="button">Todas as Notícias</Link>    
     </div>
     )
 }

@@ -29,6 +29,7 @@ const TextSaoJoseComponent = () => {
       <Nav.Link href="/prefeitos">Relação de Prefeitos</Nav.Link>
       <Nav.Link href="/dados">São José em Dados</Nav.Link>
       <Nav.Link href="/simbol">Símbolos do Municípios</Nav.Link>
+      <Nav.Link href="/turismo">Turismo</Nav.Link>
     </NavDropdown>
   )
 }

@@ -45,6 +45,8 @@ import NormasPatrimonio from '../Pages/NormasPatrimonio';
 import SjPrev from '../Pages/SjPrev';
 import PlanoCargos from '../Pages/PlanoCargos';
 import PlanoSaude from '../Pages/PlanoSaude';
+import Turismo from '../Pages/Turismo'
+import AllNoticias from '../Pages/AllNoticias';
 
 const TextWayz = () => {
   return (
@@ -68,6 +70,9 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/simbol" element={<Simbolos />} />
+      </Routes>
+      <Routes>
+        <Route path="/turismo" element={<Turismo />} />
       </Routes>
       <Routes>
         <Route path="/portal-cidadao" element={<PortalCidadao />} />
@@ -138,6 +143,9 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/todos-os-servicos" element={<AllServices />} />
+      </Routes>
+      <Routes>
+        <Route path="/todas-as-noticias" element={<AllNoticias />} />
       </Routes>
       <Routes>
         <Route path="/construcao" element={<Construcao />} />

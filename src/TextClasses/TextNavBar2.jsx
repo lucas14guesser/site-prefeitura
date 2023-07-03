@@ -5,9 +5,9 @@ import {Image , Nav} from 'react-bootstrap';
 import SaoJoseComponent from '../Layout/NavBar/SaoJoseComponent';
 import CidadaoComponent from '../Layout/NavBar/CidadaoComponent';
 import EmpresaComponent from '../Layout/NavBar/EmpresaComponent';
-import TurismoComponent from '../Layout/NavBar/TurismoComponent';
-import CartaServicoComponent from '../Layout/NavBar/CartaServicoComponent';
 import TransparenciaComponent from '../Layout/NavBar/TransparenciaComponent';
+import EmpreendedorComponent from '../Layout/NavBar/EmpreendedorComponent';
+import NoticiasComponent from '../Layout/NavBar/NoticiasComponent';
 
 import '../Styles/NavBar2.css'
 
@@ -27,11 +27,11 @@ const TextNavBar2 = () => {
             {/*Empresa*/}
             <EmpresaComponent />
 
-            {/*Turismo*/}
-            <TurismoComponent />
+            {/*Espaço do Empreendedor*/}
+            <EmpreendedorComponent />
 
-            {/*Carta Serviços*/}
-            <CartaServicoComponent />
+            {/*Notícias*/}
+            <NoticiasComponent />
 
             {/*Transparência*/}
             <TransparenciaComponent />
