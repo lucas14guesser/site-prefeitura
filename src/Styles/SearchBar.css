@@ -1,0 +1,31 @@
+@import './Root.css';
+
+.search_bar input {
+    background-color: var(--branco);
+    width: 69%;
+    height: 2.5rem;
+    padding: .4rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_bar input::placeholder {
+    color: var(--azul_forte);
+    font-size: 1.1rem;
+}
+
+.search_bar button {
+    background-color: var(--branco);
+    height: 2.5rem;
+    padding: .4rem;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search_bar button:hover {
+    background-color: var(--gelo);
+}

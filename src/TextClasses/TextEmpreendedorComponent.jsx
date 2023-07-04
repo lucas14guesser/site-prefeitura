@@ -28,7 +28,7 @@ const TextEmpreendedorComponent = () => {
 
   return (
     <NavDropdown
-      title="Espaço do Empreendedor"
+      title="Empreendedor"
       id="dropdown-menu-empreendedor"
       show={showDropdown}
       onMouseEnter={handleMouseEnter}

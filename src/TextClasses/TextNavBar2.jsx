@@ -8,6 +8,7 @@ import EmpresaComponent from '../Layout/NavBar/EmpresaComponent';
 import TransparenciaComponent from '../Layout/NavBar/TransparenciaComponent';
 import EmpreendedorComponent from '../Layout/NavBar/EmpreendedorComponent';
 import NoticiasComponent from '../Layout/NavBar/NoticiasComponent';
+import SearchBar from '../Layout/NavBar/SearchBar';
 
 import '../Styles/NavBar2.css'
 
@@ -35,6 +36,9 @@ const TextNavBar2 = () => {
 
             {/*Transparência*/}
             <TransparenciaComponent />
+
+            {/*Barra de Busca*/}
+            <SearchBar />
         </Nav>  
   </div>
   )
