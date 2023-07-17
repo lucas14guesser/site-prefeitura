@@ -9,13 +9,12 @@ import '../Styles/GridService.css'
 const TextGridServices = () => {
   return (
     <>
-    <div className="background_grid_service">
         <Container>
             <h1 className="title_grid_service">
                 Serviços Atende.NET
             </h1>
             <div className="main_service_grid">
-            <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" className="item_service_grid" target="_blank">
+                <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" className="item_service_grid" target="_blank">
                     <img src="../img/icons/iptu.png"/>
                     <small>Emissão Guias de IPTU</small>
                 </a>
@@ -126,7 +125,6 @@ const TextGridServices = () => {
             </div>
             <GridServiceLinkButton />
         </Container>         
-    </div>
     </>
   )
 }

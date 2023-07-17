@@ -33,6 +33,10 @@
     margin-bottom: 15px;
 }
 
+.show {
+    padding-bottom: 0;
+}
+
 .dropdown-menu {
     padding: 0;
     background-color: var(--azul_forte);

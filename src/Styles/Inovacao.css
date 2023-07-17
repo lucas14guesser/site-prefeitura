@@ -1,0 +1,82 @@
+@import './Root.css';
+
+.inovacao_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_inovacao {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_inovacao {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_inovacao > a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_inovacao > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+    color: var(--azul_forte);
+}
+
+.text_inovacao > h6 {
+    font-weight: 600;
+    padding: 2%;
+    color: var(--azul_forte);
+}
+
+.text_inovacao p > a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--azul_forte);
+}
+
+.text_inovacao__sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text_inovacao__sec > img {
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 201.75px;
+}
+
+.text_inovacao > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.text_inovacao__sec > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.text_inovacao p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}

@@ -47,6 +47,15 @@ import PlanoCargos from '../Pages/PlanoCargos';
 import PlanoSaude from '../Pages/PlanoSaude';
 import Turismo from '../Pages/Turismo'
 import AllNoticias from '../Pages/AllNoticias';
+import Prefeito from '../Pages/Prefeito';
+import VicePrefeito from '../Pages/VicePrefeito';
+import ProcuradoriaGeral from '../Pages/ProcuradoriaGeral';
+import Administracao from '../Pages/Administracao';
+import AssistenciaSocial from '../Pages/AssistenciaSocial';
+import Cultura from '../Pages/Cultura';
+import Comunicacao from '../Pages/Comunicacao';
+import Inovacao from '../Pages/Inovacao';
+import Financas from '../Pages/Financas';
 
 const TextWayz = () => {
   return (
@@ -179,6 +188,33 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/plano-de-saude" element={<PlanoSaude />} />
+      </Routes>
+      <Routes>
+        <Route path="/prefeito" element={<Prefeito />} />
+      </Routes>
+      <Routes>
+        <Route path="/gabinete-do-vice-prefeito" element={<VicePrefeito />} />
+      </Routes>
+      <Routes>
+        <Route path="/procuradoria-geral" element={<ProcuradoriaGeral />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-administracao" element={<Administracao />} />
+      </Routes>
+      <Routes>
+        <Route path="/assistencia-social" element={<AssistenciaSocial />} />
+      </Routes>
+      <Routes>
+        <Route path="/cultura-e-turismo" element={<Cultura />} />
+      </Routes>
+      <Routes>
+        <Route path="/comunicacao-social" element={<Comunicacao />} />/
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-desenvolvimento-economico-e-inovacao" element={<Inovacao />} />
+      </Routes>
+      <Routes>
+        <Route path="secretaria-de-financas" element={<Financas />} />
       </Routes>
       <Footer />
       <FooterLocal />
