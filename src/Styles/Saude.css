@@ -1,0 +1,81 @@
+@import './Root.css';
+
+.saude_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_saude {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_saude {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_saude > a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_saude > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+    color: var(--azul_forte);
+}
+
+.text_saude > h6 {
+    font-weight: 600;
+    padding: 2%;
+    color: var(--azul_forte);
+}
+
+.text_saude p > a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--azul_forte);
+}
+
+.text_saude__sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text_saude__sec > img {
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.text_saude > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.text_saude__sec > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.text_saude p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}

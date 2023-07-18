@@ -21,17 +21,12 @@ const TextInovacao = () => {
                     <p>
                         Elaborar e coordenar a execução da política de fortalecimento das atividades econômicas, além da geração de oportunidades de trabalho e de renda, contribuindo com a melhoria da qualidade de vida da população.
                     </p>
-                    <div className="text_inovacao__sec">
-                        <img src="../img/other/rosemeri.png" alt="Foto de Roseméri Bartuckeski" />
-                        <p> <strong>Secretária Roseméri Bartuckeski</strong>
-                            Roseméri Bartucheski possui graduação em Ciências Contábeis (UFSC). Atuou como secretária de Assistência Social de São José em duas oportunidades (1998-2004 e 2017-2020) e também como secretária de Assistência Social de Florianópolis (2005-2010). Presidiu a Associação Florianopolitana de Voluntários (Aflov, 2005 – 2010) e a Fundação Catarinense de Educação Especial (2011-2017).
-                        <br /><br />
-                        Pela sua dedicação, Roseméri Bartucheski foi condecorada com as seguintes honrarias: título Embaixadora da Paz (Unipaz, 2006), Prêmio Amiga da Criança Catarinense (Associação Catarinense de Conselheiros Tutelares de Santa Catarina, em 2002) e título Amiga das Apaes (Federação das Apaes, 2016).</p>
-                    </div>
+                    
+                    <h6>Secretário adjunto Samuel João Ancelmo</h6>
                     <div className="text_inovacao__sec">
                         <img src="../img/other/samuel.png" alt="Foto de Samuel João Ancelmo" />
-                        <p> <strong>Secretário adjunto Samuel João Ancelmo</strong>
-                        Formado em Gestão Pública, Samuel João Ancelmo possui experiência na área pública. De 2005 a 2012, trabalhou como responsável pelo setor de transporte da Secretaria Municipal de Assistência Social de São José. Ainda na Prefeitura de São José atuou como assessor na Secretaria Municipal de Urbanismo e Serviços Públicos (Susp, 2016) e posteriormente na Secretaria de Desenvolvimento Econômico e Inovação (2017-2020). Samuel também exerceu a função de assessor parlamentar na Câmara de São José (2013-2015).</p>
+                        <br /><br />
+                        <p>Formado em Gestão Pública, Samuel João Ancelmo possui experiência na área pública. De 2005 a 2012, trabalhou como responsável pelo setor de transporte da Secretaria Municipal de Assistência Social de São José. Ainda na Prefeitura de São José atuou como assessor na Secretaria Municipal de Urbanismo e Serviços Públicos (Susp, 2016) e posteriormente na Secretaria de Desenvolvimento Econômico e Inovação (2017-2020). Samuel também exerceu a função de assessor parlamentar na Câmara de São José (2013-2015).</p>
                     </div>
 
                     <h6>Contato</h6>

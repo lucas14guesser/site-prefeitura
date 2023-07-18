@@ -56,6 +56,20 @@ import Cultura from '../Pages/Cultura';
 import Comunicacao from '../Pages/Comunicacao';
 import Inovacao from '../Pages/Inovacao';
 import Financas from '../Pages/Financas';
+import Governo from '../Pages/Governo';
+import Educacao from '../Pages/Educacao';
+import Esporte from '../Pages/Esporte';
+import Infraestrutura from '../Pages/Infraestrutura';
+import PlanejamentoEstrategico from '../Pages/PlanejamentoEstrategico';
+import Receita from '../Pages/Receita';
+import RegularizacaoFundiaria from '../Pages/RegularizacaoFundiaria';
+import Saude from '../Pages/Saude';
+import Seguranca from '../Pages/Seguranca';
+import SecTransparencia from '../Pages/SecTransparencia';
+import Urbanismo from '../Pages/Urbanismo';
+import TextSjPrevidencia from './TextSjPrevidencia';
+import TextFundacaoEducacional from './TextFundacaoEducacional';
+import MeioAmbiente from '../Pages/MeioAmbiente';
 
 const TextWayz = () => {
   return (
@@ -214,7 +228,49 @@ const TextWayz = () => {
         <Route path="/secretaria-de-desenvolvimento-economico-e-inovacao" element={<Inovacao />} />
       </Routes>
       <Routes>
-        <Route path="secretaria-de-financas" element={<Financas />} />
+        <Route path="/secretaria-de-financas" element={<Financas />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-governo" element={<Governo />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-educacao" element={<Educacao />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-esporte" element={<Esporte />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-infraestrutura" element={<Infraestrutura />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-planejamento-e-assuntos-estrategicos" element={<PlanejamentoEstrategico />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-da-receita" element={<Receita />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-regulacao-fundiaria" element={<RegularizacaoFundiaria />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-saude" element={<Saude />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-seguranca" element={<Seguranca />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-transparencia" element={<SecTransparencia />} />
+      </Routes>
+      <Routes>
+        <Route path="/secretaria-de-urbanismo" element={<Urbanismo />} />
+      </Routes>
+      <Routes>
+        <Route path="/autarquia-sao-jose-previdencia" element={<TextSjPrevidencia />} />
+      </Routes>
+      <Routes>
+        <Route path="/fundacao-educacional-municipal" element={<TextFundacaoEducacional />} />
+      </Routes>
+      <Routes>
+        <Route path="/fmads" element={<MeioAmbiente />} />
       </Routes>
       <Footer />
       <FooterLocal />

@@ -47,59 +47,59 @@ const TextSecretarias = () => {
                     <img src="../img/secretarias/financas.png"/>
                     <small>Finanças</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-governo" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-governo.png"/>
                     <small>Governo</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-educacao" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-educacao.png"/>
                     <small>Educação</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-esporte" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-esportes.png"/>
                     <small>Esportes e Lazer</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-infraestrutura" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-infraestrutura.png"/>
                     <small>Infraestrutura</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-planejamento-e-assuntos-estrategicos" className="main-carta-servicos__item">
                     <img src="../img/secretarias/planejamento-assunto-estrategico.png"/>
                     <small>Planejamento e Assuntos Estratégicos</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-da-receita" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-receita.png"/>
                     <small>Receita</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-regulacao-fundiaria" className="main-carta-servicos__item">
                     <img src="../img/secretarias/regularizacao-fundiaria.png"/>
                     <small>Regularização Fundiária</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-saude" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-saude.png"/>
                     <small>Saúde</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-seguranca" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-seguranca.png"/>
                     <small>Segurança, Defesa Civil e Trânsito</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-transparencia" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-transparencia.png"/>
                     <small>Transparência</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/secretaria-de-urbanismo" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-urbanismo.png"/>
                     <small>Urbanismo e Serviços Públicos</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/autarquia-sao-jose-previdencia" className="main-carta-servicos__item">
                     <img src="../img/secretarias/previdencia.png"/>
                     <small>São José Previdência</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/fundacao-educacional-municipal" className="main-carta-servicos__item">
                     <img src="../img/secretarias/educacional.png"/>
                     <small>Fundação Educacional Municipal</small>
                 </a>
-                <a href="/construcao" className="main-carta-servicos__item">
+                <a href="/fmads" className="main-carta-servicos__item">
                     <img src="../img/secretarias/servicos-meio-ambiente.png"/>
                     <small>Meio Ambiente</small>
                 </a>
