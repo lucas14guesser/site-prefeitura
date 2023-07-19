@@ -1,0 +1,146 @@
+@import '../Root.css';
+
+.conselho-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main-conselho {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.main-conselho__text__link {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > h6 {
+    font-weight: bold;
+    padding: 2%;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text p > a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > p > h6 {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.main-conselho__text > table {
+    width: 95%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--azul_forte);
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > table > tr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--azul_forte);
+}
+
+.main-conselho__text > table > tr > th {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--azul_forte);
+    padding: 1%;
+}
+
+.main-conselho__text > table > tr > td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--azul_forte);
+    padding: 1%;
+}
+
+.main-conselho__text > h6 > a {
+    text-decoration: underline;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text__sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-conselho__text__sec > img {
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.main-conselho__text > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > ul > li > a {
+    text-decoration: underline;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > ul > li {
+    color: var(--azul_forte);
+}
+
+.main-conselho__text__sec > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text__image {
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.main-conselho__text p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.main-conselho__text > ul > li > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.main-conselho__text > h6 > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}

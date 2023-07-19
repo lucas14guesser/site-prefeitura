@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-import { Container } from 'react-bootstrap';
-
-import '../Styles/secretarias.css'
+import '../Styles/SelectBox.css'
 
 function removeSpecialCharacters(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -54,11 +52,10 @@ const TextSecretarias = () => {
       }, [selectedOption, navigate]);
     
       return (
-        <Container>
-            <div className='main-secretaria'>
-                <h4 className='main-secretaria__title'>SECRETARIAS</h4>
-                <select className='main-secretaria__selecao' value={selectedOption} onChange={handleChange}>
-                    <option value="">Selecione uma Secretaria...</option>
+            <div className='main-select-box'>
+                <h4 className='main-select-box__title'>SECRETARIAS</h4>
+                <select className='main-select-box__selecao' value={selectedOption} onChange={handleChange}>
+                    <option value="">Secretaria...</option>
                     {options.map((option, index) => (
                     <option key={index} value={option}>
                         {option}
@@ -66,7 +63,6 @@ const TextSecretarias = () => {
                     ))}
                 </select>
             </div>
-        </Container>
       );
 }
 

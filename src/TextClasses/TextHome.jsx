@@ -6,6 +6,8 @@ import GridServicesSec from "../Layout/GridServicesMain/GridServicesSec"
 import News from "../Layout/News/News"
 import NewsSec from "../Layout/News/NewsSec"
 import Secretarias from '../Pages/Secretarias'
+import Conselhos from '../Pages/conselhos/Conselhos'
+import { Container } from 'react-bootstrap'
 
 import '../Styles/Home.css'
 
@@ -14,9 +16,12 @@ const TextHome = () => {
     <div>
         <GridServices />
         <CarouselSlogan />
-        <div className='flexbox-home'>
-          <Secretarias />
-        </div>
+        <Container>
+          <div className='flexbox-home'>
+            <Secretarias />
+            <Conselhos />
+          </div>
+        </Container>
         <GridServicesSec />
         <News/>
         <NewsSec />

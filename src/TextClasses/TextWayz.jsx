@@ -70,6 +70,13 @@ import Urbanismo from '../Pages/Urbanismo';
 import TextSjPrevidencia from './TextSjPrevidencia';
 import TextFundacaoEducacional from './TextFundacaoEducacional';
 import MeioAmbiente from '../Pages/MeioAmbiente';
+import AntiDrogas from '../Pages/conselhos/AntiDrogas';
+import EleicaoSociedade from '../Pages/conselhos/EleicaoSociedade'
+import IgualdadeRacial from '../Pages/conselhos/IgualdadeRacial';
+import Juventude from '../Pages/conselhos/Juventude';
+import AdministracaoSjprev from '../Pages/conselhos/AdministracaoSjprev';
+import AlimentacaoEscolar from '../Pages/conselhos/AlimentacaoEscolar';
+import Cmas from '../Pages/conselhos/Cmas';
 
 const TextWayz = () => {
   return (
@@ -271,6 +278,27 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/fundacao-municipal-do-meio-ambiente-e-desenvolvimento-sustentavel" element={<MeioAmbiente />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-antidrogas" element={<AntiDrogas />} />
+      </Routes>
+      <Routes>
+        <Route path="/eleicao-da-sociedade-civil-2023" element={<EleicaoSociedade />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-promocao-da-igualdade-racial-–-compir" element={<IgualdadeRacial />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-da-juventude" element={<Juventude />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-de-administracao-–-sjprev" element={<AdministracaoSjprev />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-de-alimentacao-escolar" element={<AlimentacaoEscolar />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-assistencia-social-de-sao-jose-(cmas-sj)" element={<Cmas />} />
       </Routes>
       <Footer />
       <FooterLocal />

@@ -1,6 +1,11 @@
 @import './Root.css';
 
-.main-secretaria__title {
+.main-select-box {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.main-select-box__title {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2rem;
@@ -10,13 +15,8 @@
     color: var(--azul_forte);
 }
 
-.main-secretaria {
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.main-secretaria__selecao {
-    width: 20%;
+.main-select-box__selecao {
+    width: 33.3%;
     height: 2rem;
     border-color: var(--azul_forte);
     border-width: 2px;
@@ -24,6 +24,6 @@
     color: var(--azul_forte);
 }
 
-.main-secretaria__selecao option {
+.main-select-box__selecao option {
     color: var(--azul_forte);
 }
