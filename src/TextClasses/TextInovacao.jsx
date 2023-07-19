@@ -22,6 +22,16 @@ const TextInovacao = () => {
                         Elaborar e coordenar a execução da política de fortalecimento das atividades econômicas, além da geração de oportunidades de trabalho e de renda, contribuindo com a melhoria da qualidade de vida da população.
                     </p>
                     
+                    <h6>Secretário-Interino Rubens Pereira Júnior</h6>
+                    <div className="text_inovacao__sec">
+                        <img src="../img/other/rubens.png" alt="Foto de Rubens Pereira Júnior" />
+                        <br /><br />
+                        <p>Rubens Júnior é graduado em Engenharia Civil,  pós-graduado em Docência no Ensino Superior e atuou de forma efetiva em projetos e atividades envolvendo programas de Smart City e Regularização Fundiária.
+                            <br /><br />
+                            Iniciou sua atuação na administração pública em 2017, ocupando o cargo de Diretor de Obras de Luiz Alves, no Vale do Itajaí. Entre os anos de 2018 e 2022, no mesmo Município, ocupou a função de Secretário de Obras e Planejamento, garantindo atuação nas mais diversas áreas da administração pública, inclusive processos de regularização  fundiária através da Lei Federal nº13.465/2017, REURB. No ano de 2022, iniciou sua trajetória em São José, atuando como Assessor Técnico de Engenharia na Secretaria de Planejamento e Assuntos Estratégicos, desempenhando também a função de Presidente da Comissão de Regularização Fundiária,  viabilizando ações que tornaram possível o Município ser o primeiro da Região da Grande Florianópolis a realizar entregas de títulos imobiliários através de REURB na modalidade Social.
+                        </p>
+                    </div>
+
                     <h6>Secretário adjunto Samuel João Ancelmo</h6>
                     <div className="text_inovacao__sec">
                         <img src="../img/other/samuel.png" alt="Foto de Samuel João Ancelmo" />
