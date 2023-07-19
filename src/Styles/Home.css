@@ -1,11 +1,7 @@
 @import './Root.css';
 
-.news_container {
-    margin-left: 22.2rem;
-}
-
-.news_sec_container {
-    margin-left: 24rem;
-    margin-right: 9.25rem;
-    margin-bottom: 4rem;
+.flexbox-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -1,111 +1,73 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 
-import { Container } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
+
+import { Container } from 'react-bootstrap';
 
 import '../Styles/secretarias.css'
 
+function removeSpecialCharacters(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
 const TextSecretarias = () => {
-  return (
-    <Container>
-        <div className="title-carta-servicos">
-            <h1>secretarias</h1>
-        </div>
-        <div className="main-carta-servicos">
-                <a href="/prefeito" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/prefeito.png"/>
-                    <small>Prefeito Orvino Coelho de Ávila</small>
-                </a>
-                <a href="/gabinete-do-vice-prefeito" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/vice-prefeito.png"/>
-                    <small>Gabinete do Vice-Prefeito</small>
-                </a>
-                <a href="/procuradoria-geral" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/procuradoria.png"/>
-                    <small>Procuradoria Geral do Municipio</small>
-                </a>
-                <a href="/secretaria-de-administracao" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-administracao.png"/>
-                    <small>Administração</small>
-                </a>
-                <a href="/assistencia-social" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-assistencia.png"/>
-                    <small>Assistência Social</small>
-                </a>
-                <a href="/cultura-e-turismo" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-cultura.png"/>
-                    <small>Cultura e Turismo</small>
-                </a>
-                <a href="/comunicacao-social" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-comunicacao.png"/>
-                    <small>Comunicação Social</small>
-                </a>
-                <a href="/secretaria-de-desenvolvimento-economico-e-inovacao" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/desenvolvimento-inovacao.png"/>
-                    <small>Desenvolvimento Econômico e Inovação</small>
-                </a>
-                <a href="/secretaria-de-financas" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/financas.png"/>
-                    <small>Finanças</small>
-                </a>
-                <a href="/secretaria-de-governo" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-governo.png"/>
-                    <small>Governo</small>
-                </a>
-                <a href="/secretaria-de-educacao" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-educacao.png"/>
-                    <small>Educação</small>
-                </a>
-                <a href="/secretaria-de-esporte" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-esportes.png"/>
-                    <small>Esportes e Lazer</small>
-                </a>
-                <a href="/secretaria-de-infraestrutura" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-infraestrutura.png"/>
-                    <small>Infraestrutura</small>
-                </a>
-                <a href="/secretaria-de-planejamento-e-assuntos-estrategicos" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/planejamento-assunto-estrategico.png"/>
-                    <small>Planejamento e Assuntos Estratégicos</small>
-                </a>
-                <a href="/secretaria-da-receita" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-receita.png"/>
-                    <small>Receita</small>
-                </a>
-                <a href="/secretaria-de-regulacao-fundiaria" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/regularizacao-fundiaria.png"/>
-                    <small>Regularização Fundiária</small>
-                </a>
-                <a href="/secretaria-de-saude" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-saude.png"/>
-                    <small>Saúde</small>
-                </a>
-                <a href="/secretaria-de-seguranca" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-seguranca.png"/>
-                    <small>Segurança, Defesa Civil e Trânsito</small>
-                </a>
-                <a href="/secretaria-de-transparencia" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-transparencia.png"/>
-                    <small>Transparência</small>
-                </a>
-                <a href="/secretaria-de-urbanismo" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-urbanismo.png"/>
-                    <small>Urbanismo e Serviços Públicos</small>
-                </a>
-                <a href="/autarquia-sao-jose-previdencia" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/previdencia.png"/>
-                    <small>São José Previdência</small>
-                </a>
-                <a href="/fundacao-educacional-municipal" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/educacional.png"/>
-                    <small>Fundação Educacional Municipal</small>
-                </a>
-                <a href="/fmads" className="main-carta-servicos__item">
-                    <img src="../img/secretarias/servicos-meio-ambiente.png"/>
-                    <small>Meio Ambiente</small>
-                </a>
-        </div>
-    </Container>
-  )
+    
+    const options = [
+        'Prefeito Orvino Coelho de Ávila',
+        'Gabinete do Vice-Prefeito',
+        'Procuradoria Geral do Municipio',
+        'Secretaria de Administração',
+        'Secretaria de Assistência Social',
+        'Secretaria Municipal de Cultura e Turismo',
+        'Secretaria Integrada de Comunicação',
+        'Secretaria de Desenvolvimento Econômico e Inovação',
+        'Secretaria de Finanças',
+        'Secretaria de Governo',
+        'Secretaria de Educação',
+        'Secretaria Municipal de Esportes e Lazer',
+        'Secretaria de Infraestrutura',
+        'Secretaria de Planejamento e Assuntos Estratégicos',
+        'Secretaria da Receita',
+        'Secretaria de Regularização Fundiária',
+        'Secretaria de Saúde',
+        'Secretaria de Segurança, Defesa Civil e Trânsito',
+        'Secretaria de Transparência',
+        'Secretaria de Urbanismo e Serviços Públicos',
+        'Autarquia São José Previdência',
+        'Fundação Educacional Municipal',
+        'Fundação Municipal do Meio Ambiente e Desenvolvimento Sustentável'
+      ];
+    
+      const [selectedOption, setSelectedOption] = useState('');
+      const navigate = useNavigate();
+    
+      const handleChange = (event) => {
+        const value = event.target.value;
+        setSelectedOption(value);
+      };
+
+      useEffect(() => {
+        if (selectedOption) {
+          navigate(`/${removeSpecialCharacters(selectedOption).toLowerCase().replace(/\s+/g, '-')}`);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }, [selectedOption, navigate]);
+    
+      return (
+        <Container>
+            <div className='main-secretaria'>
+                <h4 className='main-secretaria__title'>SECRETARIAS</h4>
+                <select className='main-secretaria__selecao' value={selectedOption} onChange={handleChange}>
+                    <option value="">Selecione uma Secretaria...</option>
+                    {options.map((option, index) => (
+                    <option key={index} value={option}>
+                        {option}
+                    </option>
+                    ))}
+                </select>
+            </div>
+        </Container>
+      );
 }
 
 export default TextSecretarias

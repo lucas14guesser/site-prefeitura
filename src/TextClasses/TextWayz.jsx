@@ -204,25 +204,25 @@ const TextWayz = () => {
         <Route path="/plano-de-saude" element={<PlanoSaude />} />
       </Routes>
       <Routes>
-        <Route path="/prefeito" element={<Prefeito />} />
+        <Route path="//prefeito-orvino-coelho-de-avila" element={<Prefeito />} />
       </Routes>
       <Routes>
         <Route path="/gabinete-do-vice-prefeito" element={<VicePrefeito />} />
       </Routes>
       <Routes>
-        <Route path="/procuradoria-geral" element={<ProcuradoriaGeral />} />
+        <Route path="//procuradoria-geral-do-municipio" element={<ProcuradoriaGeral />} />
       </Routes>
       <Routes>
         <Route path="/secretaria-de-administracao" element={<Administracao />} />
       </Routes>
       <Routes>
-        <Route path="/assistencia-social" element={<AssistenciaSocial />} />
+        <Route path="/secretaria-de-assistencia-social" element={<AssistenciaSocial />} />
       </Routes>
       <Routes>
-        <Route path="/cultura-e-turismo" element={<Cultura />} />
+        <Route path="/secretaria-municipal-de-cultura-e-turismo" element={<Cultura />} />
       </Routes>
       <Routes>
-        <Route path="/comunicacao-social" element={<Comunicacao />} />/
+        <Route path="/secretaria-integrada-de-comunicacao" element={<Comunicacao />} />/
       </Routes>
       <Routes>
         <Route path="/secretaria-de-desenvolvimento-economico-e-inovacao" element={<Inovacao />} />
@@ -237,7 +237,7 @@ const TextWayz = () => {
         <Route path="/secretaria-de-educacao" element={<Educacao />} />
       </Routes>
       <Routes>
-        <Route path="/secretaria-de-esporte" element={<Esporte />} />
+        <Route path="/secretaria-municipal-de-esportes-e-lazer" element={<Esporte />} />
       </Routes>
       <Routes>
         <Route path="/secretaria-de-infraestrutura" element={<Infraestrutura />} />
@@ -249,19 +249,19 @@ const TextWayz = () => {
         <Route path="/secretaria-da-receita" element={<Receita />} />
       </Routes>
       <Routes>
-        <Route path="/secretaria-de-regulacao-fundiaria" element={<RegularizacaoFundiaria />} />
+        <Route path="/secretaria-de-regularizacao-fundiaria" element={<RegularizacaoFundiaria />} />
       </Routes>
       <Routes>
         <Route path="/secretaria-de-saude" element={<Saude />} />
       </Routes>
       <Routes>
-        <Route path="/secretaria-de-seguranca" element={<Seguranca />} />
+        <Route path="/secretaria-de-seguranca,-defesa-civil-e-transito" element={<Seguranca />} />
       </Routes>
       <Routes>
         <Route path="/secretaria-de-transparencia" element={<SecTransparencia />} />
       </Routes>
       <Routes>
-        <Route path="/secretaria-de-urbanismo" element={<Urbanismo />} />
+        <Route path="/secretaria-de-urbanismo-e-servicos-publicos" element={<Urbanismo />} />
       </Routes>
       <Routes>
         <Route path="/autarquia-sao-jose-previdencia" element={<TextSjPrevidencia />} />
@@ -270,7 +270,7 @@ const TextWayz = () => {
         <Route path="/fundacao-educacional-municipal" element={<TextFundacaoEducacional />} />
       </Routes>
       <Routes>
-        <Route path="/fmads" element={<MeioAmbiente />} />
+        <Route path="/fundacao-municipal-do-meio-ambiente-e-desenvolvimento-sustentavel" element={<MeioAmbiente />} />
       </Routes>
       <Footer />
       <FooterLocal />

@@ -8,13 +8,16 @@ import NewsSec from "../Layout/News/NewsSec"
 import Secretarias from '../Pages/Secretarias'
 
 import '../Styles/Home.css'
+
 const TextHome = () => {
   return (
     <div>
         <GridServices />
         <CarouselSlogan />
+        <div className='flexbox-home'>
+          <Secretarias />
+        </div>
         <GridServicesSec />
-        <Secretarias />
         <News/>
         <NewsSec />
   </div>
