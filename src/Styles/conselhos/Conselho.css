@@ -91,19 +91,25 @@
 .main-conselho__text__sec {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .main-conselho__text__sec > img {
     min-width: 30%;
     max-width: 30%;
+    margin-bottom: 3rem;
 }
 
 .main-conselho__text > p {
     font-size: 1rem;
     padding: 2%;
     text-align: justify;
+    color: var(--azul_forte);
+}
+
+.main-conselho__text > p > ul > li > a {
+    text-decoration: underline;
     color: var(--azul_forte);
 }
 
@@ -130,7 +136,29 @@
     text-align: center;
 }
 
+.main-conselho__text > p > a > img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .3rem;
+}
+
+.main-conselho__text__frame {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+.main-conselho__text__frame > object {
+    width: 100%;
+    height: 25rem;
+}
+
 .main-conselho__text p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.main-conselho__text > p > ul > li > a:hover {
     text-decoration: underline;
     color: var(--preto);
 }

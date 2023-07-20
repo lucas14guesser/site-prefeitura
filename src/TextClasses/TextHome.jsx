@@ -8,6 +8,7 @@ import NewsSec from "../Layout/News/NewsSec"
 import Secretarias from '../Pages/Secretarias'
 import Conselhos from '../Pages/conselhos/Conselhos'
 import { Container } from 'react-bootstrap'
+import LinksUteis from '../Pages/linksUteis/LinksUteis'
 
 import '../Styles/Home.css'
 
@@ -20,6 +21,7 @@ const TextHome = () => {
           <div className='flexbox-home'>
             <Secretarias />
             <Conselhos />
+            <LinksUteis />
           </div>
         </Container>
         <GridServicesSec />

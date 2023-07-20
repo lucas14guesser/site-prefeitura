@@ -77,6 +77,12 @@ import Juventude from '../Pages/conselhos/Juventude';
 import AdministracaoSjprev from '../Pages/conselhos/AdministracaoSjprev';
 import AlimentacaoEscolar from '../Pages/conselhos/AlimentacaoEscolar';
 import Cmas from '../Pages/conselhos/Cmas';
+import ConferenciaSas from '../Pages/conselhos/ConferenciaSas';
+import Comesj from '../Pages/conselhos/Comesj';
+import Comdim from '../Pages/conselhos/Comdim';
+import Cmdca from '../Pages/conselhos/Cmdca';
+import PoliticaCultural from '../Pages/conselhos/PoliticaCultural';
+import Cmssj from '../Pages/conselhos/Cmssj';
 
 const TextWayz = () => {
   return (
@@ -299,6 +305,24 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/conselho-municipal-de-assistencia-social-de-sao-jose-(cmas-sj)" element={<Cmas />} />
+      </Routes>
+      <Routes>
+        <Route path="/14a-conferencia-municipal-de-assistencia-social" element={<ConferenciaSas />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-educacao-de-sao-jose-–-comesj" element={<Comesj />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-dos-direitos-da-mulher" element={<Comdim />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-dos-direitos-da-crianca-e-do-adolescente-de-sao-jose-(cmdca)" element={<Cmdca />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-politica-cultural" element={<PoliticaCultural />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-saude-de-sao-jose-–-cms/sj" element={<Cmssj />} />
       </Routes>
       <Footer />
       <FooterLocal />

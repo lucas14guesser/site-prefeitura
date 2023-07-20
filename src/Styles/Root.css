@@ -9,4 +9,5 @@
     --vermelho_destaque: #CF0000;
     --degrade: linear-gradient(90deg, rgba(15,78,119,1) 0%, rgba(0, 24, 46,1) 100%);
     --degrade_gelo: linear-gradient(90deg, rgba(242, 243, 244, 1) 62%, rgba(0,24,46,1) 100%);
+    --instagram: #E4405F;
 }

@@ -16,7 +16,7 @@
 }
 
 .main-select-box__selecao {
-    width: 33.3%;
+    width: 50%;
     height: 2rem;
     border-color: var(--azul_forte);
     border-width: 2px;

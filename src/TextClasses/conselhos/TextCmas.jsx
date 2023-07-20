@@ -18,15 +18,15 @@ const TextCmas = () => {
 
                     <img src="./img/conselhos/cmas.png" alt="Logo da Comad" className='main-conselho__text__image'/>
                     
-                    <h6><a href="#">14ª Conferência Municipal de Assistência Social </a></h6>
+                    <h6><a href="14a-conferencia-municipal-de-assistencia-social">14ª Conferência Municipal de Assistência Social </a></h6>
 
-                    <h6><a href="#">Convocações</a></h6>
+                    <h6><a href="/construcao">Convocações</a></h6>
 
-                    <h6><a href="#">Atas</a></h6>
+                    <h6><a href="/construcao">Atas</a></h6>
 
-                    <h6><a href="#">Resoluções</a></h6>
+                    <h6><a href="/construcao">Resoluções</a></h6>
 
-                    <h6><a href="#">Leis e Regulamentações</a></h6>
+                    <h6><a href="/construcao">Leis e Regulamentações</a></h6>
 
                     <h6>Publicações</h6> 
                     <div className="main-conselho__text__sec">       
