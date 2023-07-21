@@ -83,6 +83,14 @@ import Comdim from '../Pages/conselhos/Comdim';
 import Cmdca from '../Pages/conselhos/Cmdca';
 import PoliticaCultural from '../Pages/conselhos/PoliticaCultural';
 import Cmssj from '../Pages/conselhos/Cmssj';
+import Conseg from '../Pages/conselhos/Conseg';
+import Cmisj from '../Pages/conselhos/Cmisj';
+import Contribuintes from '../Pages/conselhos/Contribuintes';
+import Cmpdsj from '../Pages/conselhos/Cmpdsj';
+import UsuarioSevPublico from '../Pages/conselhos/UsuarioSevPublico';
+import ConselhoTutelar from '../Pages/conselhos/ConselhoTutelar';
+import ConselhoFiscal from '../Pages/conselhos/ConselhoFiscal';
+import Fundeb from '../Pages/conselhos/Fundeb';
 
 const TextWayz = () => {
   return (
@@ -323,6 +331,30 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/conselho-municipal-de-saude-de-sao-jose-–-cms/sj" element={<Cmssj />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselhos-de-seguranca-–-conseg" element={<Conseg />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-do-idoso-de-sao-jose-(cmi-sj)" element={<Cmisj />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-dos-contribuintes" element={<Contribuintes />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-dos-direitos-da-pessoa-com-deficiencia-de-sao-jose-cmpd/sj" element={<Cmpdsj />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-municipal-de-usuarios-dos-servicos-publicos" element={<UsuarioSevPublico />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-tutelar" element={<ConselhoTutelar />} />
+      </Routes>
+      <Routes>
+        <Route path="/conselho-fiscal-–-sjprev" element={<ConselhoFiscal />} />
+      </Routes>
+      <Routes>
+        <Route path="/fundo-manutencao-educacao-basica-fundeb" element={<Fundeb />} />
       </Routes>
       <Footer />
       <FooterLocal />

@@ -129,6 +129,10 @@
     color: var(--azul_forte);
 }
 
+.main-conselho__text__sec > a > img {
+    width: 12rem;
+}
+
 .main-conselho__text__image {
     width: 100%;
     padding: 4%;
