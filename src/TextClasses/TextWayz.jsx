@@ -98,6 +98,12 @@ import VagaCei from '../Pages/linksUteis/VagaCei';
 import TabelaCosip from '../Pages/linksUteis/TabelaCosip';
 import ColetaSeletiva from '../Pages/linksUteis/ColetaSeletiva';
 import SejaVoluntario from '../Pages/linksUteis/SejaVoluntario';
+import LegislacaoMunicipal from '../Pages/linksUteis/LegislacaoMunicipal';
+import PropostaTransporteColetivo from '../Pages/linksUteis/PropostaTransporteColetivo';
+import ConcursoPublico from '../Pages/linksUteis/ConcursoPublico';
+import BancoPrecos from '../Pages/linksUteis/BancoPrecos';
+import ParceriaSociedadeCivil from '../Pages/linksUteis/ParceriaSociedadeCivil';
+import IsencaoIptu from '../Pages/linksUteis/IsencaoIptu';
 
 const TextWayz = () => {
   return (
@@ -383,6 +389,24 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/seja-um-voluntario" element={<SejaVoluntario />} />
+      </Routes>
+      <Routes>
+        <Route path="/legislacao-municipal" element={<LegislacaoMunicipal />} />
+      </Routes>
+      <Routes>
+        <Route path="/proposta-do-novo-sistema-de-transporte-coletivo-municipal" element={<PropostaTransporteColetivo />} />
+      </Routes>
+      <Routes>
+        <Route path="/concursos-publicos-–-documentos-e-declaracoes" element={<ConcursoPublico />} />
+      </Routes>
+      <Routes>
+        <Route path="/banco-de-precos-em-saude" element={<BancoPrecos />} />
+      </Routes>
+      <Routes>
+        <Route path="/parcerias-com-a-sociedade-civil" element={<ParceriaSociedadeCivil />} />
+      </Routes>
+      <Routes>
+        <Route path="/isencao-iptu-2023" element={<IsencaoIptu />} />
       </Routes>
       <Footer />
       <FooterLocal />

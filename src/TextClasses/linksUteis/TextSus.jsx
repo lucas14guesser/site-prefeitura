@@ -19,9 +19,9 @@ const TextSus = () => {
                     <p>
                     Clique abaixo para consultar as listas de espera do SUS
                     <br /><br /><br />
-                    <a href="https://listadeespera.saude.sc.gov.br/#/home">Acessar lista de espera (sisreg)</a>
+                    <a href="https://listadeespera.saude.sc.gov.br/#/home" target='_blank'>Acessar lista de espera (sisreg)</a>
                     <br /><br />
-                    <a href="https://pmsaojose.celk.com.br/lista-publica">Acessar lista de espera (celk)</a>
+                    <a href="https://pmsaojose.celk.com.br/lista-publica" target='_blank'>Acessar lista de espera (celk)</a>
                     </p>
                 </div>
 

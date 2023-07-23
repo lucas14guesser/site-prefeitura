@@ -19,7 +19,7 @@ const TextZonaAzul = () => {
                     <p>
                     Para fazer a solicitação de autorização de uso de vaga de estacionamento rotativo Zona Azul acesse o link abaixo:
                     <br /><br /><br />
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvw2ROkH6XOeMmBP7yZTbI0WZBuIaGuy4wRfCniU2sJCbFmg/closedform">https://forms.gle/Edw1ML4A7zacCcvRA</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvw2ROkH6XOeMmBP7yZTbI0WZBuIaGuy4wRfCniU2sJCbFmg/closedform" target='_blank'>https://forms.gle/Edw1ML4A7zacCcvRA</a>
                     </p>
                 </div>
 

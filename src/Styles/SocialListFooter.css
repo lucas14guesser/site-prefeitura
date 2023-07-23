@@ -4,10 +4,10 @@
     display: flex;
     font-size: 35px;
     margin-left: 30px;
-    gap: 5px;
+    gap: .5rem;
 }
 
-.social_midia_ytb {
-    font-size: 45px !important;
+.social-link {
+    font-size: 29px!important;
 }
 

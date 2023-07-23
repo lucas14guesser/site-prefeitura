@@ -19,7 +19,7 @@ const TextVagaCei = () => {
                     <p>
                     SOLICITAÇÃO DE VAGA EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL
                     <br /><br /><br />
-                    <a href="https://saojose.educarweb.net.br/servicoexterno/matricula-2023">https://saojose.educarweb.net.br/servicoexterno/matricula-2023</a>
+                    <a href="https://saojose.educarweb.net.br/servicoexterno/matricula-2023" target='_blank'>https://saojose.educarweb.net.br/servicoexterno/matricula-2023</a>
                     </p>
                 </div>
 

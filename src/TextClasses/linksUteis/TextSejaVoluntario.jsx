@@ -29,12 +29,11 @@ const TextSejaVoluntario = () => {
                     
                     <h6>Clique abaixo para realizar o cadastro:</h6>
                     <br />
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScfJTC9xmatB1DN_cUIw6sc-Oyqa4c079CxkfJxll2spoBI6Q/viewform">Cadastro de Voluntários – Central de vídeo monitoramento</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScfJTC9xmatB1DN_cUIw6sc-Oyqa4c079CxkfJxll2spoBI6Q/viewform" target='_blank'>Cadastro de Voluntários – Central de vídeo monitoramento</a>
                     <br /><br />
-                    <a href="https://saojose.sc.gov.br/wp-content/uploads/2021/06/criterios-chamamento.pdf">Critérios chamamento</a>
+                    <a href="https://saojose.sc.gov.br/wp-content/uploads/2021/06/criterios-chamamento.pdf" target='_blank'>Critérios chamamento</a>
                     </p>
                 </div>
-
             </Container>
         </div>
     </div>
