@@ -12,7 +12,7 @@ const TextServicosPMSJ = () => {
         <div className="main_servSj">
           <Container>
             <div className="text_servSj">
-              <Link to="/" className='link_servSj'>Home</Link>/<Link to='/servicos-pmsj' className='link_servSj'>Carta Serviços</Link>
+              <Link to="/" className='link_servSj'>Home</Link>/<Link to='/carta-de-servicos' className='link_servSj'>Carta Serviços</Link>
 
               <h4>Carta Serviços</h4>
 

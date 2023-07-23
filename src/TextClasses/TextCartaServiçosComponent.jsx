@@ -13,8 +13,8 @@ const TextCartaServiçosComponent = () => {
       setShowDropdown(false);
     };
 
-    const redirectToHomePage = () => {
-      window.location.href='/';
+    const redirectToCartaServico = () => {
+      window.location.href='/carta-de-servicos'
     }
   return (
     <NavDropdown
@@ -23,7 +23,7 @@ const TextCartaServiçosComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToHomePage}
+      onClick={redirectToCartaServico}
     >
       <Nav.Link href="/construcao">Serviços Oferecidos PMSJ</Nav.Link>
       <Nav.Link href="/construcao">Serviços Administração</Nav.Link>

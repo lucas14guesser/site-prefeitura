@@ -25,7 +25,7 @@ const TextSaoJoseComponent = () => {
       onClick={redirectToHomePage}
     >
       <Nav.Link href="/cidade">A Cidade</Nav.Link>
-      <Nav.Link href="/feriados">Feriados Municipais</Nav.Link>
+      <Nav.Link href="/feriados-municipais">Feriados Municipais</Nav.Link>
       <Nav.Link href="/prefeitos">Relação de Prefeitos</Nav.Link>
       <Nav.Link href="/dados">São José em Dados</Nav.Link>
       <Nav.Link href="/simbol">Símbolos do Municípios</Nav.Link>

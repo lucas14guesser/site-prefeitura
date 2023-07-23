@@ -91,6 +91,13 @@ import UsuarioSevPublico from '../Pages/conselhos/UsuarioSevPublico';
 import ConselhoTutelar from '../Pages/conselhos/ConselhoTutelar';
 import ConselhoFiscal from '../Pages/conselhos/ConselhoFiscal';
 import Fundeb from '../Pages/conselhos/Fundeb';
+import ColetaLixo from '../Pages/linksUteis/ColetaLixo';
+import ZonaAzul from '../Pages/linksUteis/ZonaAzul';
+import Sus from '../Pages/linksUteis/Sus';
+import VagaCei from '../Pages/linksUteis/VagaCei';
+import TabelaCosip from '../Pages/linksUteis/TabelaCosip';
+import ColetaSeletiva from '../Pages/linksUteis/ColetaSeletiva';
+import SejaVoluntario from '../Pages/linksUteis/SejaVoluntario';
 
 const TextWayz = () => {
   return (
@@ -104,7 +111,7 @@ const TextWayz = () => {
         <Route path="/cidade" element={<Cidade />} />
       </Routes>
       <Routes>
-        <Route path="/feriados" element={<Feriados />} />
+        <Route path="/feriados-municipais" element={<Feriados />} />
       </Routes>
       <Routes>
         <Route path="/prefeitos" element={<Prefeitos />} />
@@ -128,7 +135,7 @@ const TextWayz = () => {
         <Route path="/vias" element={<Vias />} />
       </Routes>
       <Routes>
-        <Route path="/procon" element={<Procon />} />
+        <Route path="/procon-municipal-de-sao-jose" element={<Procon />} />
       </Routes>
       <Routes>
         <Route path="/licitacoes" element={<Licitacoes />} />
@@ -137,7 +144,7 @@ const TextWayz = () => {
         <Route path="/publi-legais" element={<PublicacoesLegais />} />
       </Routes>
       <Routes>
-        <Route path="/servicos-pmsj" element={<ServicosPMSJ />} />
+        <Route path="/carta-de-servicos" element={<ServicosPMSJ />} />
       </Routes>
       <Routes>
         <Route path="/docs-processos" element={<DocsProcessos />} />
@@ -355,6 +362,27 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/fundo-manutencao-educacao-basica-fundeb" element={<Fundeb />} />
+      </Routes>
+      <Routes>
+        <Route path="/horarios-coleta-de-lixo-(seletiva-e-convencional)" element={<ColetaLixo />} />
+      </Routes>
+      <Routes>
+        <Route path="/autorizacao-para-uso-de-vaga-zona-azul" element={<ZonaAzul />} />
+      </Routes>
+      <Routes>
+        <Route path="/lista-de-espera-sus" element={<Sus />} />
+      </Routes>
+      <Routes>
+        <Route path="/solicitacoes-de-vaga-cei/cem" element={<VagaCei />} />
+      </Routes>
+      <Routes>
+        <Route path="/tabela-cosip-sao-jose" element={<TabelaCosip />} />
+      </Routes>
+      <Routes>
+        <Route path="/coleta-seletiva-horarios" element={<ColetaSeletiva />} />
+      </Routes>
+      <Routes>
+        <Route path="/seja-um-voluntario" element={<SejaVoluntario />} />
       </Routes>
       <Footer />
       <FooterLocal />
