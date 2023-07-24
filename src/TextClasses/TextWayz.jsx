@@ -104,6 +104,15 @@ import ConcursoPublico from '../Pages/linksUteis/ConcursoPublico';
 import BancoPrecos from '../Pages/linksUteis/BancoPrecos';
 import ParceriaSociedadeCivil from '../Pages/linksUteis/ParceriaSociedadeCivil';
 import IsencaoIptu from '../Pages/linksUteis/IsencaoIptu';
+import ProjetosAcoes from '../Pages/projetosAcoes/ProjetosAcoes';
+import JusticaPraticas from '../Pages/projetosAcoes/JusticaPraticas';
+import CentroTerceiraIdade from '../Pages/projetosAcoes/CentroTerceiraIdade';
+import HorariosFunesj from '../Pages/projetosAcoes/HorariosFunesj';
+import PlanoVacinacao from '../Pages/projetosAcoes/PlanoVacinacao';
+import LeisTransito from '../Pages/projetosAcoes/LeisTransito';
+import FeiraFreguesia from '../Pages/projetosAcoes/FeiraFreguesia';
+import ListaEsperaSus from '../Pages/projetosAcoes/ListaEsperaSus';
+import ParceriaEsporte from '../Pages/projetosAcoes/ParceriaEsporte';
 
 const TextWayz = () => {
   return (
@@ -407,6 +416,33 @@ const TextWayz = () => {
       </Routes>
       <Routes>
         <Route path="/isencao-iptu-2023" element={<IsencaoIptu />} />
+      </Routes>
+      <Routes>
+        <Route path="/projeto-justica-e-praticas-restaurativas" element={<JusticaPraticas />} />
+      </Routes>
+      <Routes>
+        <Route path="/centro-de-atencao-a-terceira-idade" element={<CentroTerceiraIdade />} />
+      </Routes>
+      <Routes>
+        <Route path="/horarios-de-atividades-da-funesj" element={<HorariosFunesj />} />
+      </Routes>
+      <Routes>
+        <Route path="/plano-municipal-de-vacinacao" element={<PlanoVacinacao />} />
+      </Routes>
+      <Routes>
+        <Route path="/novas-leis-de-transito" element={<LeisTransito />} />
+      </Routes>
+      <Routes>
+        <Route path="/feira-da-freguesia" element={<FeiraFreguesia />} />
+      </Routes>
+      <Routes>
+        <Route path="/coleta-seletiva" element={<ColetaSeletiva />} />
+      </Routes>
+      <Routes>
+        <Route path="/lista-de-espera-do-sistema-unico-de-saude-(sus)" element={<ListaEsperaSus />} />
+      </Routes>
+      <Routes>
+        <Route path="/termos-de-parcerias-fundacao-esportes" element={<ParceriaEsporte />} />
       </Routes>
       <Footer />
       <FooterLocal />
