@@ -10,9 +10,11 @@ import Conselhos from '../Pages/conselhos/Conselhos'
 import { Container } from 'react-bootstrap'
 import LinksUteis from '../Pages/linksUteis/LinksUteis'
 import ProgramaMetas from '../Pages/home/ProgramaMetas'
+import ProjetosAcoes from '../Pages/projetosAcoes/ProjetosAcoes'
+import PublicacoesLegais from '../Pages/home/PublicacoesLegais'
 
 import '../Styles/Home.css'
-import ProjetosAcoes from '../Pages/projetosAcoes/ProjetosAcoes'
+
 
 const TextHome = () => {
   return (
@@ -31,6 +33,7 @@ const TextHome = () => {
         <ProgramaMetas />
         <News/>
         <NewsSec />
+        <PublicacoesLegais />
   </div>
   )
 }
