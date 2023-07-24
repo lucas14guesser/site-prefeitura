@@ -40,7 +40,7 @@ const TextProjetosAcoes = () => {
             <div className='main-select-box'>
                 <h4 className='main-select-box__title'>Projetos e Ações</h4>
                 <select className='main-select-box__selecao' value={selectedOption} onChange={handleChange}>
-                    <option value="">Link...</option>
+                    <option value="">Projetos e Ações...</option>
                     {options.map((option, index) => (
                     <option key={index} value={option}>
                         {option}
