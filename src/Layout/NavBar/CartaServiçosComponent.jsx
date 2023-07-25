@@ -1,4 +1,4 @@
-import TextCartaServiçosComponent from '../../TextClasses/TextCartaServiçosComponent'
+import TextCartaServiçosComponent from '../../TextClasses/navbar/TextCartaServiçosComponent'
 
 const CartaServiçosComponent = () => {
   return (

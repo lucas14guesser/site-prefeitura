@@ -1,4 +1,4 @@
-import TextSearchBar from '../../TextClasses/TextSearchBar'
+import TextSearchBar from '../../TextClasses/navbar/TextSearchBar'
 
 const SearchBar = () => {
   return (

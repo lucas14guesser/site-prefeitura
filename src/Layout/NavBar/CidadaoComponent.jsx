@@ -1,4 +1,4 @@
-import TextCidadaoComponent from '../../TextClasses/TextCidadaoComponent';
+import TextCidadaoComponent from '../../TextClasses/navbar/TextCidadaoComponent';
 
 const CidadaoComponent = () => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
 
-import '../Styles/Prefeitos.css'
+import '../Styles/saoJoseComponent/saoJoseComponent.css'
 
 const TablePrefeitos = () => {
   return (
-    <div className="pref_imgs">
+    <div className="sao-jose-component_imgs">
         <ul>
             <li>
                 <img src="../img/prefeitos/orvino.png" alt="orvino" />

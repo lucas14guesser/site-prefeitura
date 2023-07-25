@@ -1,4 +1,4 @@
-import TextSocialListFooter from "../../TextClasses/TextSocialListFooter"
+import TextSocialListFooter from "../../TextClasses/footer/TextSocialListFooter"
 
 const SocialListFooter = () => {
   return (

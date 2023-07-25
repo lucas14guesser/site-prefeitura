@@ -1,4 +1,4 @@
-import TextSaoJoseComponent from "../../TextClasses/TextSaoJoseComponent";
+import TextSaoJoseComponent from "../../TextClasses/navbar/TextSaoJoseComponent";
 
 const SaoJoseComponent = () => {
   return (

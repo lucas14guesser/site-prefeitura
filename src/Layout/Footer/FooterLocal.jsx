@@ -1,4 +1,4 @@
-import TextFooterLocal from "../../TextClasses/TextFooterLocal";
+import TextFooterLocal from "../../TextClasses/footer/TextFooterLocal";
 
 const FooterLocal = () => {
   return (

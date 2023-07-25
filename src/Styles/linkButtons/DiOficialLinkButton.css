@@ -1,0 +1,26 @@
+@import "../Root.css";
+
+.type_button_diario {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: right;
+    width: 100%;
+}
+
+.button_diario {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 30px 60px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.button_diario > svg {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.button_diario:hover {
+    color: var(--gelo);
+}

@@ -1,0 +1,130 @@
+@import '../Root.css';
+
+.footer_main {
+    background: var(--degrade);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.footer_main a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.footer_main ul {
+    list-style: none;
+    font-size: 1em;
+}
+
+.footer_info {
+    margin: 2px 150px;
+    padding: 15px;
+    width: 33.3%;
+}
+
+.footer_info h4 {
+    color: var(--gelo);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer_table {
+    list-style: none;
+    font-size: 1em;
+    margin-bottom: 87px;
+}
+
+.footer_about {
+    margin: 2px 150px;
+    padding: 15px;
+    width: 33.3%;
+}
+
+.footer_about h4 {
+    color: var(--gelo);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer_about p {
+    color: var(--branco);
+    font-size: 1em;
+    margin-top: 93px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.footer_about_table {
+    list-style: none;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footer_services {
+    margin: 2px 150px;
+    padding: 15px;
+    width: 33.3%;
+}
+
+.footer_services h4 {
+    color: var(--gelo);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer_services h5 {
+    color: var(--gelo);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 67px;
+}
+
+.footer_services p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.footer_services_table {
+    list-style: none;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footer_main a:hover {
+    color: var(--gelo);
+}
+
+
+.footer_local_main {
+    background: var(--degrade);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_logo {
+    width: 150px;
+    margin-top: 1.5em;
+    margin-bottom: .3rem;
+}
+
+.footer_local {
+    color: var(--branco);
+    font-size: 1em;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}

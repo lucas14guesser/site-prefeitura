@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BsSearch } from 'react-icons/bs'
 
-import '../Styles/TransparenciaLinkButton.css'
+import '../Styles/linkButtons/TransparenciaLinkButton.css'
 
 const TransparenciaLinkButton = () => {
   return (

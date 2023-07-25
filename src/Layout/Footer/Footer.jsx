@@ -1,4 +1,4 @@
-import TextFooter from '../../TextClasses/TextFooter';
+import TextFooter from '../../TextClasses/footer/TextFooter';
 
 const Footer = () => {
   return (

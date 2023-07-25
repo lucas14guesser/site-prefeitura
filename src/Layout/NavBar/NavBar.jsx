@@ -1,4 +1,4 @@
-import TextNavBar from "../../TextClasses/TextNavBar"
+import TextNavBar from '../../TextClasses/navbar/TextNavBar'
 
 const NavBar = () => {
   return (

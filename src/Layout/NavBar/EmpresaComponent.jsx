@@ -1,4 +1,4 @@
-import TextEmpresaComponent from "../../TextClasses/TextEmpresaComponent";
+import TextEmpresaComponent from "../../TextClasses/navbar/TextEmpresaComponent";
 
 const EmpresaComponent = () => {
   return (

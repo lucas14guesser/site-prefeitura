@@ -1,0 +1,121 @@
+@import '../Root.css';
+
+.cidadao-component_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_cidadao-component{
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_cidadao-component > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component{
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component > p{
+    padding: 2%;
+}
+
+.text_cidadao-component> p > a {
+    text-decoration: underline;
+    font-size: 1rem;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component> p > a > svg {
+    font-size: 1.2rem;
+}
+
+.text_cidadao-component> h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_cidadao-component> h5{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_cidadao-component > h5 > a {
+    text-decoration: none;
+    color: var(--vermelho_destaque);
+}
+
+.text_cidadao-component> h6{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.link_cid:hover {
+    color: var(--preto);
+}
+
+.text_cidadao-component> p > a:hover {
+    color: var(--preto);
+}
+
+.atend_cidadao-component > h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.atend_cidadao-component > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.atend_cidadao-component > p > a{
+    text-decoration: underline;
+    font-size: 1rem;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component ul > li > a {
+    font-size: 1rem;
+    padding: 2%;
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_cidadao-component > ul > li{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.text_cidadao-component > ul > li > a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.text_cidadao-component > h5 > a:hover {
+    text-decoration: underline;
+}
+
+.atend_cidadao-component > p >a:hover {
+    color: var(--preto);
+}

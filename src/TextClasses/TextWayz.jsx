@@ -2,117 +2,130 @@ import React from 'react'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "../Pages/Home";
-import NavBar from "../Layout/NavBar/NavBar";
+import Construcao from '../Pages/Construcao';
+
+import Home from "../Pages/home/Home";
+import AllNoticias from '../Pages/home/noticias/AllNoticias';
+
+import NavBar from '../Layout/NavBar/NavBar';
 import NavBar2 from "../Layout/NavBar/NavBar2";
+import PortalServidor from '../Layout/NavBar/PortalServidor';
+import Legislacao from '../Layout/NavBar/Legislacao';
+import ContraCheque from '../Layout/NavBar/ContraCheque';
+import EspelhoPonto from '../Layout/NavBar/EspelhoPonto';
+import AvaliacaoDesempenhoServ from '../Layout/NavBar/AvaliacaoDesempenhoServ';
+import Consignados from '../Layout/NavBar/Consignados';
+import NormasPatrimonio from '../Layout/NavBar/NormasPatrimonio';
+import PlanoCargos from '../Layout/NavBar/PlanoCargos';
+import PlanoSaude from '../Layout/NavBar/PlanoSaude';
+
+import AllServices from "../Layout/GridServicesMain/AllServices";
+
 import Footer from "../Layout/Footer/Footer";
 import FooterLocal from "../Layout/Footer/FooterLocal";
-import Cidade from "../Pages/Cidade";
-import Feriados from "../Pages/Feriados";
-import Prefeitos from "../Pages/Prefeitos";
-import Dados from "../Pages/Dados";
-import Simbolos from "../Pages/Simbolos";
-import Vias from "../Pages/Vias";
-import Procon from "../Pages/Procon";
-import Licitacoes from "../Pages/Licitacoes";
+
+import Cidade from "../Pages/saoJoseComponent/Cidade";
+import Feriados from "../Pages/saoJoseComponent/Feriados";
+import Prefeitos from "../Pages/saoJoseComponent/Prefeitos";
+import Dados from "../Pages/saoJoseComponent/Dados";
+import Simbolos from "../Pages/saoJoseComponent/Simbolos";
+import Turismo from '../Pages/saoJoseComponent/Turismo'
+
+import Licitacoes from "../Pages/empresaComponent/Licitacoes";
+import DocsProcessos from "../Pages/empresaComponent/DocsProcessos";
+
+import Procon from "../Pages/cidadaoComponent/Procon";
+import PortalCidadao from "../Pages/cidadaoComponent/PortalCidadao";
+import ServicosPMSJ from "../Pages/cidadaoComponent/ServicosPMSJ";
+
+import CentroAtendimento from "../Pages/servicosPrefeitura/CentroAtendimento";
+import Dat from "../Pages/servicosPrefeitura/Dat";
+import Cati from "../Pages/servicosPrefeitura/Cati"
+
+import Transparencia from "../Pages/transparenciaComponent/Transparencia";
+import Ouvidoria from "../Pages/transparenciaComponent/Ouvidoria";
+
 import PublicacoesLegais from "../Pages/PublicacoesLegais";
-import ServicosPMSJ from "../Pages/ServicosPMSJ";
-import DocsProcessos from "../Pages/DocsProcessos";
-import Transparencia from "../Pages/Transparencia";
-import Ouvidoria from "../Pages/Ouvidoria";
-import PortalCidadao from "../Pages/PortalCidadao";
-import CentroAtendimento from "../Pages/CentroAtendimento";
-import Dat from "../Pages/Dat";
-import Cati from "../Pages/Cati";
-import Empreendedor from "../Pages/Empreendedor";
-import SouMei from "../Pages/SouMei";
-import CertidoesSouMei from "../Pages/CertidoesSouMei";
-import CertidoesBaixa from "../Pages/CertidoesBaixa";
-import NotasFiscais from "../Pages/NotasFiscais";
-import SouEmpresa from "../Pages/SouEmpresa";
-import LivroEletronico from "../Pages/LivroEletronico";
-import VigilanciaSanitaria from "../Pages/VigilanciaSanitaria";
-import NotaFiscalEmp from "../Pages/NotaFiscalEmp";
-import AllServices from "../Pages/AllServices";
-import Construcao from '../Pages/Construcao';
-import PortalServidor from '../Pages/PortalServidor';
-import Legislacao from '../Pages/Legislacao';
-import ContraCheque from '../Pages/ContraCheque';
-import EspelhoPonto from '../Pages/EspelhoPonto';
-import AvaliacaoDesempenhoServ from '../Pages/AvaliacaoDesempenhoServ';
-import Consignados from '../Pages/Consignados';
-import NormasPatrimonio from '../Pages/NormasPatrimonio';
-import SjPrev from '../Pages/SjPrev';
-import PlanoCargos from '../Pages/PlanoCargos';
-import PlanoSaude from '../Pages/PlanoSaude';
-import Turismo from '../Pages/Turismo'
-import AllNoticias from '../Pages/AllNoticias';
-import Prefeito from '../Pages/Prefeito';
-import VicePrefeito from '../Pages/VicePrefeito';
-import ProcuradoriaGeral from '../Pages/ProcuradoriaGeral';
-import Administracao from '../Pages/Administracao';
-import AssistenciaSocial from '../Pages/AssistenciaSocial';
-import Cultura from '../Pages/Cultura';
-import Comunicacao from '../Pages/Comunicacao';
-import Inovacao from '../Pages/Inovacao';
-import Financas from '../Pages/Financas';
-import Governo from '../Pages/Governo';
-import Educacao from '../Pages/Educacao';
-import Esporte from '../Pages/Esporte';
-import Infraestrutura from '../Pages/Infraestrutura';
-import PlanejamentoEstrategico from '../Pages/PlanejamentoEstrategico';
-import Receita from '../Pages/Receita';
-import RegularizacaoFundiaria from '../Pages/RegularizacaoFundiaria';
-import Saude from '../Pages/Saude';
-import Seguranca from '../Pages/Seguranca';
-import SecTransparencia from '../Pages/SecTransparencia';
-import Urbanismo from '../Pages/Urbanismo';
-import TextSjPrevidencia from './TextSjPrevidencia';
-import TextFundacaoEducacional from './TextFundacaoEducacional';
-import MeioAmbiente from '../Pages/MeioAmbiente';
-import AntiDrogas from '../Pages/conselhos/AntiDrogas';
-import EleicaoSociedade from '../Pages/conselhos/EleicaoSociedade'
-import IgualdadeRacial from '../Pages/conselhos/IgualdadeRacial';
-import Juventude from '../Pages/conselhos/Juventude';
-import AdministracaoSjprev from '../Pages/conselhos/AdministracaoSjprev';
-import AlimentacaoEscolar from '../Pages/conselhos/AlimentacaoEscolar';
-import Cmas from '../Pages/conselhos/Cmas';
-import ConferenciaSas from '../Pages/conselhos/ConferenciaSas';
-import Comesj from '../Pages/conselhos/Comesj';
-import Comdim from '../Pages/conselhos/Comdim';
-import Cmdca from '../Pages/conselhos/Cmdca';
-import PoliticaCultural from '../Pages/conselhos/PoliticaCultural';
-import Cmssj from '../Pages/conselhos/Cmssj';
-import Conseg from '../Pages/conselhos/Conseg';
-import Cmisj from '../Pages/conselhos/Cmisj';
-import Contribuintes from '../Pages/conselhos/Contribuintes';
-import Cmpdsj from '../Pages/conselhos/Cmpdsj';
-import UsuarioSevPublico from '../Pages/conselhos/UsuarioSevPublico';
-import ConselhoTutelar from '../Pages/conselhos/ConselhoTutelar';
-import ConselhoFiscal from '../Pages/conselhos/ConselhoFiscal';
-import Fundeb from '../Pages/conselhos/Fundeb';
-import ColetaLixo from '../Pages/linksUteis/ColetaLixo';
-import ZonaAzul from '../Pages/linksUteis/ZonaAzul';
-import Sus from '../Pages/linksUteis/Sus';
-import VagaCei from '../Pages/linksUteis/VagaCei';
-import TabelaCosip from '../Pages/linksUteis/TabelaCosip';
-import ColetaSeletiva from '../Pages/linksUteis/ColetaSeletiva';
-import SejaVoluntario from '../Pages/linksUteis/SejaVoluntario';
-import LegislacaoMunicipal from '../Pages/linksUteis/LegislacaoMunicipal';
-import PropostaTransporteColetivo from '../Pages/linksUteis/PropostaTransporteColetivo';
-import ConcursoPublico from '../Pages/linksUteis/ConcursoPublico';
-import BancoPrecos from '../Pages/linksUteis/BancoPrecos';
-import ParceriaSociedadeCivil from '../Pages/linksUteis/ParceriaSociedadeCivil';
-import IsencaoIptu from '../Pages/linksUteis/IsencaoIptu';
-import ProjetosAcoes from '../Pages/projetosAcoes/ProjetosAcoes';
-import JusticaPraticas from '../Pages/projetosAcoes/JusticaPraticas';
-import CentroTerceiraIdade from '../Pages/projetosAcoes/CentroTerceiraIdade';
-import HorariosFunesj from '../Pages/projetosAcoes/HorariosFunesj';
-import PlanoVacinacao from '../Pages/projetosAcoes/PlanoVacinacao';
-import LeisTransito from '../Pages/projetosAcoes/LeisTransito';
-import FeiraFreguesia from '../Pages/projetosAcoes/FeiraFreguesia';
-import ListaEsperaSus from '../Pages/projetosAcoes/ListaEsperaSus';
-import ParceriaEsporte from '../Pages/projetosAcoes/ParceriaEsporte';
+;
+import CertidoesSouMei from "../Pages/empreendedorComponent/CertidoesSouMei";
+import CertidoesBaixa from "../Pages/empreendedorComponent/CertidoesBaixa";
+import NotasFiscais from "../Pages/empreendedorComponent/NotasFiscais";
+import LivroEletronico from "../Pages/empreendedorComponent/LivroEletronico";
+import VigilanciaSanitaria from "../Pages/empreendedorComponent/VigilanciaSanitaria";
+import NotaFiscalEmp from "../Pages/empreendedorComponent/NotaFiscalEmp";
+import SouEmpresa from "../Pages/empreendedorComponent/SouEmpresa";
+import Empreendedor from "../Pages/empreendedorComponent/Empreendedor";
+import SouMei from "../Pages/empreendedorComponent/SouMei";
+
+import SjPrevidencia from '../Pages/home/secretarias/SjPrevidencia';
+import Prefeito from '../Pages/home/secretarias/Prefeito';
+import VicePrefeito from '../Pages/home/secretarias/VicePrefeito';
+import ProcuradoriaGeral from '../Pages/home/secretarias/ProcuradoriaGeral';
+import Administracao from '../Pages/home/secretarias/Administracao';
+import AssistenciaSocial from '../Pages/home/secretarias/AssistenciaSocial';
+import Cultura from '../Pages/home/secretarias/Cultura';
+import Comunicacao from '../Pages/home/secretarias/Comunicacao';
+import Inovacao from '../Pages/home/secretarias/Inovacao';
+import Financas from '../Pages/home/secretarias/Financas';
+import Governo from '../Pages/home/secretarias/Governo';
+import Educacao from '../Pages/home/secretarias/Educacao';
+import Esporte from '../Pages/home/secretarias/Esporte';
+import Infraestrutura from '../Pages/home/secretarias/Infraestrutura';
+import PlanejamentoEstrategico from '../Pages/home/secretarias/PlanejamentoEstrategico';
+import Receita from '../Pages/home/secretarias/Receita';
+import RegularizacaoFundiaria from '../Pages/home/secretarias/RegularizacaoFundiaria';
+import Saude from '../Pages/home/secretarias/Saude';
+import Seguranca from '../Pages/home/secretarias/Seguranca';
+import SecTransparencia from '../Pages/home/secretarias/SecTransparencia';
+import Urbanismo from '../Pages/home/secretarias/Urbanismo';
+import SjPrev from '../Layout/NavBar/SjPrev';
+import FundacaoEducacional from '../Pages/home/secretarias/FundacaoEducacional';
+import MeioAmbiente from '../Pages/home/secretarias/MeioAmbiente';
+
+import AntiDrogas from '../Pages/home/conselhos/AntiDrogas';
+import EleicaoSociedade from '../Pages/home/conselhos/EleicaoSociedade'
+import IgualdadeRacial from '../Pages/home/conselhos/IgualdadeRacial';
+import Juventude from '../Pages/home/conselhos/Juventude';
+import AdministracaoSjprev from '../Pages/home/conselhos/AdministracaoSjprev';
+import AlimentacaoEscolar from '../Pages/home/conselhos/AlimentacaoEscolar';
+import Cmas from '../Pages/home/conselhos/Cmas';
+import ConferenciaSas from '../Pages/home/conselhos/ConferenciaSas';
+import Comesj from '../Pages/home/conselhos/Comesj';
+import Comdim from '../Pages/home/conselhos/Comdim';
+import Cmdca from '../Pages/home/conselhos/Cmdca';
+import PoliticaCultural from '../Pages/home/conselhos/PoliticaCultural';
+import Cmssj from '../Pages/home/conselhos/Cmssj';
+import Conseg from '../Pages/home/conselhos/Conseg';
+import Cmisj from '../Pages/home/conselhos/Cmisj';
+import Contribuintes from '../Pages/home/conselhos/Contribuintes';
+import Cmpdsj from '../Pages/home/conselhos/Cmpdsj';
+import UsuarioSevPublico from '../Pages/home/conselhos/UsuarioSevPublico';
+import ConselhoTutelar from '../Pages/home/conselhos/ConselhoTutelar';
+import ConselhoFiscal from '../Pages/home/conselhos/ConselhoFiscal';
+import Fundeb from '../Pages/home/conselhos/Fundeb';
+
+import ColetaLixo from '../Pages/home/linksUteis/ColetaLixo';
+import ZonaAzul from '../Pages/home/linksUteis/ZonaAzul';
+import Sus from '../Pages/home/linksUteis/Sus';
+import VagaCei from '../Pages/home/linksUteis/VagaCei';
+import TabelaCosip from '../Pages/home/linksUteis/TabelaCosip';
+import ColetaSeletiva from '../Pages/home/linksUteis/ColetaSeletiva';
+import SejaVoluntario from '../Pages/home/linksUteis/SejaVoluntario';
+import LegislacaoMunicipal from '../Pages/home/linksUteis/LegislacaoMunicipal';
+import PropostaTransporteColetivo from '../Pages/home/linksUteis/PropostaTransporteColetivo';
+import ConcursoPublico from '../Pages/home/linksUteis/ConcursoPublico';
+import BancoPrecos from '../Pages/home/linksUteis/BancoPrecos';
+import ParceriaSociedadeCivil from '../Pages/home/linksUteis/ParceriaSociedadeCivil';
+import IsencaoIptu from '../Pages/home/linksUteis/IsencaoIptu';
+
+import JusticaPraticas from '../Pages/home/projetosAcoes/JusticaPraticas';
+import CentroTerceiraIdade from '../Pages/home/projetosAcoes/CentroTerceiraIdade';
+import HorariosFunesj from '../Pages/home/projetosAcoes/HorariosFunesj';
+import PlanoVacinacao from '../Pages/home/projetosAcoes/PlanoVacinacao';
+import LeisTransito from '../Pages/home/projetosAcoes/LeisTransito';
+import FeiraFreguesia from '../Pages/home/projetosAcoes/FeiraFreguesia';
+import ListaEsperaSus from '../Pages/home/projetosAcoes/ListaEsperaSus';
+import ParceriaEsporte from '../Pages/home/projetosAcoes/ParceriaEsporte';
 
 const TextWayz = () => {
   return (
@@ -147,9 +160,6 @@ const TextWayz = () => {
         <Route path="/centro-atendimento" element={<CentroAtendimento />} />
       </Routes>
       <Routes>
-        <Route path="/vias" element={<Vias />} />
-      </Routes>
-      <Routes>
         <Route path="/procon-municipal-de-sao-jose" element={<Procon />} />
       </Routes>
       <Routes>
@@ -176,10 +186,6 @@ const TextWayz = () => {
       <Routes>
         <Route path="/cati" element={<Cati />} />
       </Routes>
-      {/*<Routes>
-        <Route path="/vacinacao" element={<Vacinacao />} />
-      </Routes>
-  */}
       <Routes>
         <Route path="/empreendedor" element={<Empreendedor />} />
       </Routes>
@@ -307,10 +313,10 @@ const TextWayz = () => {
         <Route path="/secretaria-de-urbanismo-e-servicos-publicos" element={<Urbanismo />} />
       </Routes>
       <Routes>
-        <Route path="/autarquia-sao-jose-previdencia" element={<TextSjPrevidencia />} />
+        <Route path="/autarquia-sao-jose-previdencia" element={<SjPrevidencia />} />
       </Routes>
       <Routes>
-        <Route path="/fundacao-educacional-municipal" element={<TextFundacaoEducacional />} />
+        <Route path="/fundacao-educacional-municipal" element={<FundacaoEducacional />} />
       </Routes>
       <Routes>
         <Route path="/fundacao-municipal-do-meio-ambiente-e-desenvolvimento-sustentavel" element={<MeioAmbiente />} />
@@ -355,7 +361,7 @@ const TextWayz = () => {
         <Route path="/conselho-municipal-de-saude-de-sao-jose-–-cms/sj" element={<Cmssj />} />
       </Routes>
       <Routes>
-        <Route path="/conselhos-de-seguranca-–-conseg" element={<Conseg />} />
+        <Route path="/home/conselhos-de-seguranca-–-conseg" element={<Conseg />} />
       </Routes>
       <Routes>
         <Route path="/conselho-municipal-do-idoso-de-sao-jose-(cmi-sj)" element={<Cmisj />} />

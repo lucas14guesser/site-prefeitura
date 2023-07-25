@@ -1,4 +1,4 @@
-import TextTransparenciaComponent from "../../TextClasses/TextTransparenciaComponent"
+import TextTransparenciaComponent from "../../TextClasses/navbar/TextTransparenciaComponent"
 
 const TransparenciaComponent = () => {
   return (

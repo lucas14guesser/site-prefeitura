@@ -1,4 +1,4 @@
-import TextGridServicesSec from "../../TextClasses/TextGridServicesSec";
+import TextGridServicesSec from "../../TextClasses/grid/TextGridServicesSec";
 
 const GridServicesSec = () => {
         

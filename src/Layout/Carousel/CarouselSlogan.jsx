@@ -1,4 +1,4 @@
-import TextCarouselSlogan from "../../TextClasses/TextCarouselSlogan";
+import TextCarouselSlogan from "../../TextClasses/carrosel/TextCarouselSlogan";
 
 function CarouselSlogan() {
   return (

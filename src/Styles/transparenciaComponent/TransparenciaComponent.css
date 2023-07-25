@@ -1,0 +1,102 @@
+@import '../Root.css';
+
+.transparencia-component_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_transparencia-component {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_transparencia-component {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+
+.text_transparencia-component {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_transparencia-component > ul {
+    list-style: none;
+    text-align: center;
+    padding: 4rem;
+}
+
+.text_transparencia-component > p > ul > li > a {
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.text_transparencia-component > ul > li > a {
+    color: var(--azul_forte);
+}
+
+.text_dif_transparencia-component > p {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.text_transparencia-component p > a {
+    text-decoration: underline;
+    color: var(--azul_forte);
+}
+
+.text_transparencia-component > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_transparencia-component > h5 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_transparencia-component > h6 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_transparencia-component > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_transparencia-component > h8 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.link_transparencia-component:hover {
+    color: var(--preto);
+}
+
+.text_transparencia-component > a:hover {
+    color: var(--preto);
+}
+
+.text_transparencia-component p > a:hover {
+    color: var(--preto);
+}
+
+.text_transparencia-component > p > ul > li > a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}

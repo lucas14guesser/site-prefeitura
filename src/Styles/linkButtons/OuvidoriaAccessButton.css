@@ -1,0 +1,26 @@
+@import '../Root.css';
+
+.type_button_ouv_acc {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.button_ouv_acc {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 30px 30px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.button_ouv_acc > svg {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.button_ouv_acc:hover {
+    color: var(--gelo);
+}

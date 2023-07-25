@@ -1,4 +1,4 @@
-import TextNoticiasComponent from "../../TextClasses/TextNoticiasComponent"
+import TextNoticiasComponent from "../../TextClasses/navbar/TextNoticiasComponent"
 
 const NoticiasComponent = () => {
         

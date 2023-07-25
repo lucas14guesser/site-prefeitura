@@ -1,0 +1,13 @@
+@import '../Root.css';
+
+.flexbox-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--gelo);
+    border-left-width: 0;
+    border-right-width: 0;
+    padding: 5rem 0 5rem 0;
+}

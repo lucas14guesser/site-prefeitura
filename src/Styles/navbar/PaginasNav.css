@@ -1,0 +1,148 @@
+@import '../Root.css';
+
+.pag-nav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_pag-nav {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_pag-nav {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_pag-nav {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_pag-nav > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_pag-nav > h5{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_pag-nav > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_pag-nav > p > a {
+    color: var(--azul_forte);
+}
+
+.text_ppag-nav > ol > li {
+    margin-bottom: 5px;
+}
+
+.text_pag-nav > ul {
+    list-style: none;
+}
+
+.text_pag-nav > ul > li {
+    margin-bottom: 5px;
+}
+
+.text_pag-nav > ul > li > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.boxes_pag-nav {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 2rem;
+}
+
+.boxes_pag-nav > a {
+    margin: 5px;
+}
+
+.boxes_pag-nav > a > img {
+    width: 290px;
+}
+
+.ident_img_pag-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.ident_button_pag-nav {
+    padding: 2%;
+}
+
+.ident_button_pag-nav > button {
+    color: var(--azul_forte);
+    border-width: 0;
+    background: var(--gelo);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: start;
+}
+
+.ident_button_pag-nav a {
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+.ident_access_pag-nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.ident_access_pag-nav > h5 > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.link_pag-nav:hover {
+    color: var(--preto);
+}
+
+.text_pag-nav > a:hover {
+    color: var(--preto);
+}
+
+.text_pag-nav > p > a:hover {
+    color: var(--preto);
+}
+
+.text_pag-nav > ul > li > a:hover {
+    color: var(--preto)
+}
+
+.ident_button_pag-nav a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.ident_access_pag-nav > h5 > a:hover {
+    color: var(--preto);
+}

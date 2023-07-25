@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import '../Styles/GridServiceLinkButton.css'
+import '../Styles/linkButtons/GridServiceLinkButton.css'
 
 
 const GridServiceLinkButton = () => {

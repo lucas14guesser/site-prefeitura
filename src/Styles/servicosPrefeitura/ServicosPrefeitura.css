@@ -1,0 +1,108 @@
+@import '../Root.css';
+
+.servicos-prefeitura_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_servicos-prefeitura {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_servicos-prefeitura {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_servicos-prefeitura {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_servicos-prefeitura > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_servicos-prefeitura > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_servicos-prefeitura > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_servicos-prefeitura > p > h6{
+    font-weight: 600;
+}
+
+.text_servicos-prefeitura > p > a > img {
+    max-width: 900px;
+}
+
+.text_servicos-prefeitura > p > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_servicos-prefeitura > img {
+    margin-bottom: 2rem;
+    padding: 2%;
+}
+
+.text_servicos-prefeitura > h6 > a{
+    font-weight: 600;
+    padding: 2%;
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_servicos-prefeitura > ul {
+    list-style: none;
+    padding: 2%;
+}
+
+.text_servicos-prefeitura ul > li > a {
+    color: var(--azul_forte);
+    text-decoration: none;
+}
+
+
+.link_servicos-prefeitura:hover {
+    color: var(--preto);
+}
+
+.text_servicos-prefeitura > a:hover {
+    color: var(--preto);
+}
+
+.text_servicos-prefeitura > p > a:hover {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.text_servicos-prefeitura > h6 > a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+.text_servicos-prefeitura > ul > li > a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}

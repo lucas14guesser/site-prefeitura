@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BsChatDots } from 'react-icons/bs'
 
-import '../Styles/OuvidoriaAccessButton.css'
+import '../Styles/linkButtons/OuvidoriaAccessButton.css'
 
 const OuvidoriaAccessButton = () => {
   return (

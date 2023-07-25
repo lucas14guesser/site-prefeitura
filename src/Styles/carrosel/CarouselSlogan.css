@@ -1,0 +1,40 @@
+@import '../Root.css';
+
+.carousel_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: var(--gelo);
+}
+
+.carousel_moviment {
+    width: 1300px;
+}
+
+.carousel_img {
+    min-width: 1300px;
+    max-width: 1300px;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.carousel-control-next {
+    width: 30px;
+}
+
+.carousel-control-prev {
+    width: 30px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 0%;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 0%;
+}

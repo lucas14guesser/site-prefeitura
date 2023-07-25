@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BsChatDots } from 'react-icons/bs'
 
-import '../Styles/OuvidoriaLinkButton.css'
+import '../Styles/linkButtons/OuvidoriaLinkButton.css'
 
 
 

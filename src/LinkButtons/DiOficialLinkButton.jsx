@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BsJournalBookmark } from 'react-icons/bs'
 
-import '../Styles/DiOficialLinkButton.css'
+import '../Styles/linkButtons/DiOficialLinkButton.css'
 
 const DiOficialLinkButton = () => {
   return (

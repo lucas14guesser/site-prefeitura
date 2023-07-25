@@ -1,4 +1,4 @@
-import TextEmpreendedorComponent from "../../TextClasses/TextEmpreendedorComponent"
+import TextEmpreendedorComponent from "../../TextClasses/navbar/TextEmpreendedorComponent"
 
 const EmpreendedorComponent = () => {
        

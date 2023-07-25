@@ -1,0 +1,155 @@
+@import '../Root.css';
+
+.sao-jose-component_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: var(--branco);
+}
+
+.main_sao-jose-component {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_sao-jose-component {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_sao-jose-component {
+    width: 100%;
+    color: var(--azul_forte);
+    margin-bottom: 4rem;
+}
+
+.text_sao-jose-component > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.text_sao-jose-component > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_sao-jose-component > h6{
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_sao-jose-component > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.text_sao-jose-component > p > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--azul_forte);
+}
+
+.table_sao-jose-component > h6 {
+    font-weight: 600;
+    padding: 2%;
+    color: var(--azul_forte);
+}
+
+.table_sao-jose-component table {
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    width: 95%;
+    height: 50px;
+    border: 1px solid;
+    color: var(--azul_forte);
+}
+
+.table_sao-jose-component table > thead > tr > th {
+    padding: 2%;
+    border: 1px solid;
+}
+
+.table_expl_vacina table tbody td {
+    vertical-align: top;
+  }
+
+.table_sao-jose-component table > tbody > tr > td {
+    padding: 1%;
+    border: 1px solid;
+}
+
+.link_sao-jose-component:hover {
+    color: var(--preto);
+}
+
+.text_sao-jose-component > a:hover {
+    color: var(--preto);
+}
+
+.text_sao-jose-component > a:hover {
+    color: var(--preto);
+}
+
+.text_sao-jose-component > p > a:hover {
+    color: var(--preto);
+}
+
+.locate_sao-jose-component {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.locate_sao-jose-component > object {
+    width: 750px;
+    height: 250px;
+}
+
+.sao-jose-component_imgs > ul > li {
+    display: flex;
+    text-align: justify;
+    margin-right: 2rem;
+    color: var(--azul_forte);
+}
+
+.sao-jose-component_imgs ul > li > img {
+    margin-right: 2rem;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 140px;
+    max-height: 140px;
+}
+.sao-jose-component_imgs li {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.img_sao-jose-component > img {
+    padding: 2%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.links_diversos ul > li > a{
+    text-decoration: underline;
+    color: var(--azul_forte);
+    font-size: 1rem;
+}
+
+.audio_sao-jose-component {
+    padding: 2%;
+}
+
+.custom_audio {
+    background: var(--azul_forte);
+}

@@ -1,4 +1,4 @@
-import TextSocialListNavBar from "../../TextClasses/TextSocialListNavBar"
+import TextSocialListNavBar from "../../TextClasses/navbar/TextSocialListNavBar"
 
 const SocialListNavBar = () => {
   return (

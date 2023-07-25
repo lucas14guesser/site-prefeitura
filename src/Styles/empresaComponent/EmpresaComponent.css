@@ -1,0 +1,76 @@
+@import '../Root.css';
+
+.empresa-component_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main_empresa-component {
+    border: 1px solid;
+    border-color: var(--gelo);
+    border-radius: 10px;
+    width: 50%;
+    background: var(--gelo);
+}
+
+.link_empresa-component {
+    text-decoration: none;
+    margin: 5px;
+    color: var(--azul_forte);
+}
+
+.text_empresa-component {
+    width: 100%;
+    color: var(--azul_forte);
+}
+
+.text_empresa-component > a {
+    text-decoration: none;
+    padding: 2%;
+    font-size: .8rem;
+    color: var(--azul_forte);
+}
+
+.text_empresa-component > h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.text_empresa-component > h5 {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.text_empresa-component > p {
+    font-size: 1rem;
+    padding: 2%;
+    text-align: justify;
+}
+
+.links_empresa-component > p {
+    padding: 2%;
+    text-decoration: underline;
+}
+
+.text_empresa-component a:hover {
+    color: var(--preto);
+}
+
+.links_empresa-component p > a {
+    text-decoration: none;
+    color: var(--azul_forte);
+}
+
+.link_empresa-component:hover {
+    color: var(--preto);
+}
+
+.links_empresa-component p > a:hover {
+    color: var(--preto);
+}

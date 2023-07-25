@@ -1,0 +1,24 @@
+@import '../Root.css';
+
+.type_button_transp {
+    text-align: left;
+    width: 100%;
+}
+
+.button_transp {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 30px 15px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.button_transp > svg {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.button_transp:hover {
+    color: var(--gelo);
+}

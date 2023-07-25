@@ -1,10 +1,10 @@
 import React from 'react'
 
-import '../Styles/Feriados.css'
+import '../Styles/saoJoseComponent/saoJoseComponent.css'
 
 const TableFeriados = () => {
   return (
-    <div className='table_feriado'>
+    <div className='table_sao-jose-component'>
         <h6>Feriados em São José</h6>
         <table>
             <thead>

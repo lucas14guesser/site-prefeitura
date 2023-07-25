@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import '../Styles/NewsLinkButton.css'
+import '../Styles/linkButtons/NewsLinkButton.css'
 
 const NewsLinkButton = () => {
   return (
