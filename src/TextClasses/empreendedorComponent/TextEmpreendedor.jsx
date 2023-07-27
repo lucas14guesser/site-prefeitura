@@ -64,13 +64,13 @@ const TextEmpreendedor = () => {
             <a href="https://aemflo-cdlsj.org.br/listar-capacitacao?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxYBbcHi6-LE8S_i4Zxe2pUs7ugj3lV1n49QFI84RYOlnyVDuEh9yAxoC67UQAvD_BwE" target='_blank'>
                 <img src="../img/empreendedor/logoAemflo.png" alt="aemflo" />
             </a>
-            <a href="https://sescongf.com.br/">
+            <a href="https://sescongf.com.br/" target='_blank'>
                 <img src="../img/empreendedor/logoSescon.png" alt="sescon" />
             </a>
-            <a href="https://www.gov.br/pt-br">
+            <a href="https://www.gov.br/pt-br" target='_blank'>
                 <img src="../img/empreendedor/logoGovbr.png" alt="gov.br" />
             </a>
-            <a href="https://www.bancodoempreendedor.org.br/">
+            <a href="https://www.bancodoempreendedor.org.br/" target='_blank'>
                 <img src="../img/empreendedor/logoBancoEmp.png" alt="bancoDoEmpreendedor" />
             </a>
         </div>

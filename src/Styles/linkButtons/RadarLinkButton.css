@@ -1,0 +1,26 @@
+@import '../Root.css';
+
+.type_button_radar {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.button_radar {
+    background-color: var(--azul_forte);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 30px 25px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.button_radar > svg {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.button_radar:hover {
+    color: var(--gelo);
+}

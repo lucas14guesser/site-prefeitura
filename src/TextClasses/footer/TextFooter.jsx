@@ -16,7 +16,7 @@ const TextFooter = () => {
         </ul>
         <h4>Servidor</h4>
         <ul className='footer_service_table'>
-          <li><a href="http://intradis.pmsj.sc.gov.br/inicio">Intranet</a></li>
+          <li><a href="http://intradis.pmsj.sc.gov.br/inicio" target='_blank'>Intranet</a></li>
           <li><a href="/portal-servidor">Portal do Servidor</a></li>
           <li><a href="https://email.fecam.org.br/" target='_blank'>Webmail</a></li>
           <li><a href="https://saojose.atende.net/autoatendimento" target='_blank'>Autoatendimento</a></li>
@@ -26,7 +26,7 @@ const TextFooter = () => {
         <h4>Sobre a PMSJ</h4>
         <ul className='footer_about_table'>
           <li><a href="/cidade">A Cidade</a></li>
-          <li><a href="/feriados">Feriados Municipais</a></li>
+          <li><a href="/feriados-municipais">Feriados Municipais</a></li>
           <li><a href="/prefeitos">Relação de Prefeitos</a></li>
           <li><a href="/dados">São José em Dados</a></li>
           <li><a href="https://linktr.ee/prefeiturasaojose" target='_blank'>Links Úteis</a></li>
@@ -43,7 +43,7 @@ const TextFooter = () => {
           <li><a href="https://saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" target='_blank'>IPTU</a></li>
           <li><a href="/sou-empresa">Sou Empresa</a></li>
           <li><a href="/construcao">Infraestrutura</a></li>
-          <li><a href="/procon">Procon</a></li>
+          <li><a href="/procon-municipal-de-sao-jose">Procon</a></li>
         </ul>
         <div className="footer_social">
           <h5>Redes sociais</h5>

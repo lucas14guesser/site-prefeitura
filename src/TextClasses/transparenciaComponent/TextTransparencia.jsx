@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import TransparenciaLinkButton from '../../LinkButtons/TransparenciaLinkButton'
 import OuvidoriaLinkButton from '../../LinkButtons/OuvidoriaLinkButton'
 import DiOficialLinkButton from '../../LinkButtons/DiOficialLinkButton'
+import RadarLinkButton from '../../LinkButtons/RadarLinkButton'
 
 import { Container } from 'react-bootstrap'
 
@@ -33,6 +34,7 @@ const TextTransparencia = () => {
                     </div>
                     <ul>
                         <li><TransparenciaLinkButton /></li>
+                        <li><RadarLinkButton /></li>
                         <li><OuvidoriaLinkButton /></li>
                         <li><DiOficialLinkButton /></li>
                     </ul>
