@@ -3,13 +3,14 @@ import React from 'react'
 import { BsChatDots } from 'react-icons/bs'
 
 import '../Styles/linkButtons/OuvidoriaLinkButton.css'
+import { Link } from 'react-router-dom'
 
 
 
 const OuvidoriaLinkButton = () => {
   return (
     <div className='type_button_ouv'>
-        <a href="/ouvidoria" className='button_ouv'><BsChatDots />Sistema Ouvidoria</a>
+        <Link to="/ouvidoria" className='button_ouv'><BsChatDots />Sistema Ouvidoria</Link>
     </div>
   )
 }
