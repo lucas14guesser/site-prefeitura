@@ -8,17 +8,17 @@ import '../../Styles/navbar/NavBar.css';
 
 const TextNavBar = () => {
   return (
-    <div className='navbar_main'>
+    <div class="navbar_main">
       <Navbar>
         <Nav>
           <a href="http://intradis.pmsj.sc.gov.br/inicio">Intranet</a>
           <a href="/portal-servidor">Portal do Servidor</a>
-          <a href="https://email.fecam.org.br/" target='_blank'>Webmail</a>
-          <a href="https://saojose.atende.net/autoatendimento" target='_blank'>Autoatendimento</a>
-        </Nav> 
+          <a href="https://email.fecam.org.br/" target="_blank">Webmail</a>
+          <a href="https://saojose.atende.net/autoatendimento" target="_blank">Autoatendimento</a>
+        </Nav>
       </Navbar>
       <SocialListNavBar />   
-  </div>
+    </div>
   )
 }
 

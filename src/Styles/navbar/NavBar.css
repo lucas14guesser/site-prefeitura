@@ -136,3 +136,23 @@
 .nav-item a:hover {
     color: var(--gelo);
 }
+
+@media (max-width: 280px) {
+    .navbar_main {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-nav a {
+        font-size: 5px;
+        color: var(--azul_forte);
+        padding: 0px;
+        margin: 0.5;
+    }
+
+
+}

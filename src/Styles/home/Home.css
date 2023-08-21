@@ -11,3 +11,7 @@
     border-right-width: 0;
     padding: 5rem 0 5rem 0;
 }
+
+@media (max-width: 280) {
+    
+}

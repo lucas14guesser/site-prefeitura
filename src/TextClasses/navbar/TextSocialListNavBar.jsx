@@ -2,7 +2,7 @@ import React from 'react'
 
 import { TiSocialFacebook, TiSocialTwitter } from 'react-icons/ti'
 
-import { IoLogoInstagram,  } from 'react-icons/io'
+import { IoLogoInstagram } from 'react-icons/io'
 
 import { RiYoutubeLine } from 'react-icons/ri'
 

@@ -19,3 +19,8 @@
     color: var(--azul_social);
     padding: 3px 2px;
 }
+
+
+@media (max-width: 280px) {
+    
+}
