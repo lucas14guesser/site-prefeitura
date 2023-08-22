@@ -26,6 +26,16 @@ const TextEmpreendedorComponent = () => {
         }
     }
 
+    const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+    const handleDropdownClick = () => {
+      if (isMobile) {
+        setShowDropdown(!showDropdown);
+      } else {
+        redirectToEmpreendedor();
+      }
+    };
+
   return (
     <NavDropdown
       title="Empreendedor"
@@ -33,7 +43,7 @@ const TextEmpreendedorComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToEmpreendedor}
+      onClick={handleDropdownClick}
     >
       <Nav.Link href="/sou-empresa">Sou Empresa</Nav.Link>
       <Nav.Link href="/sou-mei">Sou Mei</Nav.Link>

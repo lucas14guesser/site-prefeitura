@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import {Image , Nav} from 'react-bootstrap';
 
@@ -17,11 +17,31 @@ import '../../Styles/navbar/NavBar.css'
 
 
 const TextNavBar2 = () => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   }
+
+
+  useEffect(() => {
+    // Verifica a largura da janela e atualiza o estado do menuOpen
+    const handleWindowResize = () => {
+      setMenuOpen(window.innerWidth > 1366);
+    };
+
+    // Adiciona o listener para o evento de redimensionamento da janela
+    window.addEventListener('resize', handleWindowResize);
+
+    // Executa a função de redimensionamento inicialmente
+    handleWindowResize();
+
+    // Remove o listener quando o componente é desmontado
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
 
   return (
     <div>

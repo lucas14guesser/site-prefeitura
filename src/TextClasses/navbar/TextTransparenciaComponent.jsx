@@ -27,6 +27,16 @@ const TextTransparenciaComponent = () => {
     }
 }
 
+const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+const handleDropdownClick = () => {
+  if (isMobile) {
+    setShowDropdown(!showDropdown);
+  } else {
+    redirectToTransparencia();
+  }
+};
+
   return (
     <NavDropdown
     title="Transparência"
@@ -34,7 +44,7 @@ const TextTransparenciaComponent = () => {
     show={showDropdown}
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}
-    onClick={redirectToTransparencia}
+    onClick={handleDropdownClick}
     >
       <Nav.Link href='/portal-transparencia'>Portal da Transparência</Nav.Link>
       <Nav.Link href='/ouvidoria'>Sistema Ouvidoria</Nav.Link>

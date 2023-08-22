@@ -25,6 +25,16 @@ const TextEmpresaComponent = () => {
           window.location.href = url
       }
   }
+
+  const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+  const handleDropdownClick = () => {
+    if (isMobile) {
+      setShowDropdown(!showDropdown);
+    } else {
+      redirectToEmpresa();
+    }
+  };
   
   return (
     <NavDropdown
@@ -33,7 +43,7 @@ const TextEmpresaComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToEmpresa}
+      onClick={handleDropdownClick}
     >
       <Nav.Link
         href="https://saojose.atende.net/autoatendimento/servicos/acesso-ao-sistema-fiscal-web-novo"

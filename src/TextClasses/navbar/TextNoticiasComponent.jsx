@@ -26,6 +26,16 @@ const TextNoticiasComponent = () => {
         }
     }
 
+    const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+    const handleDropdownClick = () => {
+      if (isMobile) {
+        setShowDropdown(!showDropdown);
+      } else {
+        redirectToNoticias();
+      }
+    };
+
   return (
     <NavDropdown
       title="Notícias"
@@ -33,7 +43,7 @@ const TextNoticiasComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToNoticias}
+      onClick={handleDropdownClick}
     >
       <Nav.Link href="/todas-as-noticias">Todas as Notícias</Nav.Link>
       <Nav.Link href='/construcao'>Iniciativas e Destaques</Nav.Link>

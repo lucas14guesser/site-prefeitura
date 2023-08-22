@@ -25,6 +25,15 @@ const TextCidadaoComponent = () => {
           window.location.href = url
       }
   }
+  const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+  const handleDropdownClick = () => {
+    if (isMobile) {
+      setShowDropdown(!showDropdown);
+    } else {
+      redirectToCidadao();
+    }
+  };
 
   return (
     <NavDropdown
@@ -33,7 +42,7 @@ const TextCidadaoComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToCidadao}
+      onClick={handleDropdownClick}
     >
       <Nav.Link href="/portal-cidadao">Portal do Cidadão</Nav.Link>
       <Nav.Link

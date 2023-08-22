@@ -16,6 +16,17 @@ const TextCartaServiçosComponent = () => {
     const redirectToCartaServico = () => {
       window.location.href='/carta-de-servicos'
     }
+
+    const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+    const handleDropdownClick = () => {
+      if (isMobile) {
+        setShowDropdown(!showDropdown);
+      } else {
+        redirectToCartaServico();
+      }
+    };
+
   return (
     <NavDropdown
       title="Carta Serviços"
@@ -23,7 +34,7 @@ const TextCartaServiçosComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToCartaServico}
+      onClick={handleDropdownClick}
     >
       <Nav.Link href="/construcao">Serviços Oferecidos PMSJ</Nav.Link>
       <Nav.Link href="/construcao">Serviços Administração</Nav.Link>

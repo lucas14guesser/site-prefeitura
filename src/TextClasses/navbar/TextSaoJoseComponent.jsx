@@ -15,6 +15,17 @@ const TextSaoJoseComponent = () => {
         const redirectToHomePage = () => {
           window.location.href='/';
         }
+
+          // Função para detectar se é um dispositivo móvel
+        const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+
+        const handleDropdownClick = () => {
+          if (isMobile) {
+            setShowDropdown(!showDropdown);
+          } else {
+            redirectToHomePage();
+          }
+        };
   return (
     <NavDropdown
       title="São José"
@@ -22,7 +33,7 @@ const TextSaoJoseComponent = () => {
       show={showDropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={redirectToHomePage}
+      onClick={handleDropdownClick}
     >
       <Nav.Link href="/cidade">A Cidade</Nav.Link>
       <Nav.Link href="/feriados-municipais">Feriados Municipais</Nav.Link>
