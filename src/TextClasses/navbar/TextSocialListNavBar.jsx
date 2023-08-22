@@ -12,10 +12,10 @@ import '../../Styles/navbar/SocialListNavBar.css'
 const TextSocialListNavBar = () => {
   return (
     <div className='social_media_nav'>
-        <span><a href="https://www.youtube.com/@PrefeituraMunicipaldeSaoJose" target='_blank' title='Youtube'><RiYoutubeLine /></a></span>
-        <span><a href="https://twitter.com/saojose_pmsj" target='_blank' title='Instagram'><TiSocialTwitter /></a></span>
-        <span><a href="https://www.facebook.com/prefeituradesaojose" target='_blank' title='Facebook'><TiSocialFacebook /></a></span>
-        <span><a href="https://www.instagram.com/prefeituradesaojose/" target='_blank' title='Instagram'><IoLogoInstagram /></a></span>
+        <a href="https://www.youtube.com/@PrefeituraMunicipaldeSaoJose" target='_blank' title='Youtube'><RiYoutubeLine /></a>
+        <a href="https://twitter.com/saojose_pmsj" target='_blank' title='Instagram'><TiSocialTwitter /></a>
+        <a href="https://www.facebook.com/prefeituradesaojose" target='_blank' title='Facebook'><TiSocialFacebook /></a>
+        <a href="https://www.instagram.com/prefeituradesaojose/" target='_blank' title='Instagram'><IoLogoInstagram /></a>
     </div>
   )
 }
