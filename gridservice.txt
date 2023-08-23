@@ -1,0 +1,219 @@
+import React, { useState, useEffect } from 'react';
+
+import { Container } from 'react-bootstrap';
+
+
+import GridServiceLinkButton from '../../LinkButtons/GridServiceLinkButton';
+
+import '../../Styles/grid/GridService.css'
+
+const TextGridServices = () => {
+
+    const itemsPerPageMobile = 9;
+    const items = [
+        {
+          imgUrl: '../img/icons/iptu.png',
+          title: 'Emissão Guias de IPTU',
+          smallText: 'Emita suas guias de IPTU',
+          url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1',
+        },
+        {
+            imgUrl: '../img/icons/nfAut.png',
+            title: 'Autenticidade de Nota Fiscal',
+            smallText: 'Verifique a autenticidade de notas fiscais',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse',
+          },
+          {
+            imgUrl: '../img/icons/contraCheque.png',
+            title: 'Contra-Cheque',
+            smallText: 'Emita seu contra-cheque',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-do-recibo-de-pagamento',
+          },
+          {
+            imgUrl: '../img/icons/processoDigital.png',
+            title: 'Abertura de Processo Digital',
+            smallText: 'Inicie o processo digital',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-de-processo-digital/detalhar/1',
+          },
+          {
+            imgUrl: '../img/icons/documentoDigital.png',
+            title: 'Documentos Processo Digital',
+            smallText: 'Acesse documentos do processo digital',
+            url: 'https://saojose.atende.net/cidadao/pagina/formularios-para-abertura-de-processos-downloads',
+          },
+          {
+            imgUrl: '../img/icons/licitacao.png',
+            title: 'Consulta de Licitações',
+            smallText: 'Verifique informações sobre licitações',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/consulta-de-licitacoes/detalhar/1',
+          },
+          {
+            imgUrl: '../img/icons/consProcesso.png',
+            title: 'Consulta de Processo',
+            smallText: 'Consulte o andamento de processos',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/consulta-de-processo-digital/detalhar/1',
+          },
+          {
+            imgUrl: '../img/icons/fichaFinanceira.png',
+            title: 'Ficha Financeira',
+            smallText: 'Acesse informações sobre sua ficha financeira',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-da-ficha-financeira/detalhar/1',
+          },
+          {
+            imgUrl: '../img/icons/emissaoCnd.png',
+            title: 'Emissão da Certidão CND',
+            smallText: 'Emita a Certidão Negativa de Débitos',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/certidao-negativa-de-debitos',
+          },
+          {
+            imgUrl: '../img/icons/iptu.png',
+            title: 'Espelho Cadastral IPTU',
+            smallText: 'Acesse o espelho cadastral do IPTU',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/ficha-cadastral-do-imovel',
+          },
+          {
+            imgUrl: '../img/icons/ouvidoria.png',
+            title: 'Ouvidoria Municipal',
+            smallText: 'Entre em contato com a Ouvidoria Municipal',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/ouvidoria-municipal',
+          },
+          {
+            imgUrl: '../img/icons/plantaoFiscal.png',
+            title: 'Atendimento Plantão Fiscal',
+            smallText: 'Acesse o atendimento em Plantão Fiscal',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/e-atendimento-plantao-fiscal',
+          },
+          {
+            imgUrl: '../img/icons/sistemaFiscal.png',
+            title: 'Acesso ao Sistema Fiscal Web',
+            smallText: 'Acesse o Sistema Fiscal Web',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/acesso-ao-sistema-fiscal-web-novo',
+          },
+          {
+            imgUrl: '../img/icons/emissaoAlvara.png',
+            title: 'Emissão de Alvará',
+            smallText: 'Emita um alvará',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/impressao-do-alvara',
+          },
+          {
+            imgUrl: '../img/icons/alterarSenha.png',
+            title: 'Alterar Senha de Acesso',
+            smallText: 'Altere sua senha de acesso',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/alterar-senha-de-acesso',
+          },
+          {
+            imgUrl: '../img/icons/autenticidadeDocs.png',
+            title: 'Autenticidade de Documentos',
+            smallText: 'Verifique a autenticidade de documentos',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/autenticidade-de-documentos-e-relatorios',
+          },
+          {
+            imgUrl: '../img/icons/empresa.png',
+            title: 'Certidão de Baixa de Empresa',
+            smallText: 'Obtenha uma certidão de baixa de empresa',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/certidao-de-baixa-da-inscricao-municipal',
+          },
+          {
+            imgUrl: '../img/icons/cnd.png',
+            title: 'Autenticidade e Consulta da CND',
+            smallText: 'Verifique a autenticidade da Certidão Negativa de Débitos',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/autenticidade-de-certidao-negativa-de-debitos',
+          },
+          {
+            imgUrl: '../img/icons/espelhoEconomico.png',
+            title: 'Espelho Econômico',
+            smallText: 'Consulte o Espelho Econômico',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/comprovante-de-inscricao-municipal',
+          },
+          {
+            imgUrl: '../img/icons/ouvidoria.png',
+            title: 'Consulta a Ouvidoria',
+            smallText: 'Faça uma consulta à Ouvidoria',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/consulta-a-ouvidoria',
+          },
+          {
+            imgUrl: '../img/icons/itbi.png',
+            title: 'Emissão de Guias ITBI',
+            smallText: 'Emita guias de ITBI',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/guias-itbi',
+          },
+          {
+            imgUrl: '../img/icons/divida.png',
+            title: 'Emissão de Guias Dívida Ativa',
+            smallText: 'Emita guias de Dívida Ativa',
+            url: 'https://saojose.atende.net/autoatendimento/servicos/guias-divida-ativa',
+          },
+          {
+            imgUrl: '../img/icons/guiaIss.png',
+            title: 'Emissão de Guias ISS/Alvará',
+            smallText: 'Emita guias de ISS/Alvará',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-issalvara',
+          },
+          {
+            imgUrl: '../img/icons/receitasDiversas.png',
+            title: 'Emissão de Guias Receitas Diversas',
+            smallText: 'Emita guias de Receitas Diversas',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-servicos-diversos',
+          },
+          {
+            imgUrl: '../img/icons/pagamento.png',
+            title: 'Extrato de Pagamento',
+            smallText: 'Verifique seu extrato de pagamento',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/extrato-de-pagamentos',
+          },
+          {
+            imgUrl: '../img/icons/debito.png',
+            title: 'Extrato de Débito',
+            smallText: 'Verifique seu extrato de débito',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/extrato-de-debito',
+          },
+          {
+            imgUrl: '../img/icons/nf.png',
+            title: 'Nota Fiscal de Serviço Avulsa',
+            smallText: 'Emite uma Nota Fiscal de Serviço Avulsa',
+            url: 'https://nfse-saojose.atende.net/autoatendimento/servicos/emissao-nota-avulsa',
+          },
+        ]; 
+
+        const [currentPage, setCurrentPage] = useState(0);
+        const totalPages = Math.ceil(items.length / itemsPerPageMobile);
+        const startIndex = currentPage * itemsPerPageMobile;
+        const endIndex = Math.min(startIndex + itemsPerPageMobile, items.length);
+        const visibleItems = items.slice(startIndex, endIndex);
+      
+        const handlePrevClick = () => {
+          if (currentPage > 0) {
+            setCurrentPage(currentPage - 1);
+          }
+        };
+      
+        const handleNextClick = () => {
+          if (currentPage < totalPages - 1) {
+            setCurrentPage(currentPage + 1);
+          }
+        };
+        return (
+          <Container>
+            <h1 className="title_grid_service">Serviços Atende.NET</h1>
+            <div className="main_service_grid">
+              {visibleItems.map((item, index) => (
+                <a key={index} href={item.url} className="item_service_grid" target="_blank">
+                  <img src={item.imgUrl} alt={item.title} />
+                  <small>{item.smallText}</small>
+                </a>
+              ))}
+            </div>
+            <div className="carousel-grid-buttons">
+              <button className="carousel-grid-prev" onClick={handlePrevClick} disabled={currentPage === 0}>
+                Previous
+              </button>
+              <button className="carousel-grid-next" onClick={handleNextClick} disabled={currentPage === totalPages - 1}>
+                Next
+              </button>
+            </div>
+            <GridServiceLinkButton />
+          </Container>
+        );
+}
+
+export default TextGridServices

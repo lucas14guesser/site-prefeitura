@@ -24,7 +24,7 @@ const TextSearchBar = () => {
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
-            placeholder="O que você procura?"
+            placeholder="Buscar..."
         />
         <button type="submit"><BsSearch /></button>
         </form>

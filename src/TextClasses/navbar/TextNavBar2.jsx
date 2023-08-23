@@ -46,14 +46,15 @@ const TextNavBar2 = () => {
   return (
     <div>
         <Nav className={menuOpen ? 'menu-open' : ''}>
+          <a href="/" className='link_logo'>
+            <Image className='logo_navbar' src="./img/index/logo-pmsj-2.png" rounded />
+          </a>
+          <SearchBar />
           <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
             <RxHamburgerMenu size={50} />
-          </div>                      
+          </div>                     
             {menuOpen && (
             <>
-              <a href="/" className='link_logo'>
-                <Image className='logo_navbar' src="./img/index/logo-pmsj-2.png" rounded />
-              </a> 
               <SaoJoseComponent />
               <CidadaoComponent />
               <EmpresaComponent />
@@ -61,7 +62,6 @@ const TextNavBar2 = () => {
               <CartaServiçosComponent />
               <NoticiasComponent />
               <TransparenciaComponent />
-              <SearchBar />
             </>
         )}
         </Nav>  

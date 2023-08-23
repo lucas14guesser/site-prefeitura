@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import {Container} from "react-bootstrap";
 
@@ -7,13 +7,33 @@ import GridServiceLinkButton from '../../LinkButtons/GridServiceLinkButton';
 import '../../Styles/grid/GridService.css'
 
 const TextGridServices = () => {
+    const [scrollHorizont, setScollHorizont] = useState(false);
+
+    useEffect(() => {
+        // Verifica a largura da janela e atualiza o estado do scroll
+        const handleWindowResize = () => {
+          setScollHorizont(window.innerWidth > 1366);
+        };
+    
+        // Adiciona o listener para o evento de redimensionamento da janela
+        window.addEventListener('resize', handleWindowResize);
+    
+        // Executa a função de redimensionamento inicialmente
+        handleWindowResize();
+    
+        // Remove o listener quando o componente é desmontado
+        return () => {
+          window.removeEventListener('resize', handleWindowResize);
+        };
+      }, []);
+
   return (
     <>
         <Container>
             <h1 className="title_grid_service">
                 Serviços Atende.NET
             </h1>
-            <div className="main_service_grid">
+            <div className={`main_service_grid ${window.innerWidth < 1366 ? "horizontal-scroll" : ""}`}>
                 <a href="https://nfse-saojose.atende.net/autoatendimento/servicos/guias-de-iptu/detalhar/1" className="item_service_grid" target="_blank">
                     <img src="../img/icons/iptu.png"/>
                     <small>Emissão Guias de IPTU</small>

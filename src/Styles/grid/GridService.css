@@ -49,6 +49,13 @@
     color: var(--azul_forte);
 }
 
+.horizontal-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    gap: 10px;
+  }
+
 .search_box_service_grid {
     display: flex;
     justify-content: start;
@@ -81,6 +88,48 @@
     margin-bottom: 2rem;
 }
 
+/*
+.carousel-grid {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-grid-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-grid-item {
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-grid img {
+    max-width: 100%;
+  }
+  
+  .carousel-grid-prev,
+  .carousel-grid-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .carousel-grid-prev {
+    left: 0;
+  }
+  
+  .carousel-grid-next {
+    right: 0;
+  }
+  */
+
 .link_service_grid:hover {
     color: var(--preto);
 }
@@ -93,13 +142,148 @@
     color: var(--preto);
 }
 
-@media (width < 425px) {
+@media (max-width: 320px) {
+    .main_service_grid {
+        gap: 10px;
+        padding-bottom: 0;
+    }
+
+      .item_service_grid{
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        
+    }
+
+    .item_service_grid {
+        flex: 0 0 calc(30% - 5px); /* Define o tamanho do item para ocupar metade da linha com espaço entre eles */
+        display: flex;
+        align-items: center;
+      }
+
+    .item_service_grid > small{
+        font-size: 50%;
+        white-space: normal;
+    }
+    
+    .item_service_grid > img {
+        width: 30%;
+        margin-left: 10px;
+    }
+
     .title_grid_service{
-        text-transform: uppercase;
-        font-weight: 500;
-        width: 100%;
-        padding: 2%;
-        padding-top: 7%;
-        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .main_service_grid {
+        gap: 10px;
+        padding-bottom: 0;
+    }
+
+      .item_service_grid{
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        
+    }
+
+    .item_service_grid {
+        flex: 0 0 calc(30% - 5px); /* Define o tamanho do item para ocupar metade da linha com espaço entre eles */
+        display: flex;
+        align-items: center;
+      }
+
+    .item_service_grid > small{
+        font-size: 50%;
+        white-space: normal;
+    }
+    
+    .item_service_grid > img {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .title_grid_service{
+        font-size: 1rem;
+        margin-bottom: 2rem;
     }
 }
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .main_service_grid {
+        gap: 10px;
+        padding-bottom: 0;
+    }
+
+      .item_service_grid{
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        
+    }
+
+    .item_service_grid {
+        flex: 0 0 calc(30% - 5px); /* Define o tamanho do item para ocupar metade da linha com espaço entre eles */
+        display: flex;
+        align-items: center;
+      }
+
+    .item_service_grid > small{
+        font-size: 50%;
+        white-space: normal;
+    }
+    
+    .item_service_grid > img {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .title_grid_service{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+
+    .main_service_grid {
+        gap: 10px;
+    }
+
+      .item_service_grid{
+        width: 6rem;
+        height: 6rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        
+    }
+
+    .item_service_grid {
+        flex: 0 0 calc(30% - 5px); /* Define o tamanho do item para ocupar metade da linha com espaço entre eles */
+        display: flex;
+        align-items: center;
+      }
+
+    .item_service_grid > small{
+        font-size: 50%;
+        white-space: normal;
+    }
+    
+    .item_service_grid > img {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .title_grid_service{
+        font-size: 1.5rem;
+        padding-bottom: 7%;
+    } 
+}
+
