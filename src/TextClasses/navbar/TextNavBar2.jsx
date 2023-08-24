@@ -18,16 +18,35 @@ import '../../Styles/navbar/NavBar.css'
 
 const TextNavBar2 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [menuDefault, setMenuDefault] = useState(false);
+
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   }
 
+  useEffect(() => {
+    // Verifica a largura da janela e atualiza o estado do menuOpen
+    const handleWindowResize = () => {
+      setMenuDefault(window.innerWidth <= 1279);
+    };
+
+    // Adiciona o listener para o evento de redimensionamento da janela
+    window.addEventListener('resize', handleWindowResize);
+
+    // Executa a função de redimensionamento inicialmente
+    handleWindowResize();
+
+    // Remove o listener quando o componente é desmontado
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
 
   useEffect(() => {
     // Verifica a largura da janela e atualiza o estado do menuOpen
     const handleWindowResize = () => {
-      setMenuOpen(window.innerWidth > 1366);
+      setMenuOpen(window.innerWidth > 1279);
     };
 
     // Adiciona o listener para o evento de redimensionamento da janela
