@@ -25,7 +25,7 @@ const TextCidadaoComponent = () => {
           window.location.href = url
       }
   }
-  const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+  const isMobile = window.innerWidth <= 1279; // Defina o valor apropriado
 
   const handleDropdownClick = () => {
     if (isMobile) {

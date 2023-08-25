@@ -99,3 +99,20 @@
         margin-right: 10px;
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    
+    .social_media_nav a {
+        font-size: 28px;
+        padding: 3px 2px;
+        margin-right: 10px;
+    }
+}

@@ -17,7 +17,7 @@ const TextSaoJoseComponent = () => {
         }
 
           // Função para detectar se é um dispositivo móvel
-        const isMobile = window.innerWidth <= 1368; // Defina o valor apropriado
+        const isMobile = window.innerWidth <= 1279; // Defina o valor apropriado
 
         const handleDropdownClick = () => {
           if (isMobile) {
