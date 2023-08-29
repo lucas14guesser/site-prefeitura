@@ -40,7 +40,7 @@
 
     .search_bar input{
         width: 61%;
-        margin-left: 1rem;
+        margin-left: .5rem;
         padding: .2rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
@@ -61,7 +61,7 @@
 
     .search_bar input{
         width: 61%;
-        margin-left: 1.3rem;
+        margin-left: 1rem;
         padding: .2rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
@@ -75,14 +75,14 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
+@media (min-width: 361px) and (max-width: 375px) {
     .search_bar {
         width: 61%;
     }
 
     .search_bar input{
         width: 61%;
-        margin-left: 1.3rem;
+        margin-left: 1rem;
         padding: .2rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
@@ -103,7 +103,7 @@
 
     .search_bar input{
         width: 56%;
-        margin-left: 2rem;
+        margin-left: 1.2rem;
         padding: .3rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
@@ -124,29 +124,8 @@
 
     .search_bar input{
         width: 63%;
-        margin-left: 2.5rem;
-        padding: 1rem;
-        border-top-left-radius: 7px;
-        border-bottom-left-radius: 7px;
-    }
-
-    .search_bar button {
-        width: 40px;
-        border: none;
-        padding: 1rem;
-        margin-right: 2rem;
-    }
-}
-
-@media (min-width: 376px) and (max-width: 480px) {
-    .search_bar {
-        width: 56%;
-    }
-
-    .search_bar input{
-        width: 56%;
         margin-left: 2rem;
-        padding: .3rem;
+        padding: 1rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
     }
@@ -154,7 +133,7 @@
     .search_bar button {
         width: 40px;
         border: none;
-        padding: .3rem;
+        padding: 1rem;
         margin-right: 2rem;
     }
 }
@@ -166,7 +145,7 @@
 
     .search_bar input{
         width: 63%;
-        margin-left: 3.2rem;
+        margin-left: 2.5rem;
         padding: 1rem;
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
