@@ -1,8 +1,10 @@
-import TextTurismo from '../../TextClasses/saoJoseComponent/TextTurismo';
+import React from 'react'
+
+import Construcao from "../../Pages/Construcao"
 
 const Turismo = () => {
   return (
-    <TextTurismo />
+    <Construcao />
   )
 }
 

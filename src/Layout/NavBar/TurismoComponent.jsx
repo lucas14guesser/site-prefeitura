@@ -2,7 +2,7 @@ import TextTurismoComponent from "../../TextClasses/TextTurismoComponent";
 
 const TurismoComponent = () => {
   return (
-    <TextTurismoComponent />
+    <h2>Turismo</h2>
   );
 };
 

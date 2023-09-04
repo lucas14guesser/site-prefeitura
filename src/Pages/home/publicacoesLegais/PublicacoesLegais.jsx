@@ -1,8 +1,16 @@
-import TextPublicacoesLegais from "../../../TextClasses/home/publicacoesLegais/TextPublicacoesLegais"
+import React from 'react'
+
+import { Container } from 'react-bootstrap'
+
+import '../../../Styles/home/publicacoesLegais/PublicacoesLegais.css'
 
 const PublicacoesLegais = () => {
   return (
-    <TextPublicacoesLegais />
+    <Container>
+        <h1 className="title">
+            Publicações Legais
+        </h1>
+    </Container>
   )
 }
 

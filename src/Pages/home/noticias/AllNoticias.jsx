@@ -1,8 +1,10 @@
-import TextAllNoticias from '../../../TextClasses/home/noticias/TextAllNoticias'
+import React from 'react'
+
+import Construcao from '../../../Pages/Construcao'
 
 const AllNoticias = () => {
   return (
-    <TextAllNoticias />
+    <Construcao />
   )
 }
 
